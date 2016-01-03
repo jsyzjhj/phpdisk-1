@@ -1,0 +1,278 @@
+/**
+##
+#	Project: PHPDISK File Storage Solution
+#	This is NOT a freeware, use is subject to license terms.
+#
+#	Site: http://www.phpdisk.com
+#
+#	$Id: mydisk.css 25 2014-01-10 03:13:43Z along $
+#
+#	Copyright (C) 2008-2014 PHPDisk Team. All Rights Reserved.
+#
+##
+*/
+
+body {
+	padding:0; margin:0;font-family:verdana, arial, helvetica, sans-serif;font-size: 12px; background-color: #DEEBF3;
+}
+ul{padding:0; margin:0}
+li{list-style-type:none}
+table {
+	font: 12px verdana,tahoma; color: #000000
+}
+.btn {
+	font: 12px verdana,tahoma; color: #fff; background:url(title_bg.gif) repeat-x #4a6ea5; border:1px #003366 solid; height:2em
+}
+form {
+	padding:0;margin:0;
+}
+a {
+	color: #003366; text-decoration: none
+}
+a:hover {
+	text-decoration: underline
+}
+#menu_container{
+	padding:0px;
+}
+.mydisk_nav{margin:20px 0 0 150px;}
+.mydisk_nav ul{ list-style:none;}
+.mydisk_nav li{ float:left; width:80px; background:url(btn_bg.gif) repeat-x; font-size:14px; margin-right:5px; line-height:30px; height:30px; text-align:center}
+.mydisk_nav li a{display:block; width:80px; height:30px; line-height:30px; text-decoration:none}
+.mydisk_nav li a:hover{background:url(btn_bg2.gif) repeat-x; text-decoration:none}
+
+#mydisk_nav_sel{background:url(btn_sel.gif) repeat-x;}
+
+.mydisk_bar{float:right;margin-right:8px;}
+
+.mydisk_file_bar{ width:98%; margin:auto; line-height:33px; height:100%;}
+.mydisk_file_bar .l{float:left; width:80%;}
+.mydisk_file_bar .l h1{ font-size:14px; line-height:14px; height:14px;}
+.mydisk_file_bar .l ul{ width:100%;background:url(file_bar_bg.gif) repeat-x; float:left}
+.mydisk_file_bar .l li{float:left; list-style:none; height:33px; margin-top:0px !important; margin-top:8px; padding-right:5px; text-align:center; }
+.mydisk_file_bar .l li a{ width:auto; padding:5px;text-decoration:none}
+.mydisk_file_bar .r{float:right; width:18%; line-height:16px; height:16px}
+.mydisk_file_bar .r .tit{ font-size:12px; line-height:13px; height:13px; color:#666; margin-top:35px}
+.disk_info{width:120px;border:1px #999 solid; line-height:12px; height:12px;}
+.rank_info{width:120px;border:1px #999 solid; line-height:10px; height:10px;}
+
+.file_box{width:auto; height:200px; overflow-y:scroll; border:1px #CCCCCC solid;}
+.file_box li{line-height:22px; height:22px; width:340px; overflow:hidden;}
+
+.tips_box{ width:98%; margin:auto; padding:10px; border:1px #003366 dotted}
+.tips_box li{margin-bottom:5px}
+.cfm_info{padding:10px; line-height:14px; height:14px; line-height:180%; margin-bottom:20px}
+.tb_box_msg{margin:8px;padding:10px; background:#FFFFDD; border:#FFCC00 1px solid; color:#008800}
+.box_style{padding:10px 30px !important; padding:10px;}
+.up_msg_box{border:1px #999999 dotted; width:auto; padding:30px; margin:auto}
+
+.alt_bg{ background:#EFF5FB}
+.thumb_view{background:#EFF5FB;}
+.menu_box{}
+.menu_box .title{
+	padding:8px 5px; color:#666666; font-weight:bold; border-bottom:2px #E6E6E6 solid; background:url("title_bar.gif") no-repeat #F8F8F8; cursor:pointer; margin:5px 0; width:140px;
+}
+.menu_box .title a{color:#FFFFFF}
+.menu_box li a{display:block; height:18px; line-height:18px}
+.menu_box li{
+	list-style-type:none; padding:3px; width:auto; border-bottom:1px #ffffff dotted; padding-left:10px; margin-left:15px; margin-left:0\9;
+}
+.menu_box .m_over{ 
+	border-bottom:1px #cccccc dotted; background:#EDF7FF
+}
+
+.smalltxt {
+	font-size: 9pt; font-family: tahoma, verdana
+}
+.bold {
+	font-weight: bold
+}
+
+#container {width: 98%; height:auto;margin:0px auto;background-color: white;}
+#container h1{ padding:15px 0 10px 0;margin:0px; font-size:14px; text-align:left;  color:#252525;}
+#send_btn{ margin-left:10px;}
+#send_btn a{ background:url(sbtn_bg.gif) repeat-x #f2f2f2;width:80px; height:24px; line-height:24px; text-align:center; border:1px #71B8E6 solid; padding:5px !important; padding:0 }
+#send_btn a:hover{text-decoration:none}
+
+.warning{ background:#ffffcc; border:1px #cccccc solid; padding:6px 10px; width:auto; color:#008800}
+
+.clear{ clear:both}
+
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+
+.tips_box_p{padding:10px}
+.tips_box{ width:98%; margin:auto; padding:10px; border:1px #003366 dotted}
+.tips_box li{margin-bottom:5px}
+.edit_box{ border-bottom:1px #008800 dotted;background-color:#e5f5ff}
+.disk_edit_box{ border-bottom:1px #008800 dotted;background-color:#e5f5ff; padding:10px}
+
+.color1 { background-color: #fcfcfc; }
+.color2 { background-color: #f9f9f9; }
+.color3 { background-color: #d0d0d0; }
+.color4 { background-color: #fbffdf; }
+.color5 {background-color:#ddffff}
+
+.colblue { color: #0066df }
+.colgreen { color: #5aa200 }
+.colfuscia { color: #e600ac }
+.colred{ color:#ff0000}
+
+.txtgray{color:#666666}
+.txtgreen{ color:#008800}
+.txtred{ color:#ff0000}
+.txtblue{color:#0000ff}
+
+.box_style{padding:10px 20px; background:#FFFFFF}
+
+.p_bar{
+	margin-top:5px;
+}
+.p_redirect{
+	padding:3px 5px; border:1px #cccccc solid; margin:0 3px; text-align:center;
+}
+.p_num{
+	padding:3px 5px; border:1px #cccccc solid; margin:0 3px; text-align:center;
+}
+.p_info{
+	padding:3px 5px; border:1px #cccccc solid; margin:0 3px; text-align:center;
+}
+.p_curpage{
+	padding:3px 5px; border:1px #cccccc solid; margin:0 2px; text-align:center; color:#f00; font-weight:bold;
+}
+
+.td_line td{border-bottom:1px #cccccc dotted; height:30px}
+
+.menu_common{
+	position: absolute; top: 0px; left: 0px;  background-color: #FFFFFF; visibility: hidden; margin-bottom:8px; overflow: hidden; border: 1px solid #92B7E5; 
+}
+.menu_box2 {
+	width: 50px; height: auto; padding-top:5px;
+}
+.menu_box2 a{
+	display:block; height:18px; text-align:center
+}
+.menu_thumb{
+	position: absolute; top: 0px; left: 0px;  background-color: #FFFFFF; visibility: hidden; overflow: hidden; border: 1px solid #92B7E5; padding:4px;
+}
+.info_box{height:150px; margin:100px 200px 130px 200px;border: 1px solid #4a6ea5;background:url(title_bg.gif) repeat-x #f1f3f5;}
+.info_box_tit{font-weight: bold; padding:8px; color:#FFFFFF}
+.info_box_msg{padding: 10px; background: #f1f3f5;line-height: 150%;}
+
+.cate_box{ border:1px #4577A8 solid; width:auto; padding:1px }
+
+.ul_detail{ overflow:hidden}
+.disk_box{border:1px #CCCCCC solid; width:190px; margin:8px; float:left;padding:1px;}
+.disk_box li{ margin-left:1px !important; margin-left:-15px ; line-height:150%}
+.disk_box .disk_tit{font-size:14px; font-weight:bold; height:26px; background:#DEEBF3;}
+.disk_sel_bg{border:1px #4a6ea5 solid;background:#EFF5FB}
+
+.expand_menu{background:#FFFFFF; border-left:1px #8EC2DF solid; cursor:pointer}
+
+.tree img {
+	border: 0px;
+	vertical-align: middle;
+}
+#loading{position:absolute; z-index:999; padding:2px; top:5px; right:20px; border:1px #996600 solid; color:#FFFFFF; background:#990000}
+.progressWrapper {
+	margin-left:20px;
+	width: 560px;
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin: 5px;
+	padding: 4px;
+	border: solid 1px #E8E8E8;
+	background-color: #F7F7F7;
+	overflow: hidden;
+}
+.message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #FFDD99;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+.up_red {
+	border: solid 1px #B50000;
+	background-color: #FFEBEB;
+}
+
+.up_green {
+	border: solid 1px #DDF0DD;
+	background-color: #DAE7F0;
+}
+
+.up_blue {
+	border: solid 1px #666666;
+	background-color: #337ABB;
+}
+
+.progressName {
+	font-size: 12px;
+	color: #555;
+	width: 300px;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	padding:5px;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 4px;
+	width: 0%;
+	height: 2px;
+	background-color: #73C8F5;
+	margin-top: 2px;
+	border:1px #fafafa solid
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width: 320px;
+	font-size: 12px;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 13px;
+	width: 13px;
+	background-image: url(../../../images/upload_cancel.gif);
+	background-repeat: no-repeat;
+	background-position: -13px 0px;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-position: 0px 0px;
+}
+.upload_style{ margin-left:10px;width:110px; height: 18px; padding:5px; margin-bottom: 10px; border:1px #6699CC solid; background:url(../../../images/upload_bg.gif) repeat-x; float:left}
+.upload_btn{ margin-left:10px;float:left}
+#upl_detail{display:none; padding:8px; color:#252525}
+
+.store_nav{padding:10px}
+#up_msg_tips{margin-left:20px; width:90%; padding:5px; background:#FFFFDD; border:#FFCC00 1px solid; color:#008800}
+
+#c_lang{ top:0; width:70px; right:45px; position:absolute;background-color: #FFFFFF;  border: 1px solid #92B7E5; padding:3px }
+#c_lang a{ height:25px;width:70px; display:block;}
+

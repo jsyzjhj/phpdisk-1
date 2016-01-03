@@ -1,0 +1,8094 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PHPDisk Language package V1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-31 10:25+0800\n"
+"PO-Revision-Date: 2013-03-31 10:25+0800\n"
+"Last-Translator: along <along@phpdisk.com>\n"
+"Language-Team: PHPDisk Team <support@phpdisk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: G:\\www\\pd_v\\\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: account.php:19
+#: account.php:20
+msgid "account_login"
+msgstr "网盘用户登录"
+
+#: account.php:21
+msgid "account_adminlogin"
+msgstr "管理员登录"
+
+#: account.php:22
+msgid "account_register"
+msgstr "新用户注册"
+
+#: account.php:23
+msgid "account_forget_pwd"
+msgstr "找回密码"
+
+#: account.php:24
+msgid "account_reset_pwd"
+msgstr "密码重置"
+
+#: account.php:25
+msgid "account_logout"
+msgstr "安全退出系统"
+
+#: account.php:26
+msgid "account_demologin"
+msgstr "开启测试用户"
+
+#: account.php:27
+msgid "account_active"
+msgstr "激活用户名"
+
+#: account.php:49
+#: account.php:97
+#: account.php:193
+#: account.php:269
+#: account.php:288
+msgid "invalid_username"
+msgstr "帐号不正确，请重新输入您的帐号。"
+
+#: account.php:53
+#: account.php:197
+#: account.php:300
+msgid "invalid_password"
+msgstr "密码不正确，请重新输入注册时的密码。"
+
+#: account.php:59
+#: account.php:203
+#: account.php:341
+#: account.php:451
+#: account.php:611
+msgid "invalid_verycode"
+msgstr "验证码不正确，请重新输入。"
+
+#: account.php:101
+msgid "user_already_delete"
+msgstr "用户不存在，或者被删除"
+
+#: account.php:105
+msgid "password_is_error"
+msgstr "UC: 登录密码不正确"
+
+#: account.php:113
+#: account.php:209
+#: account.php:481
+#: account.php:531
+#: account.php:639
+msgid "user_not_exists"
+msgstr "该用户名未注册。"
+
+#: account.php:117
+#: account.php:213
+#: account.php:502
+#: account.php:514
+msgid "user_password_false"
+msgstr "用户密码不正确，长度请在6-20位之间。"
+
+#: account.php:120
+msgid "user_is_locked"
+msgstr "抱歉，您的用户名被锁定，请联系管理员。"
+
+#: account.php:131
+#: account.php:242
+msgid "admin_not_valid"
+msgstr "您不是合法的管理员，或登录的入口不正确。"
+
+#: account.php:160
+msgid "login_success"
+msgstr "登录成功，欢迎您回来。"
+
+#: account.php:165
+msgid "close_access"
+msgstr "此系统暂时关闭访问，管理员请登录管理。"
+
+#: account.php:167
+msgid "user_login"
+msgstr "用户登录"
+
+#: account.php:246
+msgid "admin_login"
+msgstr "网盘管理员登录"
+
+#: account.php:265
+msgid "user_already_register"
+msgstr "您已经注册，请退出系统后再注册新帐号。"
+
+#: account.php:272
+msgid "username_has_bad_chars"
+msgstr "用户名存在非法字符。"
+
+#: account.php:278
+#: account.php:294
+msgid "username_already_exists"
+msgstr "用户名已存在，请重新修改。"
+
+#: account.php:306
+msgid "confirm_password_invalid"
+msgstr "确认密码不正确，请重新输入。"
+
+#: account.php:311
+msgid "invalid_email"
+msgstr "Email不正确，请重新输入。"
+
+#: account.php:317
+#: account.php:327
+#: account.php:333
+msgid "email_already_exists"
+msgstr "E-Mail地址已存在。"
+
+#: account.php:351
+msgid "reg_user_error"
+msgstr "注册用户失败"
+
+#: account.php:404
+msgid "register_success"
+msgstr "帐号注册成功，系统正在登录，请稍等。"
+
+#: account.php:412
+msgid "close_register"
+msgstr "此系统暂时不允许新用户注册。"
+
+#: account.php:433
+msgid "user_register"
+msgstr "新用户注册"
+
+#: account.php:462
+msgid "reset_pwd_email"
+msgstr "密码重置邮件"
+
+#: account.php:463
+msgid "reset_mail_conent"
+msgstr "您好，请使用以下的链接重置您的密码："
+
+#: account.php:474
+#: account.php:477
+msgid "confirm_mail_success"
+msgstr "密码重置邮件发送成功，请登录您的邮箱进行操作。"
+
+#: account.php:506
+msgid "confirm_pwd_not_same"
+msgstr "确认密码不一致"
+
+#: account.php:520
+msgid "reset_pwd_success"
+msgstr "重置密码成功，请使用您的新密码登录系统"
+
+#: account.php:535
+#: account.php:659
+msgid "confirm_mail_error"
+msgstr "密码重置邮件较验出错。"
+
+#: account.php:549
+msgid "logout_success"
+msgstr "退出成功"
+
+#: account.php:556
+msgid "demo_login_not_open"
+msgstr "网站没有开启测试用户"
+
+#: account.php:621
+msgid "active_email_title"
+msgstr "用户帐号激活邮件"
+
+#: account.php:622
+msgid "active_body_pre"
+msgstr "请使用下面的链接对你的帐号进行激活操作："
+
+#: account.php:633
+msgid "active_email_ok"
+msgstr "激活邮件发送成功，请登录您的邮箱进行操作。"
+
+#: account.php:636
+#: account.php:654
+msgid "active_link_error"
+msgstr "激活链接已失效，请重新操作。"
+
+#: account.php:651
+msgid "account_active_ok"
+msgstr "用户帐号已激活，请登录网盘。"
+
+#: admincp.php:84
+msgid "add_sitemap_tips"
+msgstr "添加到常用面板"
+
+#: ajax.php:35
+msgid "vote_success"
+msgstr "投票成功，感谢支持"
+
+#: ajax.php:37
+msgid "cannot_same_vote"
+msgstr "您已经投过票了，谢谢支持。"
+
+#: ajax.php:65
+#: downfile.php:95
+msgid "download"
+msgstr "下载"
+
+#: comment.php:31
+msgid "comment"
+msgstr "文件"
+
+#: comment.php:67
+#: viewfile.php:271
+msgid "cmt_content_error"
+msgstr "评论内容不能为空，长度不能超过200字符。"
+
+#: comment.php:80
+#: viewfile.php:284
+msgid "cmt_success"
+msgstr "评论文件成功，管理员审核评论通过才会显示于页面中。"
+
+#: extract.php:18
+msgid "extract_file"
+msgstr "提取文件"
+
+#: extract.php:39
+#: extract.php:85
+msgid "extract_code_not_found"
+msgstr "提取码不存在"
+
+#: extract.php:47
+msgid "extract_code_locked"
+msgstr "该文件提取码已被文件所有者锁定，暂时不能使用。"
+
+#: extract.php:53
+msgid "extract_exceed_time_limit"
+msgstr "文件提取码已过期。"
+
+#: extract.php:58
+msgid "extract_exceed_count_limit"
+msgstr "文件提取码超过最大提取限制。"
+
+#: mydisk.php:37
+msgid "all_file"
+msgstr "共有文件"
+
+#: mydisk.php:37
+msgid "folder_size"
+msgstr "目录大小"
+
+#: mydisk.php:38
+msgid "mydisk_cp_manage"
+msgstr "我的网盘[根目录]"
+
+#: mydisk.php:54
+msgid "public_file_manage"
+msgstr "公共文件管理"
+
+#: mydisk.php:72
+msgid "new_msg"
+msgstr "新消息"
+
+#: payment.php:19
+msgid "plugin_not_install"
+msgstr "插件未安装或此服务未开启。"
+
+#: payment.php:22
+msgid "pay_online"
+msgstr "在线支付"
+
+#: payment.php:54
+#: payment.php:55
+#: payment.php:97
+#: payment.php:98
+#: payment.php:143
+#: payment.php:144
+#: payment.php:188
+#: payment.php:189
+msgid "pay_success"
+msgstr "支付成功"
+
+#: payment.php:55
+#: payment.php:61
+#: payment.php:98
+#: payment.php:102
+#: payment.php:144
+#: payment.php:149
+#: payment.php:189
+#: payment.php:195
+msgid "your_order"
+msgstr "您的支付订单"
+
+#: payment.php:60
+#: payment.php:61
+#: payment.php:101
+#: payment.php:102
+#: payment.php:148
+#: payment.php:149
+#: payment.php:194
+#: payment.php:195
+msgid "pay_fail"
+msgstr "支付失败"
+
+#: payment.php:105
+#: payment.php:152
+#: payment.php:201
+msgid "sign_pay_error"
+msgstr "认证签名失败"
+
+#: public.php:26
+msgid "public_file"
+msgstr "公共文件"
+
+#: tag.php:20
+#: tag.php:21
+msgid "tag"
+msgstr "文件标签"
+
+#: tag.php:23
+#: tag.php:24
+msgid "tag_view"
+msgstr "标签浏览"
+
+#: downfile.php:25
+msgid "file_login_down"
+msgstr "您还没登录，不能下载此文件。"
+
+#: downfile.php:28
+msgid "file_checking"
+msgstr "文件审核中..."
+
+#: downfile.php:57
+msgid "file_not_found"
+msgstr "找不到文件记录"
+
+#: downfile.php:60
+msgid "file_locked"
+msgstr "文件被锁定"
+
+#: downfile.php:77
+msgid "credit_fail"
+msgstr "您的积分不够下载此文件。"
+
+#: space.php:20
+#: space.php:21
+msgid "space_title"
+msgstr "的共享文件"
+
+#: viewfile.php:34
+msgid "visited_tips"
+msgstr "访问提示"
+
+#: viewfile.php:61
+msgid "visitor"
+msgstr "访客"
+
+#: viewfile.php:138
+msgid "please_login"
+msgstr "请先登录"
+
+#: viewfile.php:234
+msgid "report_content_error"
+msgstr "举报内容不能为空，长度不能超过100字符。"
+
+#: viewfile.php:239
+msgid "report_already_exists"
+msgstr "您已经举报过此文件了。"
+
+#: viewfile.php:254
+msgid "report_success"
+msgstr "举报文件成功。"
+
+#: search.php:17
+msgid "search_title"
+msgstr "文件搜索"
+
+#: admin/main.inc.php:26
+#: admin/main.inc.php:27
+#: admin/main.inc.php:31
+#: admin/announce.inc.php:71
+msgid "yes"
+msgstr "是"
+
+#: admin/main.inc.php:26
+#: admin/main.inc.php:27
+#: admin/main.inc.php:31
+#: admin/announce.inc.php:71
+msgid "no"
+msgstr "否"
+
+#: admin/main.inc.php:36
+#: admin/version.inc.php:100
+msgid "update_now"
+msgstr "在线升级"
+
+#: admin/navigation.inc.php:30
+#: admin/navigation.inc.php:72
+#: admin/navigation.inc.php:120
+#: admin/navigation.inc.php:166
+#: admin/public.inc.php:30
+#: admin/public.inc.php:78
+#: admin/public.inc.php:138
+#: admin/public.inc.php:215
+#: admin/public.inc.php:248
+#: admin/public.inc.php:262
+#: admin/report.inc.php:41
+#: admin/report.inc.php:54
+#: admin/report.inc.php:119
+#: admin/report.inc.php:132
+#: admin/report.inc.php:198
+#: admin/report.inc.php:211
+#: admin/settings.inc.php:43
+#: admin/settings.inc.php:131
+#: admin/tag.inc.php:57
+#: admin/tag.inc.php:73
+#: admin/tag.inc.php:89
+#: admin/union.inc.php:35
+#: admin/users.inc.php:30
+#: admin/users.inc.php:182
+#: admin/users.inc.php:199
+#: admin/users.inc.php:253
+#: admin/users.inc.php:403
+#: admin/advertisement.inc.php:36
+#: admin/advertisement.inc.php:167
+#: admin/advertisement.inc.php:317
+#: admin/advertisement.inc.php:341
+#: admin/announce.inc.php:48
+#: admin/announce.inc.php:91
+#: admin/announce.inc.php:140
+#: admin/announce.inc.php:186
+#: admin/announce.inc.php:201
+msgid "online_demo_deny"
+msgstr "PHPDISK在线演示，此功能被禁用。"
+
+#: admin/navigation.inc.php:76
+#: admin/navigation.inc.php:124
+msgid "nav_text_error"
+msgstr "链接标题填写不正确,请在30字符以内。"
+
+#: admin/navigation.inc.php:80
+#: admin/navigation.inc.php:128
+msgid "nav_title_error"
+msgstr "导航标题不能为空"
+
+#: admin/navigation.inc.php:84
+#: admin/navigation.inc.php:132
+msgid "nav_href_error"
+msgstr "链接地址不正确。"
+
+#: admin/plugins.inc.php:36
+#: admin/plugins.inc.php:196
+msgid "plugins_actived_success"
+msgstr "激活插件成功。"
+
+#: admin/plugins.inc.php:51
+#: admin/plugins.inc.php:217
+msgid "plugins_inactived_success"
+msgstr "禁用插件成功。"
+
+#: admin/plugins.inc.php:63
+msgid "plugin_install_success"
+msgstr "插件安装成功。"
+
+#: admin/plugins.inc.php:81
+msgid "plugin_uninstall_success"
+msgstr "插件卸载成功。"
+
+#: admin/plugins.inc.php:158
+msgid "shortcut_settings_update_success"
+msgstr "快捷面板配置成功"
+
+#: admin/plugins.inc.php:186
+#: admin/plugins.inc.php:207
+msgid "please_select_plugins"
+msgstr "请选择要操作的插件。"
+
+#: admin/public.inc.php:34
+#: admin/public.inc.php:82
+msgid "cate_name_error"
+msgstr "公共分类名称不能为空。长度请在 2-30字之间。"
+
+#: admin/public.inc.php:39
+#: admin/public.inc.php:87
+msgid "cate_name_exists"
+msgstr "分类名称已存在，请确认。"
+
+#: admin/public.inc.php:48
+msgid "cate_add_success"
+msgstr "分类添加成功。"
+
+#: admin/public.inc.php:101
+msgid "cate_modify_success"
+msgstr "分类修改成功"
+
+#: admin/public.inc.php:167
+#: admin/public.inc.php:188
+#: admin/tag.inc.php:110
+msgid "is_hidden"
+msgstr "隐藏"
+
+#: admin/public.inc.php:178
+#: admin/public.inc.php:199
+msgid "modify"
+msgstr "修改"
+
+#: admin/public.inc.php:179
+#: admin/public.inc.php:200
+msgid "del_category_confirm"
+msgstr "删除分类确认?"
+
+#: admin/public.inc.php:179
+#: admin/public.inc.php:200
+msgid "delete"
+msgstr "删除"
+
+#: admin/public.inc.php:223
+msgid "del_cate_success"
+msgstr "分类删除成功"
+
+#: admin/public.inc.php:235
+#: admin/report.inc.php:28
+#: admin/report.inc.php:105
+#: admin/report.inc.php:185
+msgid "please_select_operation_files"
+msgstr "请选择要操作的文件"
+
+#: admin/public.inc.php:252
+msgid "check_file_success"
+msgstr "审核文件成功"
+
+#: admin/public.inc.php:268
+#: admin/report.inc.php:59
+#: admin/report.inc.php:137
+#: admin/report.inc.php:216
+msgid "delete_file_success"
+msgstr "删除文件成功"
+
+#: admin/public.inc.php:299
+msgid "checked"
+msgstr "已审核"
+
+#: admin/public.inc.php:299
+msgid "unchecked"
+msgstr "未审核"
+
+#: admin/public.inc.php:326
+msgid "public_update_success"
+msgstr "公共上传设置成功。"
+
+#: admin/report.inc.php:21
+msgid "report_user_title"
+msgstr "用户举报文件"
+
+#: admin/report.inc.php:22
+msgid "report_user_tips"
+msgstr "文件由用户举报，对于用户的网盘，管理员可以锁定非法文件；对于公共文件，管理员可以删除、锁定文件。"
+
+#: admin/report.inc.php:23
+#: admin/report.inc.php:100
+msgid "locked"
+msgstr "锁定"
+
+#: admin/report.inc.php:45
+#: admin/report.inc.php:123
+msgid "locked_file_success"
+msgstr "锁定文件成功"
+
+#: admin/report.inc.php:81
+#: admin/report.inc.php:159
+msgid "common_status"
+msgstr "正常"
+
+#: admin/report.inc.php:98
+msgid "report_system_title"
+msgstr "系统举报文件"
+
+#: admin/report.inc.php:99
+msgid "report_system_tips"
+msgstr "文件由系统举报，对于用户的网盘，管理员可以锁定非法文件；对于公共文件，管理员可以删除、锁定文件。"
+
+#: admin/report.inc.php:178
+msgid "report_unlocked_title"
+msgstr "解除文件锁定"
+
+#: admin/report.inc.php:179
+msgid "report_unlocked_tips"
+msgstr "可以对锁定的文件进行解锁操作，解锁后文件的状态将会恢复正常。"
+
+#: admin/report.inc.php:180
+msgid "unlocked"
+msgstr "解锁"
+
+#: admin/report.inc.php:202
+msgid "unlocked_file_success"
+msgstr "解锁文件成功"
+
+#: admin/report.inc.php:238
+msgid "locked_status"
+msgstr "已锁定"
+
+#: admin/settings.inc.php:47
+msgid "site_title_error"
+msgstr "网站标题请在2-30字符之间"
+
+#: admin/settings.inc.php:51
+msgid "phpdisk_url_error"
+msgstr "请正确填写系统的URL，以 http:// 或 https:// 开头，以 / 结束。错误的URL将会导致系统无法正常访问！"
+
+#: admin/settings.inc.php:57
+msgid "encrypt_key_error"
+msgstr "网站密匙不能为空，长度请在8~16字符以内，只能由数字和字母组成。为增加安全性，请设置为尽量的复杂。"
+
+#: admin/settings.inc.php:61
+msgid "contact_us_error"
+msgstr "Email格式不正确，请重新填写。"
+
+#: admin/settings.inc.php:66
+msgid "close_access_reason_error"
+msgstr "关闭系统原因请在2-200字符以内。"
+
+#: admin/settings.inc.php:72
+msgid "close_register_reason_error"
+msgstr "关闭注册原因请在在2-200字符以内。"
+
+#: admin/settings.inc.php:81
+msgid "base_settings_update_success"
+msgstr "基本配置更新成功"
+
+#: admin/settings.inc.php:136
+msgid "system_reserve_folder"
+msgstr "此文件夹为系统保留文件夹，请重新填写。"
+
+#: admin/settings.inc.php:140
+msgid "file_path_error"
+msgstr "存放文件夹请在2-20字符之间"
+
+#: admin/settings.inc.php:144
+msgid "show_hot_file_right_error"
+msgstr "缓存时间不能为空，只能填写数字。"
+
+#: admin/settings.inc.php:152
+msgid "advanced_settings_update_success"
+msgstr "高级配置更新成功"
+
+#: admin/settings.inc.php:169
+msgid "file_path_not_exists"
+msgstr "系统检测到用户文件存放目录不存在，如果您更改了默认的存放目录，请手动更改相应的存放文件夹。否则，系统将不能正常访问。"
+
+#: admin/settings.inc.php:180
+msgid "share_all_file_success"
+msgstr "共享文件资源成功。"
+
+#: admin/sitemap.inc.php:26
+msgid "cp_shortcut_exists"
+msgstr "此菜单已添加到常用面板中。"
+
+#: admin/sitemap.inc.php:34
+msgid "add_sitemap_success"
+msgstr "添加菜单成功。"
+
+#: admin/sitemap.inc.php:46
+msgid "please_select_operation_menus"
+msgstr "请选择要操作后台菜单"
+
+#: admin/sitemap.inc.php:59
+msgid "del_cp_shortcut_success"
+msgstr "暂时没有后台快捷菜单，请先添加。"
+
+#: admin/sitemap.inc.php:81
+#: admin/sitemap.inc.php:82
+msgid "menu_site_setting"
+msgstr "网站配置"
+
+#: admin/sitemap.inc.php:84
+msgid "menu_base_setting"
+msgstr "基本配置"
+
+#: admin/sitemap.inc.php:85
+msgid "menu_advanced_setting"
+msgstr "高级配置"
+
+#: admin/sitemap.inc.php:86
+msgid "menu_other_setting"
+msgstr "其他配置"
+
+#: admin/sitemap.inc.php:91
+#: admin/sitemap.inc.php:92
+msgid "menu_user_setting"
+msgstr "用户管理"
+
+#: admin/sitemap.inc.php:94
+msgid "menu_add_user"
+msgstr "添加用户"
+
+#: admin/sitemap.inc.php:95
+msgid "menu_user_group"
+msgstr "用户组管理"
+
+#: admin/sitemap.inc.php:96
+msgid "menu_user_manage"
+msgstr "用户列表"
+
+#: admin/sitemap.inc.php:97
+msgid "menu_user_active"
+msgstr "注册审核"
+
+#: admin/sitemap.inc.php:101
+msgid "menu_email"
+msgstr "邮件"
+
+#: admin/sitemap.inc.php:103
+msgid "menu_email_setting"
+msgstr "邮件设置"
+
+#: admin/sitemap.inc.php:104
+msgid "menu_email_test"
+msgstr "邮件测试"
+
+#: admin/sitemap.inc.php:108
+msgid "menu_other"
+msgstr "其他"
+
+#: admin/sitemap.inc.php:110
+msgid "menu_verycode"
+msgstr "验证码管理"
+
+#: admin/sitemap.inc.php:115
+#: admin/sitemap.inc.php:116
+msgid "menu_files"
+msgstr "文件管理"
+
+#: admin/sitemap.inc.php:118
+msgid "menu_files_list"
+msgstr "个人文件"
+
+#: admin/sitemap.inc.php:119
+msgid "menu_tag"
+msgstr "文件标签"
+
+#: admin/sitemap.inc.php:124
+msgid "menu_public"
+msgstr "公共上传"
+
+#: admin/sitemap.inc.php:126
+msgid "menu_public_setting"
+msgstr "公共设置"
+
+#: admin/sitemap.inc.php:127
+msgid "menu_public_category"
+msgstr "分类管理"
+
+#: admin/sitemap.inc.php:128
+msgid "menu_public_viewfile"
+msgstr "公共文件管理"
+
+#: admin/sitemap.inc.php:133
+msgid "menu_report"
+msgstr "文件举报"
+
+#: admin/sitemap.inc.php:135
+msgid "menu_report_setting"
+msgstr "举报设定"
+
+#: admin/sitemap.inc.php:136
+msgid "menu_report_user"
+msgstr "用户举报"
+
+#: admin/sitemap.inc.php:137
+msgid "menu_report_system"
+msgstr "系统举报"
+
+#: admin/sitemap.inc.php:138
+msgid "menu_report_file_unlocked"
+msgstr "解锁文件"
+
+#: admin/sitemap.inc.php:143
+msgid "menu_plugins_manage"
+msgstr "插件管理"
+
+#: admin/sitemap.inc.php:144
+msgid "menu_plugins_cp"
+msgstr "插件面板"
+
+#: admin/sitemap.inc.php:146
+msgid "menu_plugins_index"
+msgstr "插件首页"
+
+#: admin/sitemap.inc.php:147
+msgid "menu_plugins_cp_setting"
+msgstr "面板设置"
+
+#: admin/sitemap.inc.php:152
+#: admin/sitemap.inc.php:153
+msgid "menu_template_language"
+msgstr "语言模板"
+
+#: admin/sitemap.inc.php:155
+msgid "menu_lang_manage"
+msgstr "语言包管理"
+
+#: admin/sitemap.inc.php:156
+msgid "menu_template_manage"
+msgstr "模板管理"
+
+#: admin/sitemap.inc.php:161
+msgid "menu_extend_tools"
+msgstr "扩展管理"
+
+#: admin/sitemap.inc.php:162
+msgid "menu_extend"
+msgstr "扩展管理"
+
+#: admin/sitemap.inc.php:164
+msgid "menu_adv_manage"
+msgstr "广告管理"
+
+#: admin/sitemap.inc.php:165
+msgid "menu_link_manage"
+msgstr "友情链接"
+
+#: admin/sitemap.inc.php:166
+msgid "menu_announce_manage"
+msgstr "公告管理"
+
+#: admin/sitemap.inc.php:167
+msgid "menu_navigation_manage"
+msgstr "导航管理"
+
+#: admin/sitemap.inc.php:168
+msgid "menu_credit_manage"
+msgstr "积分经验"
+
+#: admin/sitemap.inc.php:169
+msgid "menu_comment_manage"
+msgstr "评论管理"
+
+#: admin/sitemap.inc.php:170
+msgid "menu_seo_manage"
+msgstr "伪静态规则"
+
+#: admin/sitemap.inc.php:171
+msgid "menu_union_manage"
+msgstr "下载联盟"
+
+#: admin/sitemap.inc.php:172
+msgid "menu_gallery_manage"
+msgstr "滚动公告"
+
+#: admin/sitemap.inc.php:176
+msgid "menu_datacall_manage"
+msgstr "数据调用"
+
+#: admin/sitemap.inc.php:178
+msgid "menu_datacall_js"
+msgstr "JS调用"
+
+#: admin/sitemap.inc.php:179
+msgid "menu_datacall_sql"
+msgstr "SQL调用"
+
+#: admin/sitemap.inc.php:180
+msgid "menu_datacall_arr"
+msgstr "数组调用"
+
+#: admin/sitemap.inc.php:184
+msgid "menu_system_tools"
+msgstr "系统工具"
+
+#: admin/sitemap.inc.php:185
+msgid "menu_database_manage"
+msgstr "数据库管理"
+
+#: admin/sitemap.inc.php:187
+msgid "menu_database_optimize"
+msgstr "数据库优化"
+
+#: admin/sitemap.inc.php:188
+msgid "menu_database_backup"
+msgstr "数据库备份"
+
+#: admin/sitemap.inc.php:189
+msgid "menu_database_restore"
+msgstr "数据库恢复"
+
+#: admin/sitemap.inc.php:193
+msgid "menu_system_setting"
+msgstr "系统维护"
+
+#: admin/sitemap.inc.php:195
+msgid "menu_search_index"
+msgstr "搜索缓存"
+
+#: admin/sitemap.inc.php:196
+msgid "menu_cache_manage"
+msgstr "系统缓存"
+
+#: admin/sitemap.inc.php:197
+msgid "menu_version_check"
+msgstr "检测新版本"
+
+#: admin/tag.inc.php:25
+msgid "please_select_tags"
+msgstr "请选择要操作的标签"
+
+#: admin/tag.inc.php:45
+msgid "tags_update_success"
+msgstr "标签插件更新成功。"
+
+#: admin/tag.inc.php:62
+#: admin/tag.inc.php:78
+msgid "chg_status_success"
+msgstr "状态设置成功"
+
+#: admin/tag.inc.php:95
+msgid "del_tag_success"
+msgstr "标签删除成功"
+
+#: admin/tag.inc.php:110
+msgid "is_show"
+msgstr "显示"
+
+#: admin/templates.inc.php:27
+msgid "tpl_active_success"
+msgstr "模板激活成功。"
+
+#: admin/union.inc.php:41
+msgid "union_update_success"
+msgstr "联盟设置更新成功"
+
+#: admin/users.inc.php:34
+msgid "please_select_dest_gid"
+msgstr "请选择目标用户组"
+
+#: admin/users.inc.php:37
+msgid "please_select_move_users"
+msgstr "请选择要移动的用户"
+
+#: admin/users.inc.php:47
+msgid "move_user_success"
+msgstr "移动用户组成功"
+
+#: admin/users.inc.php:82
+#: admin/users.inc.php:145
+msgid "user_open"
+msgstr "启用"
+
+#: admin/users.inc.php:82
+#: admin/users.inc.php:145
+msgid "user_locked"
+msgstr "锁定用户"
+
+#: admin/users.inc.php:219
+msgid "delete_user_error"
+msgstr "删除用户失败。"
+
+#: admin/users.inc.php:223
+msgid "delete_user_success"
+msgstr "删除用户成功，所有数据已被删除。"
+
+#: admin/users.inc.php:257
+msgid "username_error"
+msgstr "用户名不能为空，长度请在2-20字之间"
+
+#: admin/users.inc.php:288
+msgid "password_error"
+msgstr "登录密码不正确，长度请在6-20字符之间"
+
+#: admin/users.inc.php:330
+msgid "add_user_error"
+msgstr "添加用户失败"
+
+#: admin/users.inc.php:361
+msgid "add_user_success"
+msgstr "添加新用户成功"
+
+#: admin/users.inc.php:420
+msgid "only_one_admin"
+msgstr "[修改出错]系统必须有一个管理员帐号"
+
+#: admin/users.inc.php:449
+msgid "update_password_error"
+msgstr "用户密码更新出错。"
+
+#: admin/users.inc.php:471
+msgid "user_edit_success"
+msgstr "更新用户信息成功"
+
+#: admin/users.inc.php:517
+msgid "user_active_email"
+msgstr "【邮件配置】启用后才能使用新用户邮件激活功能。"
+
+#: admin/users.inc.php:522
+msgid "user_active_success"
+msgstr "配置更新成功"
+
+#: admin/users.inc.php:533
+msgid "system_logout_success"
+msgstr "退出系统成功，后台面板即将关闭。"
+
+#: admin/version.inc.php:35
+msgid "check_configs"
+msgstr "检测系统配置，下载升级配置程序..."
+
+#: admin/version.inc.php:38
+msgid "configs_download_error"
+msgstr "<span class=\"txtred\">升级中止：配置下载失败，请与PHPDISK官方联系。</span>"
+
+#: admin/version.inc.php:45
+msgid "download_update_configs"
+msgstr "解压升级配置文件..."
+
+#: admin/version.inc.php:54
+msgid "download_new_version"
+msgstr "下载新版本程序文件..."
+
+#: admin/version.inc.php:57
+msgid "phpdisk_no_package"
+msgstr "<span class=\"txtred\">升级中止：升级包下载失败，请与PHPDISK官方联系。</span>"
+
+#: admin/version.inc.php:67
+msgid "package_verify_error"
+msgstr "<span class=\"txtred\">升级中止：较验升级包文件失败，请重新运行升级程序。如果目前网络繁忙，请稍候重试升级。</span>"
+
+#: admin/version.inc.php:69
+msgid "package_verify_success"
+msgstr "<span class=\"txtblue\">较验升级包文件成功。</span>"
+
+#: admin/version.inc.php:75
+msgid "update_db_sql"
+msgstr "现在开始升级，检测升级数据库结构...<br>"
+
+#: admin/version.inc.php:89
+msgid "update_new_version_script"
+msgstr "解压更新新版本程序文件..."
+
+#: admin/version.inc.php:95
+msgid "update_success"
+msgstr "<span class=\"txtblue\">升级程序执行成功，您的程序已经是最新版本，感谢对PHPDISK的支持。</span>"
+
+#: admin/version.inc.php:100
+msgid "confirm_update"
+msgstr "确认进行在线升级? 此操作将会自动把PHPDISK系统升级到最新版本。请用户首先备份数据库和程序再进行操作。"
+
+#: admin/verycode.inc.php:40
+msgid "verycode_update_success"
+msgstr "验证码配置更新成功。"
+
+#: admin/seo.inc.php:37
+msgid "seo_update_success"
+msgstr "搜索引擎优化配置成功。"
+
+#: admin/advertisement.inc.php:55
+#: admin/advertisement.inc.php:186
+msgid "adv_txt_error"
+msgstr "文字广告标题和广告链接不能为空"
+
+#: admin/advertisement.inc.php:64
+#: admin/advertisement.inc.php:195
+msgid "adv_flash_src_error"
+msgstr "Flash地址不能为空"
+
+#: admin/advertisement.inc.php:68
+#: admin/advertisement.inc.php:199
+msgid "adv_flash_number_error"
+msgstr "Flash长宽必需为数字"
+
+#: admin/advertisement.inc.php:79
+#: admin/advertisement.inc.php:210
+msgid "adv_img_src_error"
+msgstr "源图片地址不能为空"
+
+#: admin/advertisement.inc.php:83
+#: admin/advertisement.inc.php:214
+msgid "adv_img_url_error"
+msgstr "图片广告链接不能为空"
+
+#: admin/advertisement.inc.php:90
+#: admin/advertisement.inc.php:221
+msgid "adv_title_error"
+msgstr "广告标题不能为空"
+
+#: admin/advertisement.inc.php:97
+#: admin/advertisement.inc.php:109
+#: admin/advertisement.inc.php:228
+#: admin/advertisement.inc.php:240
+msgid "time_format_error"
+msgstr "时间格式错误，格式：yyyy-mm-dd"
+
+#: admin/advertisement.inc.php:118
+#: admin/advertisement.inc.php:249
+msgid "start_end_time_error"
+msgstr "广告起始时间不能大于结束时间"
+
+#: admin/advertisement.inc.php:123
+#: admin/advertisement.inc.php:254
+msgid "adv_title_exists"
+msgstr "广告标题已存在，请重新修改"
+
+#: admin/advertisement.inc.php:138
+msgid "add_adv_success"
+msgstr "添加广告成功"
+
+#: admin/advertisement.inc.php:269
+msgid "modify_adv_success"
+msgstr "修改广告成功"
+
+#: admin/advertisement.inc.php:357
+msgid "adv_update_success"
+msgstr "广告设置更新成功"
+
+#: admin/advertisement.inc.php:369
+msgid "is_over"
+msgstr "已结束"
+
+#: admin/announce.inc.php:33
+msgid "setting_update_success"
+msgstr "配置更新成功"
+
+#: admin/announce.inc.php:65
+msgid "display"
+msgstr "显示"
+
+#: admin/announce.inc.php:65
+msgid "hidden"
+msgstr "隐藏"
+
+#: admin/announce.inc.php:95
+#: admin/announce.inc.php:144
+msgid "subject_error"
+msgstr "公告标题不能为空，长度为2-100字符以内"
+
+#: admin/announce.inc.php:99
+#: admin/announce.inc.php:148
+msgid "content_error"
+msgstr "公告内容不能为空，长度为2-1000字符以内。"
+
+#: admin/announce.inc.php:106
+#: admin/announce.inc.php:155
+msgid "announce_exists"
+msgstr "此公告标题已存在，请重新修改。"
+
+#: admin/cache.inc.php:28
+msgid "please_select_operation_index"
+msgstr "请选定要操作的记录。"
+
+#: admin/cache.inc.php:37
+msgid "delete_search_cache_success"
+msgstr "删除搜索缓存成功。"
+
+#: admin/cache.inc.php:60
+msgid "truncate_search_index_success"
+msgstr "清空搜索缓存成功。"
+
+#: admin/cache.inc.php:72
+msgid "pls_select_target"
+msgstr "请勾选需要更新的缓存项目。"
+
+#: admin/cache.inc.php:80
+msgid "tpl_cache_update_success"
+msgstr "模板缓存更新成功。"
+
+#: admin/cache.inc.php:110
+msgid "data_cache_update_success"
+msgstr "数据缓存更新成功。"
+
+#: admin/comment.inc.php:24
+msgid "please_select_cmts"
+msgstr "请选择要操作的评论"
+
+#: admin/comment.inc.php:48
+msgid "comment_update_success"
+msgstr "文件互动插件配置更新成功。"
+
+#: admin/comment.inc.php:64
+msgid "cmt_checked_success"
+msgstr "审核评论成功。"
+
+#: admin/comment.inc.php:78
+msgid "cmt_unchecked_success"
+msgstr "撤销审核评论成功。"
+
+#: admin/comment.inc.php:92
+msgid "del_cmt_success"
+msgstr "删除评论成功。"
+
+#: admin/comment.inc.php:111
+msgid "checked_txt"
+msgstr "已审核"
+
+#: admin/comment.inc.php:111
+msgid "unchecked_txt"
+msgstr "未审核"
+
+#: admin/credit.inc.php:59
+#: admin/credit.inc.php:71
+msgid "cu_error"
+msgstr "自定义积分名称不能为空"
+
+#: admin/credit.inc.php:63
+msgid "wu_error"
+msgstr "自定义金钱名称不能为空"
+
+#: admin/credit.inc.php:67
+msgid "eu_error"
+msgstr "自定义经验名称不能为空"
+
+#: admin/credit.inc.php:78
+msgid "credit_update_success"
+msgstr "配置更新成功"
+
+#: admin/database.inc.php:46
+msgid "optimize_success"
+msgstr "数据库优化成功"
+
+#: admin/database.inc.php:73
+msgid "please_select_backup_db"
+msgstr "请选择您要备份的数据表。"
+
+#: admin/database.inc.php:81
+msgid "cannot_write_backup_database_list"
+msgstr "无法写入备份临时表！请检查 system/data/ 目录是否可写。"
+
+#: admin/database.inc.php:107
+msgid "sql_cannot_write"
+msgstr "数据无法备份到服务器!请检查 system/data/ 目录是否可写。"
+
+#: admin/database.inc.php:113
+#: admin/database.inc.php:172
+msgid "backup_file"
+msgstr "数据库文件"
+
+#: admin/database.inc.php:113
+msgid "backup_write_success"
+msgstr "数据文件写入成功。"
+
+#: admin/database.inc.php:114
+msgid "backup_database_warning"
+msgstr "警告：数据库正在执行备份！！！为确保备份文件的完整，请勿执行其他的操作！请稍等...直到数据库备份完成。"
+
+#: admin/database.inc.php:119
+msgid "backup_database_success"
+msgstr "'数据库备份完毕!"
+
+#: admin/database.inc.php:155
+msgid "file_not_exists"
+msgstr "文件不存在"
+
+#: admin/database.inc.php:160
+#: admin/database.inc.php:178
+msgid "restore_database_success"
+msgstr "数据库恢复成功!"
+
+#: admin/database.inc.php:172
+msgid "restore_sucess"
+msgstr "导入成功"
+
+#: admin/database.inc.php:173
+msgid "restore_database_warning"
+msgstr "警告：数据库正在执行恢复！！！为确保数据库文件的完整，请勿执行其他的操作！请稍等...直到数据库恢复完成。"
+
+#: admin/database.inc.php:229
+msgid "success"
+msgstr "成功"
+
+#: admin/email.inc.php:43
+#: admin/email.inc.php:94
+msgid "email_address_error"
+msgstr "发件人邮箱不正确"
+
+#: admin/email.inc.php:47
+msgid "email_user_error"
+msgstr "发件人名字不正确"
+
+#: admin/email.inc.php:52
+msgid "email_pwd_error"
+msgstr "邮箱密码不正确"
+
+#: admin/email.inc.php:59
+msgid "email_smtp_error"
+msgstr "SMTP服务器不正确"
+
+#: admin/email.inc.php:63
+msgid "email_port_error"
+msgstr "SMTP端口不正确，请填写数字"
+
+#: admin/email.inc.php:71
+msgid "email_update_success"
+msgstr "Email服务配置成功。"
+
+#: admin/email.inc.php:98
+msgid "email_subject_error"
+msgstr "测试邮件标题不正确"
+
+#: admin/email.inc.php:102
+msgid "email_content_error"
+msgstr "测试邮件内容不能为空，长度请在2-250字符之间"
+
+#: admin/email.inc.php:116
+msgid "send_email_success"
+msgstr "测试Email发送成功,请到邮箱检查刚发送的测试邮件。"
+
+#: admin/files.inc.php:33
+#: admin/files.inc.php:57
+#: admin/files.inc.php:81
+#: admin/files.inc.php:171
+#: admin/files.inc.php:196
+#: admin/files.inc.php:220
+msgid "please_select_check_files"
+msgstr "请选择要审核的文件。"
+
+#: admin/files.inc.php:42
+#: admin/files.inc.php:181
+msgid "check_public_success"
+msgstr "审核文件成功。"
+
+#: admin/files.inc.php:66
+#: admin/files.inc.php:205
+msgid "file_to_locked_success"
+msgstr "文件锁定成功。"
+
+#: admin/files.inc.php:90
+#: admin/files.inc.php:229
+msgid "file_to_unlocked_success"
+msgstr "文件解锁成功。"
+
+#: admin/files.inc.php:105
+#: admin/files.inc.php:244
+msgid "please_select_delete_files"
+msgstr "请选择要删除的文件。"
+
+#: admin/files.inc.php:115
+#: admin/files.inc.php:254
+#: admin/files.inc.php:314
+msgid "file_delete_success"
+msgstr "文件删除成功。"
+
+#: admin/gallery.inc.php:96
+#: admin/gallery.inc.php:145
+msgid "gal_title_error"
+msgstr "展示文字不能为空，长度在30字以内"
+
+#: admin/gallery.inc.php:100
+#: admin/gallery.inc.php:149
+msgid "gal_path_error"
+msgstr "图片地址不能为空，长度在200字以内"
+
+#: admin/gallery.inc.php:104
+#: admin/gallery.inc.php:153
+msgid "go_url_error"
+msgstr "链接地址不能为空，长度在200字以内"
+
+#: admin/gallery.inc.php:109
+#: admin/gallery.inc.php:158
+msgid "gal_path_exists"
+msgstr "图片地址已存在，请重新修改。"
+
+#: admin/groups.inc.php:32
+#: admin/groups.inc.php:141
+msgid "group_name_error"
+msgstr "组名称不能为空，长度请在2-100字符间。"
+
+#: admin/groups.inc.php:37
+#: admin/groups.inc.php:146
+msgid "group_name_exists"
+msgstr "组名称已存在，请重新修改。"
+
+#: admin/groups.inc.php:104
+msgid "group_setting_success"
+msgstr "组权限配置成功，该组成员权限将会全部更新。"
+
+#: admin/groups.inc.php:180
+msgid "group_delete_success"
+msgstr "自定义组删除成功"
+
+#: admin/groups.inc.php:197
+msgid "random_server"
+msgstr "随机服务器"
+
+#: admin/groups.inc.php:203
+msgid "group_type_inner"
+msgstr "内置"
+
+#: admin/groups.inc.php:203
+msgid "group_type_custom"
+msgstr "自定义"
+
+#: admin/lang.inc.php:26
+msgid "lang_not_exists"
+msgstr "语言包不存在"
+
+#: admin/lang.inc.php:32
+msgid "lang_active_success"
+msgstr "语言包激活成功"
+
+#: admin/lang.inc.php:50
+msgid "lang_update_success"
+msgstr "语言包更新成功"
+
+#: admin/link.inc.php:77
+#: admin/link.inc.php:128
+msgid "link_title_error"
+msgstr "网站标题不能为空，长度为2-50字符之间。"
+
+#: admin/link.inc.php:81
+#: admin/link.inc.php:132
+msgid "link_url_error"
+msgstr "网站地址不能为空，长度为2-100字符之间。"
+
+#: admin/link.inc.php:85
+#: admin/link.inc.php:136
+msgid "link_url_prefix"
+msgstr "链接地址请以 http:// 或 https:// 开头"
+
+#: admin/link.inc.php:90
+#: admin/link.inc.php:141
+msgid "link_url_exists"
+msgstr "此友情链接已经存在，请重新修改"
+
+#: includes/footer.inc.php:16
+msgid "site_index"
+msgstr "网盘首页"
+
+#: includes/footer.inc.php:17
+msgid "contact_us_txt"
+msgstr "联系我们"
+
+#: includes/commons.inc.php:160
+msgid "not_uc_conf"
+msgstr "UC配置文件不存在，请关闭UC整合或修正此文件。File:"
+
+#: includes/commons.inc.php:162
+msgid "not_uc_client"
+msgstr "UC客户端文件不存在，请关闭UC整合或修正此文件。File:"
+
+#: includes/global.cache.php:185
+msgid "root_folder"
+msgstr "根目录"
+
+#: includes/function/cache.func.php:223
+msgid "public_file_list"
+msgstr "分类列表"
+
+#: includes/function/plugin.func.php:101
+msgid "plugin_not_active"
+msgstr "插件未激活"
+
+#: includes/function/ftp.func.php:27
+msgid "ftp_not_supported"
+msgstr "您的环境不支持FTP功能，请开启PHP的FTP支持。"
+
+#: includes/function/ftp.func.php:35
+msgid "ftp_chdir_error"
+msgstr "FTP不能切换目录，请确认FTP帐号有相应权限。"
+
+#: includes/function/ftp.func.php:38
+msgid "ftp_login_error"
+msgstr "FTP用户名或密码不正确，不能登录服务器。"
+
+#: includes/function/ftp.func.php:41
+msgid "ftp_cannot_connect"
+msgstr "FTP不能连接服务器，请检查配置，如：FTP地址，端口等。"
+
+#: includes/function/global.func.php:84
+msgid "system_error"
+msgstr "您未通过系统认证，请重新进行操作。"
+
+#: includes/function/global.func.php:195
+msgid "custom_time_0"
+msgstr "刚刚"
+
+#: includes/function/global.func.php:198
+msgid "custom_time_1"
+msgstr " 秒前"
+
+#: includes/function/global.func.php:202
+msgid "custom_time_2"
+msgstr " 分钟前"
+
+#: includes/function/global.func.php:206
+msgid "custom_time_3"
+msgstr " 小时前"
+
+#: includes/function/global.func.php:210
+msgid "custom_time_4"
+msgstr "昨天"
+
+#: includes/function/global.func.php:213
+msgid "custom_time_5"
+msgstr "前天"
+
+#: includes/function/global.func.php:216
+msgid "custom_time_6"
+msgstr " 天前"
+
+#: includes/function/global.func.php:781
+#: includes/function/global.func.php:793
+msgid "no_limit"
+msgstr "不限"
+
+#: includes/function/global.func.php:867
+msgid "file_preview"
+msgstr "文件预览"
+
+#: includes/function/global.func.php:974
+msgid "fail"
+msgstr "失败"
+
+#: includes/function/global.func.php:976
+msgid "pendding"
+msgstr "充值中"
+
+#: install/index.php:48
+msgid "pay_version"
+msgstr "授权版"
+
+#: install/index.php:48
+msgid "free_version"
+msgstr "免费版"
+
+#: install/index.php:89
+msgid "db_file_not_exists"
+msgstr "数据库文件不存在或者读取失败"
+
+#: install/index.php:100
+#: install/index.php:110
+msgid "install_guide"
+msgstr "安装向导"
+
+#: install/index.php:116
+msgid "lc_1"
+msgstr "PHPDISK网盘系统[简称：PHPDISK]，（中国国家版权局著作权登记号2009SR056747 ），是一套采用PHP和MySQL构建的网络硬盘(文件存储管理)系统，可替代传统的FTP文件管理。友好的界面，操作的便捷深受用户的欢迎。"
+
+#: install/index.php:117
+msgid "lc_2"
+msgstr "她是一套可用于网络上文件办公、共享、传递、查看的多用户文件存储系统。广泛应用于互联网、公司、网吧、学校等地管理及使用文件，多方式的共享权限，全方位的后台管理，满足从个人到企业各方面应用的需求。"
+
+#: install/index.php:120
+msgid "welcome_msg"
+msgstr "欢迎使用PHPDISK，安装向导会指引您安装整个系统。"
+
+#: install/index.php:125
+#: install/index.php:179
+#: install/index.php:270
+#: install/index.php:358
+#: install/index.php:576
+#: install/index.php:633
+#: install/index.php:733
+msgid "next_step"
+msgstr "下一步"
+
+#: install/index.php:130
+#: install/index.php:154
+#: install/index.php:210
+#: install/index.php:290
+#: install/index.php:413
+#: install/index.php:588
+#: install/index.php:642
+#: install/index.php:767
+msgid "the"
+msgstr "第"
+
+#: install/index.php:130
+#: install/index.php:154
+#: install/index.php:210
+#: install/index.php:290
+#: install/index.php:413
+#: install/index.php:588
+#: install/index.php:642
+#: install/index.php:767
+msgid "step"
+msgstr "步"
+
+#: install/index.php:130
+msgid "user_license"
+msgstr "用户使用协议"
+
+#: install/index.php:136
+msgid "agree"
+msgstr "同意协议"
+
+#: install/index.php:136
+msgid "disagree"
+msgstr "我不同意"
+
+#: install/index.php:154
+msgid "install_note"
+msgstr "安装须知"
+
+#: install/index.php:155
+msgid "welcome_to_use"
+msgstr "欢迎使用"
+
+#: install/index.php:155
+msgid "install_settings"
+msgstr "本向导将帮助您将程序完整地安装在您的服务器内。请您先确认以下安装配置"
+
+#: install/index.php:157
+msgid "mysql_server_or_ip"
+msgstr "MySQL 主机名称/IP 地址"
+
+#: install/index.php:158
+msgid "mysql_username_or_password"
+msgstr "MySQL 用户名和密码"
+
+#: install/index.php:159
+msgid "mysql_database_name"
+msgstr "MySQL 数据库名称"
+
+#: install/index.php:160
+#: install/index.php:162
+#: install/index.php:164
+msgid "check_dir1"
+msgstr "目录以及其所有文件和子目录，权限为 0777 (*nix系统)"
+
+#: install/index.php:161
+#: install/index.php:163
+#: install/index.php:165
+msgid "check_dir2"
+msgstr "目录可写检查"
+
+#: install/index.php:167
+#: install/index.php:266
+msgid "database_tips_info"
+msgstr "如果您无法确认以上的配置信息, 请与您的服务器提供商联系."
+
+#: install/index.php:171
+msgid "php_env_setting"
+msgstr "PHP环境设置问题"
+
+#: install/index.php:171
+msgid "short_open_tag"
+msgstr "请将 php.ini 中的 short_open_tag 设置为 On ,否则程序无法正常运行。"
+
+#: install/index.php:205
+msgid "config_file_not_exists"
+msgstr "文件不存在, 请重新运行安装向导."
+
+#: install/index.php:207
+msgid "config_file_cant_write"
+msgstr "安装向导无法写入配置文件, 请修改配置文件权限."
+
+#: install/index.php:210
+msgid "database_setting"
+msgstr "填写数据库用户帐号"
+
+#: install/index.php:211
+msgid "file_exists"
+msgstr "存在检查"
+
+#: install/index.php:212
+msgid "file_writeable"
+msgstr "可写检查"
+
+#: install/index.php:219
+#: install/index.php:285
+#: install/index.php:408
+#: install/index.php:618
+#: install/index.php:762
+msgid "prev_step"
+msgstr "上一步"
+
+#: install/index.php:227
+msgid "base_info"
+msgstr "基本信息"
+
+#: install/index.php:230
+msgid "dbhost"
+msgstr "MySQL服务器地址"
+
+#: install/index.php:231
+msgid "dbhost_tips"
+msgstr "数据库跟程序在同一台主机上，请填写 localhost"
+
+#: install/index.php:234
+msgid "dbuser"
+msgstr "数据库用户名"
+
+#: install/index.php:238
+msgid "dbpasswd"
+msgstr "数据库用户密码"
+
+#: install/index.php:246
+msgid "js_dbhost"
+msgstr "请填入MySQL服务器地址！"
+
+#: install/index.php:251
+msgid "js_dbuser"
+msgstr "请填入数据库用户！"
+
+#: install/index.php:256
+msgid "js_dbpasswd"
+msgstr "您没有填写密码，确认您的数据库为空密码吗？"
+
+#: install/index.php:282
+#: install/index.php:405
+#: install/index.php:591
+msgid "fill_all_blank"
+msgstr "请返回并确认所有选项均已填写"
+
+#: install/index.php:290
+msgid "install_database"
+msgstr "安装数据库"
+
+#: install/index.php:293
+msgid "mysql_not_support"
+msgstr "您的环境不支持Mysql数据库，请配置环境并开启PHP的Mysql支持。"
+
+#: install/index.php:316
+msgid "database_info"
+msgstr "配置数据库信息"
+
+#: install/index.php:319
+msgid "fill_db_tips"
+msgstr "注意：数据库不存在时，将会直接创建数据库，请确认您的帐号有创建数据库的权限！"
+
+#: install/index.php:322
+msgid "no_script_tips"
+msgstr "<noscript>警告：您的浏览器不支持javascript等客户端脚本，将会无法正常访问本页，请开启支持！</noscript>"
+
+#: install/index.php:325
+msgid "dbname"
+msgstr "数据库名称"
+
+#: install/index.php:336
+msgid "please_select"
+msgstr "请选择"
+
+#: install/index.php:376
+msgid "dbname2_null"
+msgstr "请选择您要安装的PHPDISK的数据库。"
+
+#: install/index.php:384
+msgid "dbname1_null"
+msgstr "请选择您要安装的PHPDISK的数据库。"
+
+#: install/index.php:413
+msgid "set_admin_account"
+msgstr "设置管理员帐号"
+
+#: install/index.php:416
+msgid "could_not_connect"
+msgstr "无法连接数据库"
+
+#: install/index.php:418
+msgid "invalid_query"
+msgstr "无法执行此SQL语句，请确认您的帐号有此SQL的执行权限。"
+
+#: install/index.php:446
+#: install/index.php:807
+msgid "write_success"
+msgstr "写入成功"
+
+#: install/index.php:448
+msgid "write_failture"
+msgstr "写入失败"
+
+#: install/index.php:453
+msgid "cant_write"
+msgstr "不能写入"
+
+#: install/index.php:475
+msgid "php_version_too_lower"
+msgstr "您的PHP版本低于4.0.6, 无法使用 PHPDisk"
+
+#: install/index.php:482
+msgid "mysql_version_too_lower"
+msgstr "您的MySQL版本低于4.1, 建议您使用 MySQL5 的数据库环境."
+
+#: install/index.php:489
+msgid "database_not_found"
+msgstr "指定的数据库不存在, 系统也无法自动建立, 无法安装 PHPDisk."
+
+#: install/index.php:493
+msgid "database_create_success"
+msgstr "成功建立指定数据库"
+
+#: install/index.php:499
+msgid "database_already_exists"
+msgstr "数据库中已经安装过 PHPDisk, 继续安装会清空当前数据."
+
+#: install/index.php:500
+msgid "database_confirm"
+msgstr "继续安装会清空当前所有的数据, 您确定要继续吗?"
+
+#: install/index.php:506
+msgid "file_not_chmod"
+msgstr "由于您目录属性或服务器配置原因, 无法继续安装 PHPDisk, 请仔细阅读安装说明."
+
+#: install/index.php:508
+msgid "server_env_ok"
+msgstr "您的服务器可以安装和使用 PHPDisk, 请进入下一步安装."
+
+#: install/index.php:516
+msgid "quit"
+msgstr "退出"
+
+#: install/index.php:524
+#: install/index.php:625
+#: install/index.php:828
+msgid "username"
+msgstr "帐号"
+
+#: install/index.php:528
+#: install/index.php:626
+#: install/index.php:829
+msgid "password"
+msgstr "密码"
+
+#: install/index.php:532
+msgid "confirm_password"
+msgstr "确认密码"
+
+#: install/index.php:536
+#: install/index.php:627
+msgid "email"
+msgstr "邮箱"
+
+#: install/index.php:544
+msgid "js_username"
+msgstr "请填入管理员帐号！"
+
+#: install/index.php:549
+msgid "js_password"
+msgstr "请填入管理员密码！"
+
+#: install/index.php:554
+msgid "js_password_too_short"
+msgstr "密码长度应该大于6位字符！"
+
+#: install/index.php:559
+msgid "js_confirm_password"
+msgstr "确认密码不一致！"
+
+#: install/index.php:564
+msgid "js_email"
+msgstr "请填入管理员E-Mail！"
+
+#: install/index.php:588
+msgid "check_user_info"
+msgstr "检查用户信息"
+
+#: install/index.php:594
+msgid "s_password_too_short"
+msgstr "从系统的安全角度考虑, 密码长度不能少于6字符, 请返回重新输入."
+
+#: install/index.php:597
+msgid "s_password_not_same"
+msgstr "两个输入的密码不相同, 请返回重新输入."
+
+#: install/index.php:600
+msgid "s_email"
+msgstr "E-Mail地址不正确，请确认."
+
+#: install/index.php:603
+msgid "s_check_server_env"
+msgstr "系统运行环境检测成功"
+
+#: install/index.php:609
+msgid "bad_chars"
+msgstr "用户名包含敏感字符."
+
+#: install/index.php:629
+msgid "user_info_right"
+msgstr "核对无误后进入下一步进行数据导入"
+
+#: install/index.php:642
+msgid "import_data"
+msgstr "导入数据"
+
+#: install/index.php:667
+msgid "all_create"
+msgstr "共创建了"
+
+#: install/index.php:667
+msgid "tables"
+msgstr "个数据表"
+
+#: install/index.php:669
+msgid "base_settings"
+msgstr "基本配置"
+
+#: install/index.php:677
+msgid "site_title"
+msgstr "网站标题"
+
+#: install/index.php:678
+msgid "project_name"
+msgstr "PHPDisk网络硬盘"
+
+#: install/index.php:681
+msgid "phpdisk_url"
+msgstr "访问地址"
+
+#: install/index.php:682
+msgid "phpdisk_url_tips"
+msgstr "网站真实的访问地址，地址出错将会无法访问系统，请慎重！请写入详细的URL地址，如 http://yoursite/ ，地址最后要以 \"/\" 结束"
+
+#: install/index.php:685
+msgid "encrypt_key"
+msgstr "网站密匙"
+
+#: install/index.php:686
+msgid "reflash_key"
+msgstr "随机生成"
+
+#: install/index.php:689
+msgid "open_gzip"
+msgstr "启用gzip"
+
+#: install/index.php:695
+msgid "gzipcompress_not_support"
+msgstr "您的环境不支持GZIP压缩输出，系统将会自动关闭此功能。"
+
+#: install/index.php:706
+msgid "js_site_title"
+msgstr "网站名称不能为空"
+
+#: install/index.php:711
+msgid "js_phpdisk_url"
+msgstr "访问网址不能为空，否则系统会无法访问。"
+
+#: install/index.php:716
+msgid "js_encrypt_key"
+msgstr "网站密匙不能为空，长度请在8~16字符以内。"
+
+#: install/index.php:753
+msgid "site_title_and_phpdisk_url"
+msgstr "网站的名称、访问地址或网站密钥不能为空."
+
+#: install/index.php:767
+msgid "finished_install"
+msgstr "完成安装"
+
+#: install/index.php:809
+msgid "write_fail"
+msgstr "写入失败"
+
+#: install/index.php:814
+msgid "cannot_write"
+msgstr "不能写入"
+
+#: install/index.php:824
+msgid "finished_tips"
+msgstr "安装程序已经顺利执行完毕，从系统的安全角度考虑，<span class=\"txtred\">请尽快删除 ./install/ 安装文件夹。</span>"
+
+#: install/index.php:825
+msgid "reinstall_tips"
+msgstr "如需重新安装，请直接删除 ./system/ 目录下的 install.lock 文件。"
+
+#: install/index.php:826
+msgid "thanks"
+msgstr "感谢您使用 PHPDisk 网络硬盘程序."
+
+#: install/index.php:831
+msgid "visit_phpdisk"
+msgstr "点击进入系统"
+
+#: install/index.php:833
+msgid "phpdisk_official_site"
+msgstr "PHPDisk Team 官方网站"
+
+#: install/index.php:872
+msgid "create_table"
+msgstr "创建表"
+
+#: modules/buddy.inc.php:23
+msgid "buddy_title_mybuddy"
+msgstr "管理我的好友"
+
+#: modules/buddy.inc.php:25
+msgid "buddy_title_whobuddy"
+msgstr "已加我的好友"
+
+#: modules/buddy.inc.php:27
+msgid "buddy_title_invite_success"
+msgstr "邀请成功好友"
+
+#: modules/buddy.inc.php:41
+#: modules/buddy.inc.php:176
+msgid "cannot_add_self"
+msgstr "不可以添加自己为好友。"
+
+#: modules/buddy.inc.php:43
+#: modules/buddy.inc.php:178
+msgid "already_buddy"
+msgstr "此用户已是你的好友。"
+
+#: modules/buddy.inc.php:51
+#: modules/buddy.inc.php:187
+msgid "addbuddy_success"
+msgstr "添加好友成功。"
+
+#: modules/buddy.inc.php:55
+#: modules/buddy.inc.php:190
+msgid "username_not_found"
+msgstr "此用户名不存在。"
+
+#: modules/buddy.inc.php:101
+msgid "buddy_search"
+msgstr "搜索好友"
+
+#: modules/buddy.inc.php:152
+msgid "delbuddy_success"
+msgstr "删除好友成功。"
+
+#: modules/disk.inc.php:33
+msgid "buy_error"
+msgstr "您所购买的网盘参数出错，请重新购买。"
+
+#: modules/disk.inc.php:47
+msgid "not_enough_credit"
+msgstr "您的积分不足，不能购买此网盘。"
+
+#: modules/disk.inc.php:51
+msgid "pls_rent_biger_space"
+msgstr "您要扩容的空间比目前的小，请选择容量大一些的空间进行操作。"
+
+#: modules/disk.inc.php:84
+msgid "buy_disk_success"
+msgstr "购买网盘空间成功，您可以设定您上传文件的存放地方。"
+
+#: modules/disk.inc.php:119
+msgid "expand_credit_not_enough"
+msgstr "帐号余额不足，请先充值。"
+
+#: modules/disk.inc.php:126
+msgid "update_setting_success"
+msgstr "更新存储位置成功"
+
+#: modules/folders.inc.php:26
+#: modules/folders.inc.php:58
+msgid "please_select_move_folders"
+msgstr "请选择要移动的文件夹"
+
+#: modules/folders.inc.php:35
+msgid "please_select_dest_folder"
+msgstr "请选择目标文件夹"
+
+#: modules/folders.inc.php:46
+msgid "folder_move_success"
+msgstr "文件夹移动成功。"
+
+#: modules/folders.inc.php:68
+#: modules/folders.inc.php:390
+msgid "folder_delete_success"
+msgstr "文件夹删除成功！你可以从回收站中找回。"
+
+#: modules/folders.inc.php:112
+#: modules/folders.inc.php:152
+#: modules/folders.inc.php:192
+#: modules/folders.inc.php:232
+msgid "share_folder"
+msgstr "共享文件夹"
+
+#: modules/folders.inc.php:112
+#: modules/folders.inc.php:152
+#: modules/folders.inc.php:192
+#: modules/folders.inc.php:232
+msgid "share"
+msgstr "共享"
+
+#: modules/folders.inc.php:120
+#: modules/folders.inc.php:160
+#: modules/folders.inc.php:200
+#: modules/folders.inc.php:240
+msgid "upload_file"
+msgstr "上传文件"
+
+#: modules/folders.inc.php:120
+#: modules/folders.inc.php:160
+#: modules/folders.inc.php:200
+#: modules/folders.inc.php:240
+msgid "upload"
+msgstr "上传"
+
+#: modules/folders.inc.php:121
+#: modules/folders.inc.php:161
+#: modules/folders.inc.php:201
+#: modules/folders.inc.php:241
+msgid "folder_modify"
+msgstr "修改文件夹"
+
+#: modules/folders.inc.php:122
+#: modules/folders.inc.php:162
+#: modules/folders.inc.php:202
+#: modules/folders.inc.php:242
+msgid "folder_delete"
+msgstr "删除文件夹"
+
+#: modules/folders.inc.php:263
+msgid "folder_manage"
+msgstr "目录管理"
+
+#: modules/folders.inc.php:281
+#: modules/folders.inc.php:330
+msgid "folder_min_max"
+msgstr "名称不能为空，长度在2-100字符以内"
+
+#: modules/folders.inc.php:284
+#: modules/folders.inc.php:333
+msgid "folder_name_bad_chars"
+msgstr "名称中存在非法字符。"
+
+#: modules/folders.inc.php:289
+#: modules/folders.inc.php:338
+msgid "folder_exists"
+msgstr "此文件夹名称已存在，请修改。"
+
+#: modules/folders.inc.php:298
+msgid "folder_modify_success"
+msgstr "名称修改成功！"
+
+#: modules/folders.inc.php:326
+msgid "exceed_max_folders"
+msgstr "您所属的用户组无法创建更多的文件夹。"
+
+#: modules/folders.inc.php:354
+msgid "folder_create_success"
+msgstr "文件夹创建成功。"
+
+#: modules/folders.inc.php:384
+msgid "has_sub_folder"
+msgstr "此文件夹下还有子文件夹，请先删除子文件夹。"
+
+#: modules/message.inc.php:20
+msgid "msg_inbox"
+msgstr "收件箱"
+
+#: modules/message.inc.php:65
+msgid "msg_sendbox"
+msgstr "发件箱"
+
+#: modules/message.inc.php:137
+#: modules/message.inc.php:198
+msgid "send_user_not_found"
+msgstr "请选择发送人"
+
+#: modules/message.inc.php:143
+#: modules/message.inc.php:210
+msgid "msg_min_max"
+msgstr "消息内容不能为空，长度请在 2-1000字符之间。"
+
+#: modules/message.inc.php:152
+#: modules/message.inc.php:219
+msgid "not_enough_credit_for_send_msg"
+msgstr "您的积分不足，不能发信息"
+
+#: modules/message.inc.php:174
+#: modules/message.inc.php:240
+msgid "send_msg_success"
+msgstr "消息发送成功。"
+
+#: modules/message.inc.php:205
+msgid "not_your_buddy"
+msgstr "对方不是你的好友，你只能给你的好友发消息。"
+
+#: modules/profile.inc.php:46
+msgid "password_max_min"
+msgstr "新密码长度应在6-20字符之间"
+
+#: modules/profile.inc.php:68
+msgid "password_modify_success"
+msgstr "密码修改成功，请重新登录系统进行确认。"
+
+#: modules/profile.inc.php:90
+msgid "money_invalid"
+msgstr "请输入充值的金额，只能为有效数字。"
+
+#: modules/profile.inc.php:117
+msgid "ali_subject_pay"
+msgstr "在线充值"
+
+#: modules/profile.inc.php:118
+#: modules/profile.inc.php:176
+msgid "ali_body_pay"
+msgstr "在线充值支付，虚拟货物价格"
+
+#: modules/profile.inc.php:273
+#: modules/profile.inc.php:314
+msgid "credit_amount_error"
+msgstr "支出积分应该大于1"
+
+#: modules/profile.inc.php:277
+#: modules/profile.inc.php:318
+msgid "credit_amount_too_big"
+msgstr "你要支付的积分大于你的当前积分"
+
+#: modules/profile.inc.php:283
+msgid "wealth_exchange_success"
+msgstr "金钱兑换成功。"
+
+#: modules/profile.inc.php:299
+msgid "credit_uc_error"
+msgstr "UC兑换接口失败"
+
+#: modules/profile.inc.php:309
+msgid "password_not_null"
+msgstr "用户密码不能为空。"
+
+#: modules/profile.inc.php:326
+msgid "credit_uc_exchange_error"
+msgstr "UC接口通知函数出错"
+
+#: modules/profile.inc.php:333
+msgid "credit_exchange_success"
+msgstr "积分兑换成功"
+
+#: modules/profile.inc.php:340
+msgid "cannot_use_uc_credit_exchange"
+msgstr "UC积分兑换功能尚未启用，暂时不能操作。"
+
+#: modules/profile.inc.php:343
+msgid "cannot_use_common_credit_exchange"
+msgstr "积分插件未激活或积分兑换功能未启用。"
+
+#: modules/public.inc.php:61
+#: modules/files.inc.php:74
+#: modules/files.inc.php:120
+msgid "move_success"
+msgstr "移动文件成功。"
+
+#: modules/public.inc.php:203
+#: modules/files.inc.php:666
+msgid "file_min_max"
+msgstr "文件名称不能为空，长度不能超过100字符。"
+
+#: modules/public.inc.php:207
+#: modules/files.inc.php:670
+msgid "file_description_min_max"
+msgstr "文件描述不能超过150字符"
+
+#: modules/public.inc.php:217
+#: modules/files.inc.php:680
+msgid "too_many_tags"
+msgstr "文件标签数不能超过五个"
+
+#: modules/public.inc.php:223
+msgid "file_name_exists"
+msgstr "此文件名称已存在，请修改。"
+
+#: modules/public.inc.php:235
+#: modules/files.inc.php:700
+msgid "file_modify_success"
+msgstr "文件修改成功。"
+
+#: modules/recycle.inc.php:50
+#: modules/recycle.inc.php:163
+msgid "folder_delete_complete_success"
+msgstr "文件夹及文件删除成功！"
+
+#: modules/recycle.inc.php:85
+#: modules/recycle.inc.php:203
+msgid "folder_restore_success"
+msgstr "文件夹及文件恢复成功。"
+
+#: modules/recycle.inc.php:181
+msgid "file_delete_complete_success"
+msgstr "文件删除成功！"
+
+#: modules/recycle.inc.php:219
+msgid "file_restore_success"
+msgstr "文件恢复成功。"
+
+#: modules/recycle.inc.php:236
+msgid "restore_all_success"
+msgstr "所有文件还原成功"
+
+#: modules/recycle.inc.php:257
+msgid "delete_all_success"
+msgstr "清空回收站成功"
+
+#: modules/share.inc.php:39
+msgid "folder_share_success"
+msgstr "共享文件成功。"
+
+#: modules/share.inc.php:49
+msgid "folder_unshare_success"
+msgstr "撤消共享成功"
+
+#: modules/share.inc.php:53
+msgid "none_file"
+msgstr "此文件夹没有文件，无法设置共享。"
+
+#: modules/share.inc.php:55
+msgid "root_path_not_share"
+msgstr "根目录无法设置共享文件夹。"
+
+#: modules/share.inc.php:75
+msgid "cannot_share_folder"
+msgstr "您所在的用户组无权限共享。"
+
+#: modules/upload.inc.php:175
+msgid "user_files_exceeded"
+msgstr "您所要上传的文件数超过了您所在组的权限，请删除其他文件后重试。"
+
+#: modules/upload.inc.php:186
+msgid "rent_space_exceeded"
+msgstr "租用空间已满，请到[空间管理]把存储位置设定到免费空间，再进行上传。"
+
+#: modules/upload.inc.php:190
+msgid "rent_space_not_found"
+msgstr "您暂时没有已购买的租用空间，或空间已过期，请重新购买。"
+
+#: modules/upload.inc.php:199
+#: modules/upload.inc.php:207
+msgid "user_storage_exceeded"
+msgstr "您的储存空间不足，请删除部分文件再重新上传。"
+
+#: modules/files.inc.php:36
+#: modules/files.inc.php:619
+msgid "extract_file_list"
+msgstr "提取码文件"
+
+#: modules/files.inc.php:145
+msgid "share_success"
+msgstr "文件共享成功"
+
+#: modules/files.inc.php:157
+#: modules/files.inc.php:437
+#: modules/files.inc.php:558
+msgid "please_select_extract_files"
+msgstr "请选择您要生成提取码的文件。"
+
+#: modules/files.inc.php:167
+#: modules/files.inc.php:446
+#: modules/files.inc.php:567
+msgid "extract_files_limit"
+msgstr "为了您文件的安全，防止文件大量被提取，一个提取码只能设定20个以内的提取文件。"
+
+#: modules/files.inc.php:200
+msgid "please_select_link_files"
+msgstr "请选择您要外链的文件"
+
+#: modules/files.inc.php:229
+msgid "delete_success"
+msgstr "删除文件成功"
+
+#: modules/files.inc.php:391
+msgid "file_manage"
+msgstr "文件管理"
+
+#: modules/files.inc.php:428
+#: modules/files.inc.php:549
+msgid "extract_time_format"
+msgstr "时间格式不正确，请确认。"
+
+#: modules/files.inc.php:434
+#: modules/files.inc.php:555
+msgid "exceed_extract_num"
+msgstr "提取次数超过了系统最大限制。"
+
+#: modules/files.inc.php:450
+msgid "extract_code_custom_max_min"
+msgstr "提取码长度应该6-16个字符，只能由数字和字母组成"
+
+#: modules/files.inc.php:456
+msgid "extract_code_custom_exists"
+msgstr "此提取码已存在，请重新设置。"
+
+#: modules/files.inc.php:475
+msgid "extract_code_setting_error"
+msgstr "提取码设置不成功，请重新设置。"
+
+#: modules/files.inc.php:492
+msgid "time"
+msgstr "时间"
+
+#: modules/files.inc.php:492
+msgid "count"
+msgstr "次数"
+
+#: modules/files.inc.php:494
+msgid "extract_open"
+msgstr "启用"
+
+#: modules/files.inc.php:494
+msgid "extract_close"
+msgstr "禁用"
+
+#: modules/files.inc.php:507
+msgid "extract_code_list"
+msgstr "文件提取码"
+
+#: modules/files.inc.php:754
+msgid "unshare_file_success"
+msgstr "取消文件共享成功"
+
+#: modules/files.inc.php:772
+msgid "file_short_url_warning"
+msgstr "注意：重新生成短地址时，旧的短地址将会失效！"
+
+#: modules/files.inc.php:789
+#: modules/files.inc.php:815
+msgid "cannot_make_short_url"
+msgstr "无法生成短地址，请确认您的主机能与互联网连接。"
+
+#: modules/files.inc.php:802
+msgid "data_loading"
+msgstr "数据加载中..."
+
+#: modules/files.inc.php:812
+msgid "add_file_short_url_success"
+msgstr "生成短地址成功"
+
+#: plugins/payment/admin.inc.php:56
+msgid "update_pay_status_success"
+msgstr "更新支付状态成功"
+
+#: plugins/payment/admin.inc.php:93
+#: plugins/payment/admin.tpl.php:302
+msgid "ali_partner_error"
+msgstr "请填写支付宝的商家ID"
+
+#: plugins/payment/admin.inc.php:98
+#: plugins/payment/admin.tpl.php:307
+msgid "ali_security_code_error"
+msgstr "请填写安全检验码"
+
+#: plugins/payment/admin.inc.php:105
+#: plugins/payment/admin.tpl.php:312
+msgid "ali_seller_email_error"
+msgstr "请填写与商家ID绑定的支付宝帐号。"
+
+#: plugins/payment/admin.inc.php:111
+#: plugins/payment/admin.inc.php:148
+#: plugins/payment/admin.inc.php:185
+#: plugins/payment/admin.inc.php:222
+#: plugins/payment/admin.inc.php:246
+msgid "payment_update_success"
+msgstr "支付接口设置成功"
+
+#: plugins/payment/admin.inc.php:134
+#: plugins/payment/admin.tpl.php:319
+msgid "ten_mch_error"
+msgstr "财付通商家帐号不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:139
+#: plugins/payment/admin.tpl.php:324
+msgid "ten_key_error"
+msgstr "财付通密钥不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:171
+#: plugins/payment/admin.tpl.php:331
+msgid "chinabank_mch_error"
+msgstr "网银商家帐号不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:176
+#: plugins/payment/admin.tpl.php:336
+msgid "chinabank_key_error"
+msgstr "网银密不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:208
+#: plugins/payment/admin.tpl.php:343
+msgid "yeepay_mch_error"
+msgstr "易宝商家帐号不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:213
+#: plugins/payment/admin.tpl.php:348
+msgid "yeepay_key_error"
+msgstr "易宝密不能为空，请重新填写。"
+
+#: plugins/payment/admin.inc.php:238
+#: plugins/payment/admin.tpl.php:295
+msgid "default_amount_error"
+msgstr "默认充值金额不能为空，只能填写数字"
+
+#: plugins/payment/admin.tpl.php:16
+#: plugins/payment/admin.tpl.php:143
+msgid "payment_title"
+msgstr "支付接口设置"
+
+#: plugins/payment/admin.tpl.php:18
+#: plugins/payment/admin.tpl.php:81
+#: plugins/payment/admin.tpl.php:145
+msgid "tips"
+msgstr "提示"
+
+#: plugins/payment/admin.tpl.php:19
+#: plugins/payment/admin.tpl.php:146
+msgid "payment_title_tips"
+msgstr "请设置你网站的参数，用于网站上的会员进行在线支付。"
+
+#: plugins/payment/admin.tpl.php:22
+#: plugins/payment/admin.tpl.php:85
+#: plugins/payment/admin.tpl.php:149
+msgid "payment_setting"
+msgstr "帐号设定"
+
+#: plugins/payment/admin.tpl.php:23
+#: plugins/payment/admin.tpl.php:86
+#: plugins/payment/admin.tpl.php:150
+msgid "payment_order"
+msgstr "支付订单"
+
+#: plugins/payment/admin.tpl.php:30
+#: plugins/payment/admin.tpl.php:98
+msgid "order_number"
+msgstr "订单号"
+
+#: plugins/payment/admin.tpl.php:31
+#: plugins/payment/admin.tpl.php:102
+msgid "pay_method"
+msgstr "支付方式"
+
+#: plugins/payment/admin.tpl.php:32
+#: plugins/payment/admin.tpl.php:106
+msgid "total_fee"
+msgstr "金额"
+
+#: plugins/payment/admin.tpl.php:33
+#: plugins/payment/admin.tpl.php:122
+msgid "pay_status"
+msgstr "状态"
+
+#: plugins/payment/admin.tpl.php:34
+#: plugins/payment/admin.tpl.php:110
+msgid "order_user"
+msgstr "支付人"
+
+#: plugins/payment/admin.tpl.php:35
+#: plugins/payment/admin.tpl.php:114
+msgid "in_time"
+msgstr "支付时间"
+
+#: plugins/payment/admin.tpl.php:36
+#: plugins/payment/admin.tpl.php:118
+msgid "ip"
+msgstr "IP"
+
+#: plugins/payment/admin.tpl.php:61
+msgid "none_logs"
+msgstr "暂无充值历史记录"
+
+#: plugins/payment/admin.tpl.php:79
+#: plugins/payment/admin.tpl.php:95
+msgid "edit_order"
+msgstr "编辑订单"
+
+#: plugins/payment/admin.tpl.php:82
+msgid "edit_order_tips"
+msgstr "对于一些订单，比如由于网络原因无法返回状态等，您可以手动编辑订单的状态，实现人工补单操作。"
+
+#: plugins/payment/admin.tpl.php:132
+#: plugins/payment/admin.tpl.php:167
+#: plugins/payment/admin.tpl.php:199
+#: plugins/payment/admin.tpl.php:228
+#: plugins/payment/admin.tpl.php:257
+#: plugins/payment/admin.tpl.php:286
+msgid "btn_submit"
+msgstr " 提 交 "
+
+#: plugins/payment/admin.tpl.php:158
+msgid "open_payment"
+msgstr "开启在线充值支付"
+
+#: plugins/payment/admin.tpl.php:158
+msgid "open_payment_tips"
+msgstr "此开关决定整个网站的支付接口，只有开启后，在线支付充值功能才会生效。"
+
+#: plugins/payment/admin.tpl.php:162
+msgid "default_amount"
+msgstr "默认充值金额"
+
+#: plugins/payment/admin.tpl.php:162
+msgid "default_amount_tips"
+msgstr "默认显示于充值框中的金额，可以修改此值，只能填写整数数字。单位：RMB"
+
+#: plugins/payment/admin.tpl.php:167
+msgid "btn_back"
+msgstr " 返 回 "
+
+#: plugins/payment/admin.tpl.php:172
+msgid "alipay_setting"
+msgstr "支付宝(alipay)参数设置"
+
+#: plugins/payment/admin.tpl.php:182
+msgid "open_alipay"
+msgstr "开启在线充值支付"
+
+#: plugins/payment/admin.tpl.php:186
+msgid "ali_partner"
+msgstr "合作商家ID"
+
+#: plugins/payment/admin.tpl.php:190
+msgid "ali_security_code"
+msgstr "安全检验码"
+
+#: plugins/payment/admin.tpl.php:194
+msgid "ali_seller_email"
+msgstr "商家支付宝帐户"
+
+#: plugins/payment/admin.tpl.php:199
+msgid "alipay_reg"
+msgstr "支付宝免费签约"
+
+#: plugins/payment/admin.tpl.php:205
+msgid "tenpay_setting"
+msgstr "财付通(tenpay)参数设置"
+
+#: plugins/payment/admin.tpl.php:215
+msgid "open_tenpay"
+msgstr "开启财付通在线支付"
+
+#: plugins/payment/admin.tpl.php:219
+msgid "ten_mch"
+msgstr "商家帐号"
+
+#: plugins/payment/admin.tpl.php:220
+msgid "tenpay_warning"
+msgstr "注意：请选择财付通的即时到帐签约方式，否则，付款无法实时返回。"
+
+#: plugins/payment/admin.tpl.php:223
+msgid "ten_key"
+msgstr "财付通密钥"
+
+#: plugins/payment/admin.tpl.php:228
+msgid "tenpay_reg"
+msgstr "财付通免费签约"
+
+#: plugins/payment/admin.tpl.php:234
+msgid "chinabank_setting"
+msgstr "网银(chinabank)参数设置"
+
+#: plugins/payment/admin.tpl.php:244
+msgid "open_chinabank"
+msgstr "开启网银在线支付"
+
+#: plugins/payment/admin.tpl.php:248
+msgid "chinabank_mch"
+msgstr "网银商家帐号"
+
+#: plugins/payment/admin.tpl.php:252
+msgid "chinabank_key"
+msgstr "网银密钥"
+
+#: plugins/payment/admin.tpl.php:257
+msgid "chinabank_reg"
+msgstr "网银签约申请"
+
+#: plugins/payment/admin.tpl.php:263
+msgid "yeepay_setting"
+msgstr "易宝(yeepay)参数设置"
+
+#: plugins/payment/admin.tpl.php:273
+msgid "open_yeepay"
+msgstr "开启易宝在线支付"
+
+#: plugins/payment/admin.tpl.php:277
+msgid "yeepay_mch"
+msgstr "易宝商家帐号"
+
+#: plugins/payment/admin.tpl.php:281
+msgid "yeepay_key"
+msgstr "易宝密钥"
+
+#: plugins/payment/admin.tpl.php:286
+msgid "yeepay_reg"
+msgstr "易宝签约申请"
+
+#: plugins/multi_server/admin.tpl.php:19
+msgid "add_server_title"
+msgstr "添加分布服务器"
+
+#: plugins/multi_server/admin.tpl.php:21
+msgid "edit_server_title"
+msgstr "修改服务器配置"
+
+#: plugins/multi_server/admin.tpl.php:25
+#: plugins/multi_server/admin.tpl.php:162
+msgid "server_list_tips"
+msgstr "您可以使用分布式服务器去运营您的网盘系统，实现文件储存与网站分流、服务器扩容等操作。"
+
+#: plugins/multi_server/admin.tpl.php:34
+msgid "server_name"
+msgstr "服务器名称"
+
+#: plugins/multi_server/admin.tpl.php:34
+msgid "server_name_tips"
+msgstr "管理员对分布服务器管理一个标识，任意名称即可。如: 图片服务器，会员服务器等。"
+
+#: plugins/multi_server/admin.tpl.php:38
+msgid "server_oid"
+msgstr "服务器ID标识"
+
+#: plugins/multi_server/admin.tpl.php:38
+msgid "server_oid_tips"
+msgstr "每一个独的服务可填写一个独立的标识，用于管理服务器或是文件迁移等，只要服务器ID不变，数据均不受影响。"
+
+#: plugins/multi_server/admin.tpl.php:42
+msgid "server_host"
+msgstr "服务器/文件储存地址"
+
+#: plugins/multi_server/admin.tpl.php:42
+msgid "server_host_tips"
+msgstr "请以 http:// 或 https:// 开头的服务器地址，请确认您的远程服务器已经配置好，如：http://s1.yoursite.com/ ，以\"/\" 结束。<br>如果需要添加端口，填写如下：http://s1.yoursite.com:8080/"
+
+#: plugins/multi_server/admin.tpl.php:46
+msgid "server_store_path"
+msgstr "文件存储路径"
+
+#: plugins/multi_server/admin.tpl.php:46
+msgid "server_store_path_tips"
+msgstr "此处的文件夹名称必须与远程的服务器下的文件夹名称相同。否则，将会出现无法正常上传文件的问题。<br><span class=\"txtred\">(注意：直接填写名称即可，不必加\"/\"，如果不存在，请使用手动创建并设置可写可读权限。)</span>"
+
+#: plugins/multi_server/admin.tpl.php:50
+msgid "server_key"
+msgstr "通信密钥"
+
+#: plugins/multi_server/admin.tpl.php:50
+msgid "server_key_tips"
+msgstr "此密钥必须与子服务器配置中的密钥相同，无法通信则无法实现远程上传。"
+
+#: plugins/multi_server/admin.tpl.php:51
+msgid "make_random"
+msgstr "随机生成"
+
+#: plugins/multi_server/admin.tpl.php:54
+msgid "server_status"
+msgstr "关闭远程服务器服务"
+
+#: plugins/multi_server/admin.tpl.php:54
+msgid "server_status_tips"
+msgstr "如果远程服务器服务关闭，此服务将无法上传、下载文件，只影响存放文件在此服务器的用户。"
+
+#: plugins/multi_server/admin.tpl.php:58
+msgid "ftp_setting"
+msgstr "远程FTP配置"
+
+#: plugins/multi_server/admin.tpl.php:58
+msgid "ftp_setting_tips"
+msgstr "<span class=\"txtred\">配置远程FTP，用于网盘中文件的删除。</span>"
+
+#: plugins/multi_server/admin.tpl.php:61
+msgid "ftp_host"
+msgstr "服务器FTP主机地址"
+
+#: plugins/multi_server/admin.tpl.php:61
+msgid "ftp_host_tips"
+msgstr "FTP主机地址直接填写IP或域名即可，与FTP软件上设置相同，不必以 ftp:// 或 http:// 等开头。"
+
+#: plugins/multi_server/admin.tpl.php:65
+msgid "ftp_path"
+msgstr "FTP目录"
+
+#: plugins/multi_server/admin.tpl.php:65
+msgid "ftp_path_tips"
+msgstr "目录由数字、字母和下划线组成。 如 files, file/img/ 等"
+
+#: plugins/multi_server/admin.tpl.php:69
+msgid "ftp_port"
+msgstr "FTP端口"
+
+#: plugins/multi_server/admin.tpl.php:69
+msgid "ftp_port_tips"
+msgstr "默认是21，请确认端口的正确，否则，将会无法连接FTP服务器。"
+
+#: plugins/multi_server/admin.tpl.php:73
+msgid "ftp_user"
+msgstr "FTP用户"
+
+#: plugins/multi_server/admin.tpl.php:73
+msgid "ftp_user_tips"
+msgstr "请填入拥有写入、删除文件的FTP用户。<br><span class=\"txtred\">注意：权限不足的FTP用户，在使用网盘的过程会造成写入、删除文件无效的问题。</span>"
+
+#: plugins/multi_server/admin.tpl.php:77
+msgid "ftp_pass"
+msgstr "FTP密码"
+
+#: plugins/multi_server/admin.tpl.php:77
+msgid "ftp_pass_tips"
+msgstr "与此FTP用户对应的密码。"
+
+#: plugins/multi_server/admin.tpl.php:81
+msgid "ftp_pasv"
+msgstr "打开被动模式传输 (PASV MODE) "
+
+#: plugins/multi_server/admin.tpl.php:81
+msgid "ftp_pasv_tips"
+msgstr "在被动模式打开的情况下，数据的传送由客户机启动，而不是由服务器开始。"
+
+#: plugins/multi_server/admin.tpl.php:85
+msgid "ftp_ssl"
+msgstr "启用FTP加密连接"
+
+#: plugins/multi_server/admin.tpl.php:85
+msgid "ftp_ssl_tips"
+msgstr "使用SSL登录FTP。要您的服务器支持此项服务，启用SSL时，FTP速度会稍慢一点。"
+
+#: plugins/multi_server/admin.tpl.php:99
+#: plugins/multi_server/admin.inc.php:45
+#: plugins/multi_server/admin.inc.php:165
+msgid "server_name_error"
+msgstr "服务器名称不能为空，请重新填写"
+
+#: plugins/multi_server/admin.tpl.php:104
+#: plugins/multi_server/admin.inc.php:61
+#: plugins/multi_server/admin.inc.php:181
+msgid "server_host_error"
+msgstr "服务器地址不能为空，请以 http:// 或 https:// 开头的服务器地址"
+
+#: plugins/multi_server/admin.tpl.php:109
+#: plugins/multi_server/admin.inc.php:77
+msgid "server_store_path_error"
+msgstr "请填写子服文件存储目录。"
+
+#: plugins/multi_server/admin.tpl.php:114
+#: plugins/multi_server/admin.inc.php:67
+#: plugins/multi_server/admin.inc.php:191
+msgid "server_key_error"
+msgstr "请填写子服通信密钥。"
+
+#: plugins/multi_server/admin.tpl.php:118
+#: plugins/multi_server/admin.inc.php:81
+#: plugins/multi_server/admin.inc.php:187
+msgid "ftp_host_error"
+msgstr "FTP地址不能为空，请重新填写"
+
+#: plugins/multi_server/admin.tpl.php:123
+#: plugins/multi_server/admin.inc.php:97
+#: plugins/multi_server/admin.inc.php:217
+msgid "ftp_path_error"
+msgstr "FTP文件储存目录不能为空，如果是根路径，请填写 \"/\" (不包括双引号)。只能以数字、字母和下划线组成。"
+
+#: plugins/multi_server/admin.tpl.php:128
+#: plugins/multi_server/admin.inc.php:85
+#: plugins/multi_server/admin.inc.php:201
+msgid "ftp_port_error"
+msgstr "FTP端口只能为数字，默认是21，请确认端口的正确，否则，将会无法连接FTP服务器。"
+
+#: plugins/multi_server/admin.tpl.php:133
+#: plugins/multi_server/admin.inc.php:89
+#: plugins/multi_server/admin.inc.php:205
+msgid "ftp_user_error"
+msgstr "FTP用户名不能为空，请重新填写"
+
+#: plugins/multi_server/admin.tpl.php:138
+#: plugins/multi_server/admin.inc.php:93
+#: plugins/multi_server/admin.inc.php:210
+msgid "ftp_pass_error"
+msgstr "FTP用户密码不能为空，请重新填写"
+
+#: plugins/multi_server/admin.tpl.php:143
+msgid "txt_processing"
+msgstr "处理中..."
+
+#: plugins/multi_server/admin.tpl.php:159
+msgid "server_title"
+msgstr "分布服务器管理"
+
+#: plugins/multi_server/admin.tpl.php:173
+msgid "open_multi_server"
+msgstr "开启多服务器支持"
+
+#: plugins/multi_server/admin.tpl.php:173
+msgid "open_multi_server_tips"
+msgstr "开启此项后，可以网盘支持多服务器文件储存。"
+
+#: plugins/multi_server/admin.tpl.php:185
+msgid "server_list"
+msgstr "服务器列表"
+
+#: plugins/multi_server/admin.tpl.php:191
+msgid "s_name"
+msgstr "名称"
+
+#: plugins/multi_server/admin.tpl.php:192
+msgid "s_host"
+msgstr "主机地址"
+
+#: plugins/multi_server/admin.tpl.php:193
+msgid "s_path"
+msgstr "存储目录"
+
+#: plugins/multi_server/admin.tpl.php:194
+msgid "s_size"
+msgstr "占用"
+
+#: plugins/multi_server/admin.tpl.php:195
+msgid "s_status"
+msgstr "状态"
+
+#: plugins/multi_server/admin.tpl.php:196
+msgid "operation"
+msgstr "操作"
+
+#: plugins/multi_server/admin.tpl.php:210
+msgid "client_status"
+msgstr "子服通信"
+
+#: plugins/multi_server/admin.tpl.php:210
+msgid "test"
+msgstr "测试"
+
+#: plugins/multi_server/admin.tpl.php:211
+msgid "client_env_update"
+msgstr " 子服配置"
+
+#: plugins/multi_server/admin.tpl.php:211
+msgid "update_env"
+msgstr "手动更新"
+
+#: plugins/multi_server/admin.tpl.php:222
+msgid "set_default"
+msgstr "设为默认"
+
+#: plugins/multi_server/admin.tpl.php:224
+msgid "server_del_confirm"
+msgstr "确认删除此服务器?正在使用此服务器的文件与用户将会受到影响。此服务器上的文件请手动删除。"
+
+#: plugins/multi_server/admin.tpl.php:236
+msgid "server_not_found"
+msgstr "没有多服务器设置，文件默认存储于本地程序中。"
+
+#: plugins/multi_server/admin.tpl.php:242
+msgid "add_server"
+msgstr "添加服务器..."
+
+#: plugins/multi_server/admin.inc.php:49
+#: plugins/multi_server/admin.inc.php:57
+#: plugins/multi_server/admin.inc.php:169
+#: plugins/multi_server/admin.inc.php:177
+msgid "server_oid_error"
+msgstr "服务器ID标识已存在，请重新修改。"
+
+#: plugins/multi_server/admin.inc.php:52
+#: plugins/multi_server/admin.inc.php:172
+msgid "server_oid_key_error"
+msgstr "服务器ID必需大于1"
+
+#: plugins/multi_server/admin.inc.php:72
+#: plugins/multi_server/admin.inc.php:196
+msgid "server_key_exists"
+msgstr "子服务器密钥已存在，请重新修改"
+
+#: plugins/multi_server/admin.inc.php:102
+#: plugins/multi_server/admin.inc.php:222
+msgid "server_host_exists"
+msgstr "此服务器已存在，请重新填写"
+
+#: plugins/multi_server/admin.inc.php:122
+msgid "server_add_success"
+msgstr "添加服务器成功"
+
+#: plugins/multi_server/admin.inc.php:244
+msgid "server_edit_success"
+msgstr "服务器配置修改成功"
+
+#: plugins/multi_server/admin.inc.php:283
+msgid "cannot_del_server"
+msgstr "系统检测到还有其他文件使用该服务器，不能删除。"
+
+#: plugins/multi_server/admin.inc.php:287
+msgid "server_del_success"
+msgstr "服务器删除成功"
+
+#: plugins/multi_server/admin.inc.php:302
+msgid "server_oid_set_error"
+msgstr "服务器参数不正确，请确认。"
+
+#: plugins/multi_server/admin.inc.php:307
+msgid "server_set_default_success"
+msgstr "服务器设置默认成功"
+
+#: plugins/multi_server/admin.inc.php:325
+msgid "multi_update_success"
+msgstr "分布服务器更新成功。"
+
+#: plugins/multi_server/admin.inc.php:337
+msgid "default_server"
+msgstr "默认"
+
+#: plugins/multi_server/admin.inc.php:338
+msgid "closed"
+msgstr "已暂停"
+
+#: plugins/multi_server/admin.inc.php:338
+msgid "using"
+msgstr "使用中"
+
+#: plugins/filelog/admin.inc.php:60
+msgid "del_log_success"
+msgstr "日志删除成功。"
+
+#: plugins/filelog/admin.inc.php:81
+msgid "del_log_confirm"
+msgstr "确认删除此日志？"
+
+#: plugins/filelog/admin.inc.php:97
+msgid "filelog_update_success"
+msgstr "文件日志配置成功。"
+
+#: plugins/filelog/admin.tpl.php:15
+msgid "user_stats_title"
+msgstr "文件日志管理"
+
+#: plugins/filelog/admin.tpl.php:18
+msgid "user_down_stats_tips"
+msgstr "该统计信息将会统计用户对网盘的上传/下载日志，可以有效地控制文件内容。"
+
+#: plugins/filelog/admin.tpl.php:26
+msgid "open_filelog"
+msgstr "开启文件记录"
+
+#: plugins/filelog/admin.tpl.php:26
+msgid "open_filelog_tips"
+msgstr "系统会统计用户上传，下载的文件记录。<br><span class=\"txtred\">(要开启此项时，下面两项才会生效，此项会消耗一定的服务器资源。)</span>"
+
+#: plugins/filelog/admin.tpl.php:30
+msgid "open_upload_filelog"
+msgstr "开启文件上传记录"
+
+#: plugins/filelog/admin.tpl.php:30
+msgid "open_upload_filelog_tips"
+msgstr "用户上传文件时，会生成文件的上传记录。"
+
+#: plugins/filelog/admin.tpl.php:34
+msgid "open_down_filelog"
+msgstr "开启文件下载记录"
+
+#: plugins/filelog/admin.tpl.php:34
+msgid "open_down_filelog_tips"
+msgstr "用户下载文件时，会生成文件的下载记录。"
+
+#: plugins/filelog/admin.tpl.php:49
+msgid "filename"
+msgstr "日志名称"
+
+#: plugins/filelog/admin.tpl.php:50
+msgid "file_size"
+msgstr "文件大小"
+
+#: plugins/filelog/admin.tpl.php:74
+msgid "log_not_found"
+msgstr "暂无日志记录"
+
+#: plugins/filelog/admin.tpl.php:90
+msgid "view_log"
+msgstr "浏览日志:"
+
+#: plugins/filelog/functions.inc.php:29
+#: plugins/filelog/functions.inc.php:56
+msgid "log_prefix"
+msgstr "PHPDISK文件操作日志"
+
+#: plugins/filelog/functions.inc.php:42
+#: plugins/filelog/functions.inc.php:63
+msgid "log_format"
+msgstr "序号|文件名称|文件大小|日志类型|上传者|下载者|文件大小|日志时间|日志IP"
+
+#: plugins/disk/admin.inc.php:38
+#: plugins/disk/admin.inc.php:92
+#: plugins/disk/admin.tpl.php:71
+msgid "disk_title_error"
+msgstr "网盘标题不能为空，长度为2-50字符之间。"
+
+#: plugins/disk/admin.inc.php:42
+#: plugins/disk/admin.inc.php:96
+#: plugins/disk/admin.tpl.php:76
+msgid "disk_space_error"
+msgstr "请填写网盘空间的大小"
+
+#: plugins/disk/admin.inc.php:46
+#: plugins/disk/admin.inc.php:100
+#: plugins/disk/admin.tpl.php:81
+msgid "disk_price_error"
+msgstr "请填写购买此网盘付出的积分价格"
+
+#: plugins/disk/admin.inc.php:51
+#: plugins/disk/admin.inc.php:105
+msgid "disk_title_exists"
+msgstr "网盘标题已存在"
+
+#: plugins/disk/admin.inc.php:63
+msgid "add_disk_success"
+msgstr "添加网盘套餐成功"
+
+#: plugins/disk/admin.inc.php:118
+msgid "modify_disk_success"
+msgstr "修改网盘套餐成功"
+
+#: plugins/disk/admin.inc.php:149
+msgid "disk_plan_is_using"
+msgstr "当前套餐还有用户在使用，不能删除。如果您要取消此套餐，请设置为隐藏，等待使用的用户到期后，套餐才可删除。"
+
+#: plugins/disk/admin.inc.php:154
+msgid "delete_disk_success"
+msgstr "套餐删除成功。"
+
+#: plugins/disk/admin.inc.php:237
+msgid "disks_update_success"
+msgstr "网盘销售配置更新成功。"
+
+#: plugins/disk/admin.tpl.php:19
+msgid "add_disk_title"
+msgstr "添加网盘销售"
+
+#: plugins/disk/admin.tpl.php:21
+msgid "modify_disk_title"
+msgstr "修改网盘销售"
+
+#: plugins/disk/admin.tpl.php:25
+msgid "add_disk_list_tips"
+msgstr "您可以自定义网盘销售套餐，您的用户可以使用积分购买网盘空间。"
+
+#: plugins/disk/admin.tpl.php:34
+#: plugins/disk/admin.tpl.php:109
+msgid "disk_title"
+msgstr "套餐标题"
+
+#: plugins/disk/admin.tpl.php:34
+msgid "disk_title_tips"
+msgstr "设定销售计划的标题，如：300MB 标准网盘，1G VIP网盘等"
+
+#: plugins/disk/admin.tpl.php:38
+msgid "disk_logo"
+msgstr "套餐LOGO"
+
+#: plugins/disk/admin.tpl.php:38
+msgid "disk_logo_tips"
+msgstr "您可以为此网盘套餐设定一个LOGO，达到美化的效果，可以为绝对地址或相对地址，显示于用户购买的页面中。"
+
+#: plugins/disk/admin.tpl.php:42
+msgid "disk_space"
+msgstr "网盘空间"
+
+#: plugins/disk/admin.tpl.php:42
+msgid "disk_space_tips"
+msgstr "此销售计划的网盘大小，用户购买后，将会直接附加到他的帐号上。格式： 1G , 300M 等"
+
+#: plugins/disk/admin.tpl.php:46
+msgid "disk_price"
+msgstr "网盘价格"
+
+#: plugins/disk/admin.tpl.php:46
+msgid "disk_price_tips"
+msgstr "网盘价格将以PHPDISK系统的积分作为交换货币。此处只填数字即可。"
+
+#: plugins/disk/admin.tpl.php:47
+#: plugins/disk/admin.tpl.php:111
+msgid "credit"
+msgstr "积分"
+
+#: plugins/disk/admin.tpl.php:50
+msgid "disk_expire"
+msgstr "使用期限"
+
+#: plugins/disk/admin.tpl.php:50
+msgid "disk_expire_tips"
+msgstr "从用户购买的时间起，在相应的时间内可以使用，过期后租用空间将会自动关闭，不能上传新的文件，旧的文件仍然可以使用、下载等。"
+
+#: plugins/disk/admin.tpl.php:52
+msgid "disk_half_month"
+msgstr "半个月(按15天算)"
+
+#: plugins/disk/admin.tpl.php:53
+msgid "disk_one_month"
+msgstr "一个月(按30天算)"
+
+#: plugins/disk/admin.tpl.php:54
+msgid "disk_two_month"
+msgstr "两个月(按60天算)"
+
+#: plugins/disk/admin.tpl.php:55
+msgid "disk_three_month"
+msgstr "三个月(按90天算)"
+
+#: plugins/disk/admin.tpl.php:56
+msgid "disk_half_year"
+msgstr "半年(按180天算)"
+
+#: plugins/disk/admin.tpl.php:57
+msgid "disk_one_year"
+msgstr "一年(按365天算)"
+
+#: plugins/disk/admin.tpl.php:86
+msgid "cur_plan_has_user"
+msgstr "您当前修改的网盘套餐已经有用户在使用了，如果强行修改，用户使用中的服务将会一起更改。"
+
+#: plugins/disk/admin.tpl.php:98
+#: plugins/disk/admin.tpl.php:155
+msgid "disks_title"
+msgstr "网盘销售管理"
+
+#: plugins/disk/admin.tpl.php:101
+#: plugins/disk/admin.tpl.php:158
+msgid "disks_list_tips"
+msgstr "此处可修改、管理您的网盘销售计划。注意：批量更新，如果标题为空，系统则不会更新该记录。"
+
+#: plugins/disk/admin.tpl.php:105
+#: plugins/disk/admin.tpl.php:234
+msgid "view_disks_users"
+msgstr "查看购买情况"
+
+#: plugins/disk/admin.tpl.php:105
+msgid "view_tips"
+msgstr "红色代表已过期"
+
+#: plugins/disk/admin.tpl.php:108
+#: plugins/disk/admin.tpl.php:192
+msgid "space"
+msgstr "网盘大小"
+
+#: plugins/disk/admin.tpl.php:110
+msgid "user"
+msgstr "用户"
+
+#: plugins/disk/admin.tpl.php:111
+#: plugins/disk/admin.tpl.php:210
+msgid "day"
+msgstr "天"
+
+#: plugins/disk/admin.tpl.php:112
+msgid "starttime"
+msgstr "购买时间"
+
+#: plugins/disk/admin.tpl.php:113
+msgid "endtime"
+msgstr "结束时间"
+
+#: plugins/disk/admin.tpl.php:135
+msgid "not_one_to_buy"
+msgstr "暂无用户购买记录"
+
+#: plugins/disk/admin.tpl.php:146
+msgid "back_to_disk"
+msgstr "返回首页"
+
+#: plugins/disk/admin.tpl.php:166
+msgid "open_disks"
+msgstr "开启网盘销售"
+
+#: plugins/disk/admin.tpl.php:166
+msgid "open_disks_tips"
+msgstr "只有开启之后，用户才能实现在线购买。"
+
+#: plugins/disk/admin.tpl.php:183
+msgid "disk_plan"
+msgstr "网盘销售套餐"
+
+#: plugins/disk/admin.tpl.php:189
+msgid "show_order"
+msgstr "排序"
+
+#: plugins/disk/admin.tpl.php:190
+msgid "title"
+msgstr "无标题文档"
+
+#: plugins/disk/admin.tpl.php:191
+msgid "person_info"
+msgstr "使用中/总数"
+
+#: plugins/disk/admin.tpl.php:193
+msgid "price"
+msgstr "购买积分"
+
+#: plugins/disk/admin.tpl.php:194
+msgid "expire"
+msgstr "租用时间"
+
+#: plugins/disk/admin.tpl.php:207
+msgid "person"
+msgstr "人"
+
+#: plugins/disk/admin.tpl.php:214
+msgid "disk_delete_confirm"
+msgstr "确认删除？此操作不能恢复。"
+
+#: plugins/disk/admin.tpl.php:225
+msgid "disk_not_found"
+msgstr "暂无网盘销售计划。"
+
+#: plugins/disk/admin.tpl.php:232
+msgid "btn_update"
+msgstr " 更 新 "
+
+#: plugins/disk/admin.tpl.php:233
+msgid "add_disk"
+msgstr "添加新网盘..."
+
+#: plugins/api/admin.inc.php:51
+msgid "uc_dbhost_error"
+msgstr "请填写UCenter数据库主机地址"
+
+#: plugins/api/admin.inc.php:55
+msgid "uc_dbuser_error"
+msgstr "请填写UCenter数据库用户"
+
+#: plugins/api/admin.inc.php:60
+msgid "uc_dbpwd_error"
+msgstr "请填写UCenter数据库密码"
+
+#: plugins/api/admin.inc.php:67
+msgid "uc_dbname_error"
+msgstr "请填写UCenter数据库名称"
+
+#: plugins/api/admin.inc.php:71
+msgid "uc_dbtablepre_error"
+msgstr "请填写UCenter数据表前缀"
+
+#: plugins/api/admin.inc.php:75
+msgid "uc_key_error"
+msgstr "请填写PHPDISK密钥，与UCenter后台保持一致"
+
+#: plugins/api/admin.inc.php:79
+msgid "uc_api_error"
+msgstr "请填写UCenter服务器的URL"
+
+#: plugins/api/admin.inc.php:83
+msgid "uc_appid_error"
+msgstr "请填写PHPDISK在UCenter中的应用ID"
+
+#: plugins/api/admin.inc.php:98
+msgid "uc_admin_error"
+msgstr "UCenter管理员帐号 [<span class=\"txtred\">'.$settings['uc_admin'].'</span>] 不存在，请重新填写。"
+
+#: plugins/api/admin.inc.php:134
+msgid "uc_update_success"
+msgstr "UCenter配置更新成功。"
+
+#: plugins/api/admin.tpl.php:16
+msgid "api_manage"
+msgstr "通行证整合"
+
+#: plugins/api/admin.tpl.php:19
+msgid "api_manage_tips"
+msgstr "使用此程序与一些常用的系统进行整合，实现同步注册、登录、资源推送、积分兑换等。支持 <a href=\"http://www.discuz.net\" target=\"_blank\">康盛UC(Discuz)</a> 和 <a href=\"http://www.phpwind.net\" target=\"_blank\">phpwind8 UC</a> 整合。"
+
+#: plugins/api/admin.tpl.php:27
+msgid "connect_uc"
+msgstr "整合UCenter"
+
+#: plugins/api/admin.tpl.php:27
+msgid "connect_uc_tips"
+msgstr "整合UC后，系统将可以与所有已经整合UC的程序通信，实现同步注册、登录等。<br><span class=\"txtred\">(注意：启用UCenter整合后，PHPDISK的管理员帐号将会自动与UCenter的管理员帐号同步。)</span><br><span class=\"txtblue\">如果整合后无法登录，请看教程>><br><a href=\"http://faq.phpdisk.com/connect-uc-error-9-view.html\" target=\"_blank\">解决整合UC或登录时出现Error:，Errno:0等无法登录现象</a></span>"
+
+#: plugins/api/admin.tpl.php:32
+msgid "connect_uc_type"
+msgstr "整合UC类型"
+
+#: plugins/api/admin.tpl.php:32
+msgid "connect_uc_type_tips"
+msgstr "康盛UC(Discuz) 或 phpwind8版UC。<br>康盛UC(Discuz)整合教程：<a href=\"http://faq.phpdisk.com/phpdisk-connect-discuz-uc-13-view.html\" target=\"_blank\">phpdisk整合康盛UC图文教程</a><br>phpwind8版UC整合教程：<a href=\"http://faq.phpdisk.com/phpdisk-connect-phpwind-uc-14-view.html\" target=\"_blank\">phpdisk整合phpwind UC图文教程</a>"
+
+#: plugins/api/admin.tpl.php:33
+msgid "uc_type_discuz"
+msgstr "康盛UC(Discuz,DiscuzX)"
+
+#: plugins/api/admin.tpl.php:33
+msgid "uc_type_phpwind"
+msgstr "phpwind8 UC"
+
+#: plugins/api/admin.tpl.php:37
+msgid "uc_charset"
+msgstr "UCenter系统编码"
+
+#: plugins/api/admin.tpl.php:37
+msgid "uc_charset_tips"
+msgstr "请根据您的PHPDISK系统编码，下载安装相应的UC编码系统"
+
+#: plugins/api/admin.tpl.php:44
+msgid "uc_admin"
+msgstr "UCenter管理员帐号"
+
+#: plugins/api/admin.tpl.php:44
+msgid "uc_admin_tips"
+msgstr "登录、管理UCenter的管理员帐号，拥有管理UCenter的最高权限。"
+
+#: plugins/api/admin.tpl.php:48
+msgid "uc_dbhost"
+msgstr "UCenter主机地址"
+
+#: plugins/api/admin.tpl.php:48
+msgid "uc_dbhost_tips"
+msgstr "您安装UC所对应的数据库服务器，如果是远程数据，请在数据库用户中开启远程访问模式。<span class=\"txtred\">(请填写IP或域名，不必以 http:// 等开头。)</span>"
+
+#: plugins/api/admin.tpl.php:52
+msgid "uc_dbuser"
+msgstr "UCenter数据库用户"
+
+#: plugins/api/admin.tpl.php:52
+msgid "uc_dbuser_tips"
+msgstr "您UC系统数据库用户名。"
+
+#: plugins/api/admin.tpl.php:56
+msgid "uc_dbpwd"
+msgstr "UCenter数据库密码"
+
+#: plugins/api/admin.tpl.php:56
+msgid "uc_dbpwd_tips"
+msgstr "您UC系统中数据库用户对应的密码，请不要使用 单引号,双引号 等特殊字符。"
+
+#: plugins/api/admin.tpl.php:60
+msgid "uc_dbname"
+msgstr "UCenter数据库名称"
+
+#: plugins/api/admin.tpl.php:60
+msgid "uc_dbname_tips"
+msgstr "如果您的UC系统与PHPDISK系统是安装在同一个数据库的，请填写PHPDISK的数据库名称。"
+
+#: plugins/api/admin.tpl.php:64
+msgid "uc_dbtablepre"
+msgstr "数据表前缀"
+
+#: plugins/api/admin.tpl.php:64
+msgid "uc_dbtablepre_tips"
+msgstr "UC系统默认的是 \"uc_\" ，如果您更改过前缀，请修改此项。"
+
+#: plugins/api/admin.tpl.php:68
+msgid "uc_appid"
+msgstr "应用程序ID"
+
+#: plugins/api/admin.tpl.php:68
+msgid "uc_appid_tips"
+msgstr "PHPDISK在UCenter后台的应用ID，可以登录UC的后台进行查看，确保在UC的后台中已添加此项，否则无法实现通信。"
+
+#: plugins/api/admin.tpl.php:72
+msgid "uc_key"
+msgstr "整合密钥"
+
+#: plugins/api/admin.tpl.php:72
+msgid "uc_key_tips"
+msgstr "请与UCenter管理后台设定的密钥一致，否则，系统将无法实现同步通信。"
+
+#: plugins/api/admin.tpl.php:76
+msgid "uc_api"
+msgstr "UCenter服务器访问地址"
+
+#: plugins/api/admin.tpl.php:76
+msgid "uc_api_tips"
+msgstr "格式： http://www.yoursite.com/uc_server , 最后不要加 \"/\" 线。"
+
+#: plugins/api/admin.tpl.php:80
+msgid "uc_feed"
+msgstr "开启事件推送"
+
+#: plugins/api/admin.tpl.php:80
+msgid "uc_feed_tips"
+msgstr "开启后，PHPDISK将会把用户上传、共享等事件发送给UC，显示于UCHome等SNS系统"
+
+#: plugins/api/admin.tpl.php:85
+msgid "uc_credit_exchange"
+msgstr "开启积分兑换"
+
+#: plugins/api/admin.tpl.php:85
+msgid "uc_credit_exchange_tips"
+msgstr "允许用户在PHPDISK中的积分与其他的程序进行兑换，请先在UCenter后台中设置好积分的转换规则。"
+
+#: plugins/api/functions.inc.php:41
+msgid "upload_public"
+msgstr "上传了公共文件"
+
+#: plugins/advance/admin.inc.php:48
+msgid "advance_update_success"
+msgstr "系统高级配置更新成功。"
+
+#: plugins/advance/admin.inc.php:63
+msgid "not_windows_true_name_tips"
+msgstr "注意：您当前的服务器系统可能不支持中文名称下载，请点击测试进行判断。"
+
+#: plugins/advance/admin.tpl.php:15
+msgid "advance_manage"
+msgstr "高级配置插件"
+
+#: plugins/advance/admin.tpl.php:18
+msgid "advance_manage_tips"
+msgstr "此插件可以通过在插件中简单的设置，即可实现如：可外链域名，页面版权的删除，程序调试信息显示等配置。"
+
+#: plugins/advance/admin.tpl.php:26
+msgid "thumb_size"
+msgstr "缩略图大小"
+
+#: plugins/advance/admin.tpl.php:26
+msgid "thumb_size_tips"
+msgstr "网盘上传文件时，图片文件会自动生成缩略图，请确认您的服务器支持GD函数库。默认大小为120*90(px)"
+
+#: plugins/advance/admin.tpl.php:27
+msgid "width"
+msgstr "长"
+
+#: plugins/advance/admin.tpl.php:27
+msgid "height"
+msgstr "宽"
+
+#: plugins/advance/admin.tpl.php:30
+msgid "store_true_filename"
+msgstr "原文件名储存"
+
+#: plugins/advance/admin.tpl.php:30
+msgid "store_true_filename_tips"
+msgstr "PHPDISK底层文件储存，不使用加密文件名的方式去存放，下载时也使用直接文件名去下载，类似下载站的功能。<br><span class=\"txtred\">(注意:请确认你的服务器支持中文文件名称下载，下载下来的文件无乱码现象，才能开启此选项，否则，上传后的文件也无法下载。)</span>"
+
+#: plugins/advance/admin.tpl.php:31
+#: plugins/advance/admin.tpl.php:70
+msgid "true_filename_test"
+msgstr "中文名称下载测试.zip"
+
+#: plugins/advance/admin.tpl.php:34
+msgid "open_link"
+msgstr "允许外链访问"
+
+#: plugins/advance/admin.tpl.php:34
+msgid "open_link_tips"
+msgstr "外链开启后，用户可以直接使用网站的URL访问网盘上的文件。如果服务器流量过大，可关闭此模块。<br><span class=\"txtred\">如果只想对部分网站开启外链，请先设置为“否”，之后再将目标网站填入文本框内。每一行代表一个(组)域名，网站开头不要填写 http:// (泛域名格式：*.yoursite.com 形式)。</span>"
+
+#: plugins/advance/admin.tpl.php:42
+msgid "debug_info"
+msgstr "页面调试信息"
+
+#: plugins/advance/admin.tpl.php:42
+msgid "debug_info_tips"
+msgstr "页面显示调试信息，在页面最底部的信息，如 Processed in 0.025609 second(s)等，仅限于用户浏览模块，此设置对管理员后台面板无效。"
+
+#: plugins/advance/admin.tpl.php:46
+msgid "version_info"
+msgstr "当前版本信息"
+
+#: plugins/advance/admin.tpl.php:46
+msgid "version_info_tips"
+msgstr "管理员设置用户系统的底部是否显示当前所用PHPDisk系统的版本信息(仅限于网站的前台页面)。"
+
+#: plugins/advance/admin.tpl.php:50
+msgid "powered_info"
+msgstr "显示版权信息"
+
+#: plugins/advance/admin.tpl.php:50
+msgid "powered_info_tips"
+msgstr "显示于页面标题及页面底部的 Powered by PHPDisk Team 版权信息，只有商业、企业授权用户可去掉此信息。<span class=\"txtred\">(建议保留，算是对本产品的支持。)</span>"
+
+#: plugins/advance/admin.tpl.php:64
+msgid "js_file_path"
+msgstr "存放上传文件目录不能为空"
+
+#: plugins/phpdisk_client/admin.inc.php:34
+msgid "client_store_abspath_not_set"
+msgstr "客户端上传临时存储区未设置"
+
+#: plugins/phpdisk_client/admin.inc.php:37
+msgid "client_store_abspath_error"
+msgstr "客户端上传临时存储区目录需要以/线结束"
+
+#: plugins/phpdisk_client/admin.inc.php:41
+msgid "phpdisk_client_update_success"
+msgstr "客户端配置更新成功"
+
+#: plugins/phpdisk_client/admin.tpl.php:15
+msgid "phpdisk_client_title"
+msgstr "配置网盘客户端"
+
+#: plugins/phpdisk_client/admin.tpl.php:18
+msgid "phpdisk_client_tips"
+msgstr "为您的专用网盘客户端生成相应的配置。可以让您的系统实现网盘客户端上传、下载"
+
+#: plugins/phpdisk_client/admin.tpl.php:26
+msgid "open_phpdisk_client"
+msgstr "开启客户端功能"
+
+#: plugins/phpdisk_client/admin.tpl.php:26
+msgid "open_phpdisk_client_tips"
+msgstr "开关开启后，客户端才能正常使用。"
+
+#: plugins/phpdisk_client/admin.tpl.php:30
+msgid "client_store_abspath"
+msgstr "客户端上传临时存储区"
+
+#: plugins/phpdisk_client/admin.tpl.php:30
+msgid "client_store_abspath_tips"
+msgstr "服务器上配置的FTP需要指定在这个目录，同时需要有写入修改权限，linux下为777权限。Window系统格式为 D:/www/clientstores/ ，linux下如 /home/www/clientstores/ <span class=\"txtred\">注意：此目录不需要在不需要WEB地址的访问，为了安全，请指定于一个浏览器无法打开的路径上！！</span>"
+
+#: plugins/phpdisk_client/admin.tpl.php:34
+msgid "client_api_key"
+msgstr "客户端通信密钥"
+
+#: plugins/phpdisk_client/admin.tpl.php:34
+msgid "client_api_key_tips"
+msgstr "此密钥通过官方网站(<a href=\"http://www.phpdisk.com/\" target=\"_blank\">http://www.phpdisk.com</a>)【用户中心】-【客户端配置】进行设置，由官方提供的密钥生成工具进行密钥生成。"
+
+#: plugins/phpdisk_client/admin.tpl.php:35
+msgid "truncate"
+msgstr "清空"
+
+#: system/templates/default/pd_header.tpl.php:66
+msgid "Logout now?"
+msgstr "确认退出系统？"
+
+#: system/templates/default/pd_header.tpl.php:66
+msgid "logout"
+msgstr "退出"
+
+#: system/templates/default/pd_header.tpl.php:68
+msgid "unactivated"
+msgstr "未激活"
+
+#: system/templates/default/pd_header.tpl.php:70
+msgid "mydisk"
+msgstr "我的网盘"
+
+#: system/templates/default/pd_header.tpl.php:73
+msgid "admincp"
+msgstr "系统管理"
+
+#: system/templates/default/pd_header.tpl.php:76
+msgid "login"
+msgstr "登录"
+
+#: system/templates/default/pd_header.tpl.php:77
+msgid "register"
+msgstr "注册"
+
+#: system/templates/default/pd_header.tpl.php:80
+msgid "share_file"
+msgstr "共享文件"
+
+#: system/templates/default/pd_header.tpl.php:83
+msgid "file_extract"
+msgstr "提取文件"
+
+#: system/templates/default/pd_header.tpl.php:84
+msgid "search"
+msgstr "搜索"
+
+#: system/templates/default/phpdisk.tpl.php:46
+msgid "verycode"
+msgstr "验证码"
+
+#: system/templates/default/phpdisk.tpl.php:46
+msgid "refresh"
+msgstr "刷新"
+
+#: system/templates/default/phpdisk.tpl.php:56
+msgid "demo_login"
+msgstr "演示帐号登录"
+
+#: system/templates/default/phpdisk.tpl.php:83
+msgid "user_info"
+msgstr "用户信息"
+
+#: system/templates/default/phpdisk.tpl.php:86
+msgid "hello"
+msgstr "您好"
+
+#: system/templates/default/phpdisk.tpl.php:87
+msgid "rank"
+msgstr "级"
+
+#: system/templates/default/phpdisk.tpl.php:87
+msgid "next_rank_exp"
+msgstr "距离下一级还差经验"
+
+#: system/templates/default/phpdisk.tpl.php:91
+msgid "total_folders"
+msgstr "文件夹"
+
+#: system/templates/default/phpdisk.tpl.php:92
+msgid "total_files"
+msgstr "共有文件"
+
+#: system/templates/default/phpdisk.tpl.php:93
+msgid "total_share_files"
+msgstr "共享文件"
+
+#: system/templates/default/phpdisk.tpl.php:94
+msgid "file_size_total"
+msgstr "占用空间"
+
+#: system/templates/default/phpdisk.tpl.php:95
+msgid "last_login_ip"
+msgstr "最后登录"
+
+#: system/templates/default/phpdisk.tpl.php:110
+msgid "last_user_list"
+msgstr "新加入用户"
+
+#: system/templates/default/phpdisk.tpl.php:129
+msgid "site_stat"
+msgstr "网站统计"
+
+#: system/templates/default/phpdisk.tpl.php:130
+msgid "welcome_member"
+msgstr "欢迎新会员"
+
+#: system/templates/default/phpdisk.tpl.php:130
+msgid "all_member"
+msgstr "共有会员"
+
+#: system/templates/default/phpdisk.tpl.php:130
+msgid "all_storage"
+msgstr "占用空间"
+
+#: system/templates/default/pd_tag.tpl.php:38
+msgid "last_tag_title"
+msgstr "最新标签"
+
+#: system/templates/default/pd_tag.tpl.php:57
+msgid "hot_tag_title"
+msgstr "热门标签"
+
+#: system/templates/default/pd_tag.tpl.php:81
+msgid "file_name"
+msgstr "文件名"
+
+#: system/templates/default/pd_tag.tpl.php:83
+msgid "file_upload_time"
+msgstr "上传时间"
+
+#: system/templates/default/information.tpl.php:24
+msgid "tips_message"
+msgstr "提示信息"
+
+#: system/templates/default/information.tpl.php:27
+msgid "click_to_back"
+msgstr "< 如果您的浏览器不能自动跳转，请点击此处继续操作 >"
+
+#: system/templates/default/pd_account.tpl.php:27
+msgid "phpdisk_login"
+msgstr "网盘用户登录"
+
+#: system/templates/default/pd_account.tpl.php:52
+#: system/templates/default/pd_account.tpl.php:190
+msgid "forget_pwd"
+msgstr "找回密码"
+
+#: system/templates/default/pd_account.tpl.php:69
+msgid "warning_remember"
+msgstr "请不要在公共计算机是勾选此项"
+
+#: system/templates/default/pd_account.tpl.php:69
+msgid "remember_me"
+msgstr "记住帐号"
+
+#: system/templates/default/pd_account.tpl.php:208
+#: system/templates/default/pd_account.tpl.php:336
+msgid "reg_username"
+msgstr "用户名"
+
+#: system/templates/default/pd_account.tpl.php:235
+#: system/templates/default/pd_account.tpl.php:382
+msgid "username_too_short"
+msgstr "您注册的用户名过短，请重新输入。"
+
+#: system/templates/default/pd_account.tpl.php:254
+msgid "reset_pwd"
+msgstr "密码重置"
+
+#: system/templates/default/pd_account.tpl.php:293
+#: system/templates/default/pd_account.tpl.php:387
+msgid "password_too_short"
+msgstr "您输入的密码过短，请重新输入"
+
+#: system/templates/default/pd_account.tpl.php:310
+msgid "phpdisk_register"
+msgstr "新用户注册"
+
+#: system/templates/default/pd_account.tpl.php:330
+msgid "invite_name"
+msgstr "邀请人"
+
+#: system/templates/default/pd_account.tpl.php:367
+msgid "already_register"
+msgstr "我已经注册"
+
+#: system/templates/default/pd_account.tpl.php:415
+msgid "system_message"
+msgstr "系统提示"
+
+#: system/templates/default/pd_account.tpl.php:432
+msgid "active_user_tit"
+msgstr "邮件激活用户"
+
+#: system/templates/default/pd_account.tpl.php:440
+msgid "active_user_tips"
+msgstr "如果您的帐号没收到邮件，请重新发送激活帐号邮件或联系管理员。"
+
+#: system/templates/default/pd_account.tpl.php:456
+msgid "btn_active"
+msgstr "激活帐号"
+
+#: system/templates/default/mydisk.tpl.php:29
+#: system/templates/default/mydisk.tpl.php:95
+msgid "close_menu"
+msgstr "关闭"
+
+#: system/templates/default/mydisk.tpl.php:35
+#: system/templates/default/mydisk.tpl.php:90
+msgid "open_menu"
+msgstr "打开"
+
+#: system/templates/default/mydisk.tpl.php:52
+msgid "welcome"
+msgstr "欢迎您"
+
+#: system/templates/default/mydisk.tpl.php:52
+msgid "user_group"
+msgstr "用户组"
+
+#: system/templates/default/mydisk.tpl.php:57
+msgid "confirm_logout"
+msgstr "确认退出系统？"
+
+#: system/templates/default/mydisk.tpl.php:61
+msgid "menu_my_file"
+msgstr "我的文件"
+
+#: system/templates/default/mydisk.tpl.php:62
+msgid "menu_public_file"
+msgstr "公共文件"
+
+#: system/templates/default/mydisk.tpl.php:63
+msgid "menu_profile_center"
+msgstr "个人中心"
+
+#: system/templates/default/mydisk.tpl.php:64
+msgid "menu_recycle"
+msgstr "回收站"
+
+#: system/templates/default/mydisk.tpl.php:66
+msgid "menu_disk_buy"
+msgstr "购买空间"
+
+#: system/templates/default/menu.tpl.php:47
+msgid "folder_list"
+msgstr "网盘目录"
+
+#: system/templates/default/menu.tpl.php:56
+#: system/templates/default/pd_public.tpl.php:113
+msgid "public_category"
+msgstr "公共分类"
+
+#: system/templates/default/menu.tpl.php:65
+#: system/templates/default/menu.tpl.php:126
+msgid "data_stats"
+msgstr "数据统计"
+
+#: system/templates/default/menu.tpl.php:67
+#: system/templates/default/menu.tpl.php:129
+msgid "file_count"
+msgstr "文件数"
+
+#: system/templates/default/menu.tpl.php:68
+#: system/templates/default/menu.tpl.php:130
+#: system/templates/default/files.tpl.php:164
+#: system/templates/default/disk.tpl.php:115
+msgid "total_space"
+msgstr "占用"
+
+#: system/templates/default/menu.tpl.php:73
+msgid "menu_profile"
+msgstr "个人面板"
+
+#: system/templates/default/menu.tpl.php:75
+msgid "menu_mypower"
+msgstr "个人中心"
+
+#: system/templates/default/menu.tpl.php:76
+msgid "menu_password_modify"
+msgstr "密码修改"
+
+#: system/templates/default/menu.tpl.php:77
+msgid "menu_credit_exchange"
+msgstr "兑换中心"
+
+#: system/templates/default/menu.tpl.php:79
+msgid "menu_profile_payment"
+msgstr "在线充值"
+
+#: system/templates/default/menu.tpl.php:80
+msgid "menu_profile_history"
+msgstr "支付历史"
+
+#: system/templates/default/menu.tpl.php:83
+msgid "menu_stats_down"
+msgstr "下载统计"
+
+#: system/templates/default/menu.tpl.php:89
+msgid "menu_buddy"
+msgstr "好友管理"
+
+#: system/templates/default/menu.tpl.php:91
+msgid "menu_my_buddy"
+msgstr "我的好友"
+
+#: system/templates/default/menu.tpl.php:92
+msgid "menu_who_buddy"
+msgstr "加我的好友"
+
+#: system/templates/default/menu.tpl.php:93
+msgid "menu_invite_buddy"
+msgstr "邀请注册"
+
+#: system/templates/default/menu.tpl.php:94
+msgid "menu_invite_success_buddy"
+msgstr "邀请成功"
+
+#: system/templates/default/menu.tpl.php:99
+msgid "menu_message"
+msgstr "消息管理"
+
+#: system/templates/default/menu.tpl.php:101
+msgid "menu_msg_inbox"
+msgstr "收件箱"
+
+#: system/templates/default/menu.tpl.php:102
+msgid "menu_msg_sendbox"
+msgstr "已发送"
+
+#: system/templates/default/menu.tpl.php:108
+msgid "menu_op_panel"
+msgstr "操作面板"
+
+#: system/templates/default/menu.tpl.php:111
+msgid "menu_disk_setting"
+msgstr "空间管理"
+
+#: system/templates/default/menu.tpl.php:118
+msgid "menu_files_recycle"
+msgstr "文件回收站"
+
+#: system/templates/default/menu.tpl.php:120
+msgid "menu_delete_all"
+msgstr "清空回收站"
+
+#: system/templates/default/menu.tpl.php:121
+msgid "menu_restore_all"
+msgstr "全部还原"
+
+#: system/templates/default/menu.tpl.php:128
+msgid "folder_count"
+msgstr "文件夹"
+
+#: system/templates/default/files.tpl.php:43
+#: system/templates/default/files.tpl.php:80
+#: system/templates/default/files.tpl.php:124
+msgid "hidden_sub_folder"
+msgstr "隐藏目录"
+
+#: system/templates/default/files.tpl.php:48
+#: system/templates/default/files.tpl.php:120
+msgid "expand_sub_folder"
+msgstr "显示目录"
+
+#: system/templates/default/files.tpl.php:100
+msgid "sub_dir"
+msgstr "子目录数"
+
+#: system/templates/default/files.tpl.php:144
+#: system/templates/default/files.tpl.php:305
+#: system/templates/default/public.tpl.php:153
+msgid "file_description"
+msgstr "描述"
+
+#: system/templates/default/files.tpl.php:148
+#: system/templates/default/files.tpl.php:191
+#: system/templates/default/public.tpl.php:78
+msgid "file_modify"
+msgstr "修改文件"
+
+#: system/templates/default/files.tpl.php:148
+#: system/templates/default/files.tpl.php:192
+#: system/templates/default/public.tpl.php:79
+#: system/templates/default/public.tpl.php:106
+msgid "file_delete"
+msgstr "删除文件"
+
+#: system/templates/default/files.tpl.php:179
+msgid "file_unshare"
+msgstr "取消文件共享"
+
+#: system/templates/default/files.tpl.php:182
+#: system/templates/default/files.tpl.php:183
+msgid "out_link"
+msgstr "外链"
+
+#: system/templates/default/files.tpl.php:183
+#: system/templates/default/files.tpl.php:188
+#: system/templates/default/files.tpl.php:404
+#: system/templates/default/files.tpl.php:466
+msgid "copy"
+msgstr "复制"
+
+#: system/templates/default/files.tpl.php:187
+#: system/templates/default/files.tpl.php:188
+#: system/templates/default/files.tpl.php:454
+msgid "extract_code"
+msgstr "提取码"
+
+#: system/templates/default/files.tpl.php:210
+#: system/templates/default/public.tpl.php:98
+#: system/templates/default/recycle.tpl.php:102
+msgid "select_all"
+msgstr "全选/反选"
+
+#: system/templates/default/files.tpl.php:210
+#: system/templates/default/public.tpl.php:98
+#: system/templates/default/recycle.tpl.php:102
+msgid "select_cancel"
+msgstr "取消"
+
+#: system/templates/default/files.tpl.php:223
+msgid "my_folder"
+msgstr "移到我的目录"
+
+#: system/templates/default/files.tpl.php:224
+msgid "to_public"
+msgstr "推到公共文件"
+
+#: system/templates/default/files.tpl.php:225
+msgid "make_extract_code"
+msgstr "生成提取码"
+
+#: system/templates/default/files.tpl.php:226
+msgid "is_link_code"
+msgstr "生成外链"
+
+#: system/templates/default/files.tpl.php:227
+msgid "to_share"
+msgstr "设为共享"
+
+#: system/templates/default/files.tpl.php:228
+msgid "move_to_recycle"
+msgstr "移到回收站"
+
+#: system/templates/default/files.tpl.php:229
+#: system/templates/default/public.tpl.php:107
+#: system/templates/default/recycle.tpl.php:105
+#: system/templates/default/recycle.tpl.php:280
+#: system/templates/default/recycle.tpl.php:304
+msgid "confirm_op"
+msgstr "确认此操作？"
+
+#: system/templates/default/files.tpl.php:238
+msgid "search_is_empty"
+msgstr "没有找到该条件的文件。"
+
+#: system/templates/default/files.tpl.php:240
+msgid "folder_is_empty"
+msgstr "此文件夹暂无文件"
+
+#: system/templates/default/files.tpl.php:297
+#: system/templates/default/public.tpl.php:147
+msgid "none_extension"
+msgstr "不带扩展名"
+
+#: system/templates/default/files.tpl.php:300
+#: system/templates/default/public.tpl.php:150
+#: system/templates/default/pd_viewfile.tpl.php:76
+msgid "file_tag"
+msgstr "标签"
+
+#: system/templates/default/files.tpl.php:300
+#: system/templates/default/public.tpl.php:150
+msgid "file_tag_tips"
+msgstr "以英文逗号隔开多个标签"
+
+#: system/templates/default/files.tpl.php:300
+#: system/templates/default/files.tpl.php:305
+#: system/templates/default/public.tpl.php:150
+#: system/templates/default/public.tpl.php:153
+msgid "optional"
+msgstr "选填"
+
+#: system/templates/default/files.tpl.php:303
+msgid "in_share"
+msgstr "共享"
+
+#: system/templates/default/files.tpl.php:307
+msgid "btn_replace"
+msgstr "替 换"
+
+#: system/templates/default/files.tpl.php:334
+#: system/templates/default/public.tpl.php:182
+msgid "delete_file_confirm"
+msgstr "确认删除此文件？"
+
+#: system/templates/default/files.tpl.php:336
+msgid "btn_delete"
+msgstr " 删 除 "
+
+#: system/templates/default/files.tpl.php:336
+#: system/templates/default/files.tpl.php:356
+#: system/templates/default/files.tpl.php:604
+#: system/templates/default/public.tpl.php:184
+#: system/templates/default/recycle.tpl.php:203
+#: system/templates/default/recycle.tpl.php:261
+msgid "btn_cancel"
+msgstr "取消"
+
+#: system/templates/default/files.tpl.php:354
+msgid "unshare_file_confirm"
+msgstr "取消此文件共享权限？"
+
+#: system/templates/default/files.tpl.php:374
+#: system/templates/default/upload.tpl.php:89
+#: system/templates/default/upload.tpl.php:102
+msgid "store_location"
+msgstr "上传文件"
+
+#: system/templates/default/files.tpl.php:398
+msgid "extract_code_setting"
+msgstr "提取码设定"
+
+#: system/templates/default/files.tpl.php:401
+msgid "extract_code_custom"
+msgstr "提取码"
+
+#: system/templates/default/files.tpl.php:401
+msgid "extract_code_custom_tips"
+msgstr "提取码可由用户自定义，类似于密码。<br><span class=\"txtred\">注意：如果系统中已存在相同的提取码，系统将会自动重新生成，将覆盖您当前的提取码。</span>"
+
+#: system/templates/default/files.tpl.php:409
+#: system/templates/default/files.tpl.php:456
+msgid "extract_type"
+msgstr "提取码类型"
+
+#: system/templates/default/files.tpl.php:409
+msgid "extract_type_tips"
+msgstr "提取次数为提取码的使用次数，无时间限制；提取日期无使用次数限制，但是只能在提取日期内使用，过期无效！"
+
+#: system/templates/default/files.tpl.php:410
+msgid "order_extract_count"
+msgstr "按提取次数"
+
+#: system/templates/default/files.tpl.php:410
+msgid "order_extract_date"
+msgstr "按提取日期"
+
+#: system/templates/default/files.tpl.php:413
+#: system/templates/default/files.tpl.php:455
+msgid "extract_total"
+msgstr "可提取次数"
+
+#: system/templates/default/files.tpl.php:413
+msgid "extract_total_tips"
+msgstr "提取码可使用的提取次数，设为 0 ，表示无限制，最大值是 30000 次"
+
+#: system/templates/default/files.tpl.php:417
+#: system/templates/default/files.tpl.php:457
+msgid "extract_time"
+msgstr "到期时间"
+
+#: system/templates/default/files.tpl.php:417
+msgid "extract_time_tips"
+msgstr "格式为 yyyy-mm-dd 如 2009-02-14，提取码在此时间前有效。默认时间为10天，且大于当前时间才能有效。"
+
+#: system/templates/default/files.tpl.php:455
+msgid "extract_count"
+msgstr "已提取"
+
+#: system/templates/default/files.tpl.php:466
+msgid "view_extract_file"
+msgstr "提取码文件"
+
+#: system/templates/default/files.tpl.php:466
+msgid "view"
+msgstr "查看"
+
+#: system/templates/default/files.tpl.php:473
+msgid "extract_modify"
+msgstr "修改"
+
+#: system/templates/default/files.tpl.php:474
+msgid "extract_delete_confirm"
+msgstr "删除此文件提取码？"
+
+#: system/templates/default/files.tpl.php:474
+msgid "extract_delete"
+msgstr "删除"
+
+#: system/templates/default/files.tpl.php:485
+msgid "extract_add"
+msgstr "添加提取码..."
+
+#: system/templates/default/files.tpl.php:498
+#: system/templates/default/recycle.tpl.php:27
+#: system/templates/default/recycle.tpl.php:127
+#: system/templates/default/recycle.tpl.php:164
+#: system/templates/default/recycle.tpl.php:222
+#: system/templates/default/recycle.tpl.php:268
+#: system/templates/default/recycle.tpl.php:292
+msgid "file_list"
+msgstr "文件列表"
+
+#: system/templates/default/files.tpl.php:511
+#: system/templates/default/files.tpl.php:593
+#: system/templates/default/recycle.tpl.php:148
+#: system/templates/default/recycle.tpl.php:185
+#: system/templates/default/recycle.tpl.php:243
+#: system/templates/default/upload.tpl.php:127
+msgid "btn_close"
+msgstr "关 闭"
+
+#: system/templates/default/files.tpl.php:518
+msgid "make_link_title"
+msgstr "生成外链"
+
+#: system/templates/default/files.tpl.php:520
+msgid "make_link_tips"
+msgstr "您可以将刚刚选定的文件生成适当格式的外链，如添加到BBS、BLOG或您的HTML文件中。IMG格式只对图片文件有效。"
+
+#: system/templates/default/files.tpl.php:521
+msgid "make_link_mode"
+msgstr "外链模式"
+
+#: system/templates/default/files.tpl.php:521
+msgid "order_url"
+msgstr "排序"
+
+#: system/templates/default/files.tpl.php:523
+msgid "copy_text"
+msgstr "复制内容"
+
+#: system/templates/default/files.tpl.php:588
+#: system/templates/default/files.tpl.php:598
+#: system/templates/default/recycle.tpl.php:278
+#: system/templates/default/recycle.tpl.php:302
+msgid "file"
+msgstr "文件"
+
+#: system/templates/default/files.tpl.php:589
+#: system/templates/default/files.tpl.php:599
+msgid "file_cur_url"
+msgstr "地址"
+
+#: system/templates/default/files.tpl.php:591
+msgid "file_short_url"
+msgstr "短地址"
+
+#: system/templates/default/files.tpl.php:591
+msgid "visit_url"
+msgstr "访问"
+
+#: system/templates/default/files.tpl.php:601
+msgid "add_file_short_url_confirm"
+msgstr "生成短地址？"
+
+#: system/templates/default/files.tpl.php:602
+msgid "file_short_url_format"
+msgstr "<span class=\"txtgray\">格式如：http://phpdisk.com/o0upsd</span>"
+
+#: system/templates/default/files.tpl.php:619
+msgid "copy_success"
+msgstr "复制成功"
+
+#: system/templates/default/my_nav_bar.tpl.php:27
+msgid "md_reload"
+msgstr "刷新目录"
+
+#: system/templates/default/my_nav_bar.tpl.php:28
+msgid "md_folder_create"
+msgstr "新建文件夹"
+
+#: system/templates/default/my_nav_bar.tpl.php:31
+msgid "thumb_view"
+msgstr "列表/缩略图"
+
+#: system/templates/default/my_nav_bar.tpl.php:32
+msgid "extract_code_manage"
+msgstr "提取码管理"
+
+#: system/templates/default/my_nav_bar.tpl.php:40
+msgid "disk_info"
+msgstr "网盘容量"
+
+#: system/templates/default/my_nav_bar.tpl.php:41
+msgid "disk_remain"
+msgstr "可用"
+
+#: system/templates/default/public.tpl.php:105
+msgid "public_cate"
+msgstr "移到公共分类"
+
+#: system/templates/default/public.tpl.php:114
+msgid "none_public_file"
+msgstr "此分类暂时没有文件。"
+
+#: system/templates/default/disk.tpl.php:25
+msgid "buy_disk"
+msgstr "购买空间"
+
+#: system/templates/default/disk.tpl.php:28
+msgid "buy_disk_tips"
+msgstr "购买网盘空间后，系统将会直接加到您现有的空间上，超过使用期限后将要续费才能继续上传文件。"
+
+#: system/templates/default/disk.tpl.php:44
+msgid "your_credit"
+msgstr "您目前的可用积分"
+
+#: system/templates/default/disk.tpl.php:66
+msgid "space_size"
+msgstr "大小"
+
+#: system/templates/default/disk.tpl.php:67
+msgid "space_expire"
+msgstr "时间"
+
+#: system/templates/default/disk.tpl.php:68
+msgid "space_price"
+msgstr "价格"
+
+#: system/templates/default/disk.tpl.php:69
+msgid "buy_disk_confirm"
+msgstr "确认购买此空间套餐吗？"
+
+#: system/templates/default/disk.tpl.php:69
+#: system/templates/default/disk.tpl.php:137
+msgid "buy_or_expand"
+msgstr "购买/扩容"
+
+#: system/templates/default/disk.tpl.php:84
+msgid "disk_manage"
+msgstr "空间统计与存储设定"
+
+#: system/templates/default/disk.tpl.php:87
+msgid "disk_manage_tips"
+msgstr "您可以查看当然虚拟磁盘的使用情况和设定当前文件存放的虚拟磁盘，此处统计您当前的空间，以及使用情况。"
+
+#: system/templates/default/disk.tpl.php:95
+msgid "my_current_credits"
+msgstr "当前可用积分"
+
+#: system/templates/default/disk.tpl.php:96
+msgid "online_pay"
+msgstr "在线充值"
+
+#: system/templates/default/disk.tpl.php:99
+msgid "cur_space_pos"
+msgstr "当前存储位置"
+
+#: system/templates/default/disk.tpl.php:99
+msgid "cur_space_pos_tips"
+msgstr "可以设定您上传文件的存放位置。"
+
+#: system/templates/default/disk.tpl.php:100
+#: system/templates/default/disk.tpl.php:111
+msgid "free_space"
+msgstr "免费空间"
+
+#: system/templates/default/disk.tpl.php:100
+#: system/templates/default/disk.tpl.php:103
+msgid "rent_space"
+msgstr "租用空间"
+
+#: system/templates/default/disk.tpl.php:104
+#: system/templates/default/disk.tpl.php:112
+#: system/templates/default/disk.tpl.php:116
+msgid "used"
+msgstr "使用了"
+
+#: system/templates/default/disk.tpl.php:104
+#: system/templates/default/disk.tpl.php:112
+#: system/templates/default/disk.tpl.php:116
+msgid "at"
+msgstr "占用了"
+
+#: system/templates/default/disk.tpl.php:106
+msgid "leave_time"
+msgstr "剩下"
+
+#: system/templates/default/disk.tpl.php:122
+msgid "pay_space"
+msgstr "空间续费"
+
+#: system/templates/default/disk.tpl.php:124
+#: system/templates/default/disk.tpl.php:146
+msgid "pls_select"
+msgstr "请选择"
+
+#: system/templates/default/disk.tpl.php:146
+msgid "need_credit"
+msgstr "所需积分"
+
+#: system/templates/default/recycle.tpl.php:30
+#: system/templates/default/recycle.tpl.php:270
+#: system/templates/default/recycle.tpl.php:294
+msgid "file_recycle_tips"
+msgstr "删除回收站中的文件将不可恢复，请确认。"
+
+#: system/templates/default/recycle.tpl.php:40
+msgid "file_time"
+msgstr "上传时间"
+
+#: system/templates/default/recycle.tpl.php:49
+msgid "view_folder"
+msgstr "查看回收站文件夹"
+
+#: system/templates/default/recycle.tpl.php:53
+msgid "restore_folder"
+msgstr "恢复文件夹及文件"
+
+#: system/templates/default/recycle.tpl.php:54
+msgid "delete_folder"
+msgstr "彻底删除文件夹及文件"
+
+#: system/templates/default/recycle.tpl.php:81
+msgid "restore_file"
+msgstr "恢复当前文件"
+
+#: system/templates/default/recycle.tpl.php:82
+msgid "delete_file"
+msgstr "彻底删除文件"
+
+#: system/templates/default/recycle.tpl.php:93
+msgid "recycle_is_empty"
+msgstr "回收站为空"
+
+#: system/templates/default/recycle.tpl.php:103
+msgid "restore_it"
+msgstr "还原文件(夹)"
+
+#: system/templates/default/recycle.tpl.php:104
+msgid "delete_complete"
+msgstr "删除所选"
+
+#: system/templates/default/recycle.tpl.php:185
+#: system/templates/default/recycle.tpl.php:203
+msgid "btn_delete_complete"
+msgstr "彻底删除"
+
+#: system/templates/default/recycle.tpl.php:201
+msgid "delete_file_complete_confirm"
+msgstr "确认删除此文件?"
+
+#: system/templates/default/recycle.tpl.php:243
+#: system/templates/default/recycle.tpl.php:261
+msgid "btn_restore"
+msgstr " 还 原"
+
+#: system/templates/default/recycle.tpl.php:259
+msgid "file_restore_confirm"
+msgstr "确认恢复此文件?"
+
+#: system/templates/default/recycle.tpl.php:278
+#: system/templates/default/recycle.tpl.php:302
+msgid "folder"
+msgstr "文件夹"
+
+#: system/templates/default/recycle.tpl.php:278
+#: system/templates/default/recycle.tpl.php:302
+msgid "size"
+msgstr "大小"
+
+#: system/templates/default/recycle.tpl.php:280
+msgid "btn_restore_all"
+msgstr "全部还原"
+
+#: system/templates/default/recycle.tpl.php:304
+msgid "btn_empty_all"
+msgstr "全部清空"
+
+#: system/templates/default/upload.tpl.php:46
+msgid "has_upload"
+msgstr "已上传："
+
+#: system/templates/default/upload.tpl.php:47
+msgid "current_speed"
+msgstr "当前速度："
+
+#: system/templates/default/upload.tpl.php:48
+msgid "queue_too_many_files"
+msgstr "同一次上传超过最大的文件数。"
+
+#: system/templates/default/upload.tpl.php:49
+msgid "current_file_size"
+msgstr "当前大小"
+
+#: system/templates/default/upload.tpl.php:50
+msgid "file_too_big"
+msgstr "超过了单个文件的最大限制"
+
+#: system/templates/default/upload.tpl.php:51
+msgid "zero_byte_file"
+msgstr "零字节文件，系统自动删除。"
+
+#: system/templates/default/upload.tpl.php:52
+msgid "unknown_error"
+msgstr "未知错误"
+
+#: system/templates/default/upload.tpl.php:53
+msgid "upload_complete"
+msgstr "操作成功，请关闭此上传对话框进行其他操作。"
+
+#: system/templates/default/upload.tpl.php:54
+msgid "js_tag"
+msgstr "标签"
+
+#: system/templates/default/upload.tpl.php:55
+msgid "js_tag_tips"
+msgstr "多个标签用英文逗号隔开。"
+
+#: system/templates/default/upload.tpl.php:56
+msgid "js_content"
+msgstr "描述"
+
+#: system/templates/default/upload.tpl.php:57
+msgid "js_expand"
+msgstr "展开"
+
+#: system/templates/default/upload.tpl.php:58
+msgid "replace_file_tips"
+msgstr "Tips: 如果选定了多个文件，系统只会上传第一个作为替换文件用。"
+
+#: system/templates/default/upload.tpl.php:71
+msgid "select_your_files"
+msgstr "选择文件"
+
+#: system/templates/default/upload.tpl.php:98
+msgid "temp_store_space"
+msgstr "临时空间"
+
+#: system/templates/default/upload.tpl.php:134
+msgid "btn_upload_file"
+msgstr "上传文件"
+
+#: system/templates/default/upload.tpl.php:138
+#: system/templates/default/pd_viewfile.tpl.php:247
+#: system/templates/default/pd_viewfile.tpl.php:259
+msgid "close"
+msgstr "关闭"
+
+#: system/templates/default/pd_viewfile.tpl.php:42
+msgid "vote_just"
+msgstr "您已经投过票了，感谢您的参与！"
+
+#: system/templates/default/pd_viewfile.tpl.php:50
+msgid "file_is_del"
+msgstr "该文件已被删除！系统将会自动跳转到网站首页。"
+
+#: system/templates/default/pd_viewfile.tpl.php:55
+msgid "locked_msg"
+msgstr "该文件已被网站管理员锁定。"
+
+#: system/templates/default/pd_viewfile.tpl.php:57
+msgid "not_share_msg"
+msgstr "该文件是私密文件，只能由文件上传本人使用。"
+
+#: system/templates/default/pd_viewfile.tpl.php:64
+#: system/templates/default/pd_public.tpl.php:70
+msgid "uploader"
+msgstr "上传者"
+
+#: system/templates/default/pd_viewfile.tpl.php:68
+msgid "upload_ip"
+msgstr "上传IP"
+
+#: system/templates/default/pd_viewfile.tpl.php:69
+msgid "upload_time"
+msgstr "上传时间"
+
+#: system/templates/default/pd_viewfile.tpl.php:72
+msgid "file_downs"
+msgstr "文件下载"
+
+#: system/templates/default/pd_viewfile.tpl.php:73
+msgid "file_views"
+msgstr "文件查看"
+
+#: system/templates/default/pd_viewfile.tpl.php:93
+msgid "description"
+msgstr "描述"
+
+#: system/templates/default/pd_viewfile.tpl.php:123
+msgid "file_view_url"
+msgstr "文件链接"
+
+#: system/templates/default/pd_viewfile.tpl.php:123
+#: system/templates/default/pd_viewfile.tpl.php:124
+#: system/templates/default/pd_viewfile.tpl.php:125
+msgid "copy_link"
+msgstr "复制链接"
+
+#: system/templates/default/pd_viewfile.tpl.php:124
+msgid "file_ubb_url"
+msgstr "UBB代码"
+
+#: system/templates/default/pd_viewfile.tpl.php:125
+msgid "file_html_url"
+msgstr "HTM代码"
+
+#: system/templates/default/pd_viewfile.tpl.php:134
+msgid "file_down_tips"
+msgstr "您没有查看/下载权限，请先[登录] 或 [注册] 成为会员"
+
+#: system/templates/default/pd_viewfile.tpl.php:140
+msgid "thunder_download"
+msgstr "迅雷高速下载"
+
+#: system/templates/default/pd_viewfile.tpl.php:143
+msgid "flashget_download"
+msgstr "快车高速下载"
+
+#: system/templates/default/pd_viewfile.tpl.php:163
+msgid "download_this_file"
+msgstr "本地下载"
+
+#: system/templates/default/pd_viewfile.tpl.php:188
+msgid "user_other_file"
+msgstr "用户其他文件"
+
+#: system/templates/default/pd_viewfile.tpl.php:208
+msgid "you_like_file"
+msgstr "猜你喜欢"
+
+#: system/templates/default/pd_viewfile.tpl.php:229
+msgid "report_title"
+msgstr "举报字符设置"
+
+#: system/templates/default/pd_viewfile.tpl.php:229
+msgid "to_report"
+msgstr "举报文件"
+
+#: system/templates/default/pd_viewfile.tpl.php:232
+msgid "cmt_title"
+msgstr "评论文件"
+
+#: system/templates/default/pd_viewfile.tpl.php:232
+msgid "to_comment"
+msgstr "文件评论"
+
+#: system/templates/default/pd_viewfile.tpl.php:245
+msgid "report_content"
+msgstr "举报原因"
+
+#: system/templates/default/pd_viewfile.tpl.php:257
+msgid "cmt_content"
+msgstr "评论内容"
+
+#: system/templates/default/pd_viewfile.tpl.php:265
+msgid "user_cmts"
+msgstr "用户评论"
+
+#: system/templates/default/pd_viewfile.tpl.php:278
+msgid "view_all_cmts"
+msgstr "查看所有&raquo;"
+
+#: system/templates/default/pd_viewfile.tpl.php:282
+msgid "cmt_not_found"
+msgstr "目前暂无评论。"
+
+#: system/templates/default/pd_viewfile.tpl.php:320
+msgid "txt_copy_success"
+msgstr "文件链接复制成功。"
+
+#: system/templates/default/pd_viewfile.tpl.php:333
+msgid "same_extension_file"
+msgstr "同类型文件"
+
+#: system/templates/default/pd_public.tpl.php:124
+msgid "public_stats"
+msgstr "公共文件统计"
+
+#: system/templates/default/pd_public.tpl.php:126
+msgid "public_files_count"
+msgstr "文件数目"
+
+#: system/templates/default/pd_public.tpl.php:127
+msgid "total_file_store"
+msgstr "总量"
+
+#: system/templates/default/profile.tpl.php:27
+msgid "modify_password"
+msgstr "修改密码"
+
+#: system/templates/default/profile.tpl.php:30
+msgid "modify_password_tips"
+msgstr "为确保帐号安全，用户修改密码后，系统会要求用户重新登录。"
+
+#: system/templates/default/profile.tpl.php:39
+msgid "current_password"
+msgstr "当前密码"
+
+#: system/templates/default/profile.tpl.php:43
+msgid "new_password"
+msgstr "新密码"
+
+#: system/templates/default/profile.tpl.php:78
+msgid "credit_manage"
+msgstr "积分经验管理"
+
+#: system/templates/default/profile.tpl.php:81
+msgid "credit_manage_tips"
+msgstr "您可以设置系统运作时的积分管理，如新用户注册获得积分，下载文件扣除积分等。"
+
+#: system/templates/default/profile.tpl.php:89
+#: system/templates/default/profile.tpl.php:188
+#: system/templates/default/profile.tpl.php:410
+msgid "my_wealth"
+msgstr "我的金钱"
+
+#: system/templates/default/profile.tpl.php:90
+msgid "view_history"
+msgstr "(查看充值历史)"
+
+#: system/templates/default/profile.tpl.php:93
+#: system/templates/default/profile.tpl.php:406
+msgid "my_credit"
+msgstr "我的积分"
+
+#: system/templates/default/profile.tpl.php:97
+msgid "auto_convert"
+msgstr "自动转换为积分"
+
+#: system/templates/default/profile.tpl.php:97
+#: system/templates/default/profile.tpl.php:205
+#: system/templates/default/profile.tpl.php:279
+msgid "credit_rate"
+msgstr "兑换比率"
+
+#: system/templates/default/profile.tpl.php:97
+#: system/templates/default/profile.tpl.php:206
+msgid "wealth"
+msgstr "金钱"
+
+#: system/templates/default/profile.tpl.php:103
+msgid "pay_byte"
+msgstr " (单位：元)"
+
+#: system/templates/default/profile.tpl.php:106
+msgid "payment_gateway"
+msgstr "支付方式"
+
+#: system/templates/default/profile.tpl.php:124
+msgid "start_pay"
+msgstr "现在充值"
+
+#: system/templates/default/profile.tpl.php:129
+msgid "credit_pay_close"
+msgstr "在线支付未开启"
+
+#: system/templates/default/profile.tpl.php:150
+msgid "pls_select_payment"
+msgstr "请选择支付方式。"
+
+#: system/templates/default/profile.tpl.php:169
+msgid "credit_exchange"
+msgstr "积分兑换"
+
+#: system/templates/default/profile.tpl.php:172
+msgid "credit_exchange_tips"
+msgstr "您可以将自己的积分兑换到本站其他的应用（比如论坛）里面。"
+
+#: system/templates/default/profile.tpl.php:181
+msgid "common_exchange"
+msgstr "普通金钱兑换"
+
+#: system/templates/default/profile.tpl.php:181
+msgid "common_exchange_tips"
+msgstr "适用于本系统自身的用户积分兑换。"
+
+#: system/templates/default/profile.tpl.php:197
+msgid "wealth_out"
+msgstr "支出金钱"
+
+#: system/templates/default/profile.tpl.php:201
+#: system/templates/default/profile.tpl.php:261
+msgid "credit_to"
+msgstr "兑换成"
+
+#: system/templates/default/profile.tpl.php:218
+msgid "wealth_not_zero"
+msgstr "支付兑换的金钱要大于零。"
+
+#: system/templates/default/profile.tpl.php:245
+msgid "uc_exchange"
+msgstr "UC积分兑换"
+
+#: system/templates/default/profile.tpl.php:245
+msgid "uc_exchange_tips"
+msgstr "适用于本系统与其他允许积分兑换的系统。"
+
+#: system/templates/default/profile.tpl.php:253
+msgid "credit_pwd"
+msgstr "用户密码"
+
+#: system/templates/default/profile.tpl.php:257
+msgid "credit_out"
+msgstr "支出积分"
+
+#: system/templates/default/profile.tpl.php:284
+msgid "exchange"
+msgstr "兑换"
+
+#: system/templates/default/profile.tpl.php:304
+msgid "amount_not_zero"
+msgstr "支付兑换的积分要大于零。"
+
+#: system/templates/default/profile.tpl.php:330
+msgid "pay_history"
+msgstr "支付历史"
+
+#: system/templates/default/profile.tpl.php:333
+msgid "pay_history_tips"
+msgstr "可以查看您在网站上的充值记录。"
+
+#: system/templates/default/profile.tpl.php:386
+msgid "profile_title"
+msgstr "个人中心"
+
+#: system/templates/default/profile.tpl.php:389
+msgid "profile_title_tips"
+msgstr "个人中心代表您在使用该网站网盘时的权限，当前网盘统计，创建文件(夹)数等"
+
+#: system/templates/default/profile.tpl.php:403
+msgid "my_disk_stat"
+msgstr "我的统计"
+
+#: system/templates/default/profile.tpl.php:414
+msgid "my_exp"
+msgstr "我的经验"
+
+#: system/templates/default/profile.tpl.php:418
+msgid "my_rank"
+msgstr "我的等级"
+
+#: system/templates/default/profile.tpl.php:428
+msgid "total_share_folders"
+msgstr "共享文件夹"
+
+#: system/templates/default/profile.tpl.php:446
+msgid "reg_time"
+msgstr "注册时间"
+
+#: system/templates/default/profile.tpl.php:450
+msgid "last_login_time"
+msgstr "最后登录"
+
+#: system/templates/default/profile.tpl.php:454
+msgid "reg_ip"
+msgstr "注册IP"
+
+#: system/templates/default/profile.tpl.php:462
+msgid "reg_email"
+msgstr "邮箱地址"
+
+#: system/templates/default/profile.tpl.php:469
+msgid "my_power"
+msgstr "我的权限"
+
+#: system/templates/default/profile.tpl.php:472
+msgid "current_group"
+msgstr "所属用户组"
+
+#: system/templates/default/profile.tpl.php:476
+msgid "max_flow_down"
+msgstr "下载流量"
+
+#: system/templates/default/profile.tpl.php:480
+msgid "max_flow_view"
+msgstr "浏览(外链)流量"
+
+#: system/templates/default/profile.tpl.php:484
+msgid "max_storage"
+msgstr "存储空间"
+
+#: system/templates/default/profile.tpl.php:488
+msgid "max_filesize"
+msgstr "上传文件大小"
+
+#: system/templates/default/profile.tpl.php:492
+msgid "max_folders"
+msgstr "可创建文件夹数"
+
+#: system/templates/default/profile.tpl.php:496
+msgid "max_files"
+msgstr "可上传文件"
+
+#: system/templates/default/profile.tpl.php:500
+msgid "user_file_types"
+msgstr "上传文件类型"
+
+#: system/templates/default/sub/block_hot_file_index.tpl.php:25
+msgid "last_file_more"
+msgstr "更多.."
+
+#: system/templates/default/sub/block_hot_file_index.tpl.php:25
+msgid "last_file"
+msgstr "最近上传文件"
+
+#: system/templates/default/sub/block_hot_file_index.tpl.php:40
+msgid "hot_file"
+msgstr "热门文件"
+
+#: system/templates/default/sub/block_links.tpl.php:27
+msgid "site_link"
+msgstr "友情链接"
+
+#: system/templates/admin/admincp.tpl.php:54
+msgid "menu_files_manage"
+msgstr "文件管理"
+
+#: system/templates/admin/admincp.tpl.php:60
+msgid "sitemap_tips"
+msgstr "管理后台地图"
+
+#: system/templates/admin/menu.tpl.php:45
+msgid "menu_site_index"
+msgstr "首页"
+
+#: system/templates/admin/menu.tpl.php:45
+msgid "menu_admin_index"
+msgstr "后台"
+
+#: system/templates/admin/menu.tpl.php:50
+msgid "menu_site_panel"
+msgstr "配置面板"
+
+#: system/templates/admin/menu.tpl.php:59
+msgid "menu_user_panel"
+msgstr "用户面板"
+
+#: system/templates/admin/menu.tpl.php:122
+msgid "menu_plugins_shortcut"
+msgstr "插件快捷面板"
+
+#: system/templates/admin/menu.tpl.php:134
+msgid "cp_plugin_not_found"
+msgstr "暂无快捷插件"
+
+#: system/templates/admin/menu.tpl.php:144
+msgid "menu_plugins_last_actived"
+msgstr "最近访问插件"
+
+#: system/templates/admin/menu.tpl.php:206
+msgid "menu_system_common"
+msgstr "常用面板"
+
+#: system/templates/admin/menu.tpl.php:217
+msgid "menu_system_common_setting"
+msgstr "管理面板"
+
+#: system/templates/admin/menu.tpl.php:221
+msgid "none_common_menu"
+msgstr "暂无菜单"
+
+#: system/templates/admin/menu.tpl.php:230
+msgid "system_logout_confirm"
+msgstr "确认退出PHPDISK后台管理系统？"
+
+#: system/templates/admin/menu.tpl.php:230
+msgid "menu_logout"
+msgstr "退出管理"
+
+#: system/templates/admin/main.tpl.php:24
+msgid "admincp_statistics"
+msgstr "网盘系统统计"
+
+#: system/templates/admin/main.tpl.php:27
+msgid "stats_tips"
+msgstr "网盘的基本统计数据，可以直观地反映网盘的使用情况"
+
+#: system/templates/admin/main.tpl.php:31
+msgid "install_exists_tips"
+msgstr "警告提示：系统检测到您的phpdisk网盘系统中，还存在安装文件目录：<span class=\"txtred\">install/</span>  存在安全风险，如果您的网站已上线，建议<span class=\"txtred\">删除</span>此安装文件目录，以加强系统的安全。"
+
+#: system/templates/admin/main.tpl.php:34
+msgid "secure_tips"
+msgstr "警告提示：系统检测到旧版本升级phpdisk网盘系统中，存在已经弃用的模块 <span class=\"txtred\">api/datacall.php</span> 文件，存在安全风险，如果您的网站已上线，建议<span class=\"txtred\">删除</span>此文件，以加强系统的安全。"
+
+#: system/templates/admin/main.tpl.php:38
+msgid "users_count"
+msgstr "注册用户数"
+
+#: system/templates/admin/main.tpl.php:39
+msgid "users_locked_count"
+msgstr "其中锁定用户"
+
+#: system/templates/admin/main.tpl.php:39
+msgid "users_open_count"
+msgstr "开放用户"
+
+#: system/templates/admin/main.tpl.php:42
+msgid "user_files_count"
+msgstr "用户文件"
+
+#: system/templates/admin/main.tpl.php:43
+#: system/templates/admin/main.tpl.php:47
+#: system/templates/admin/main.tpl.php:51
+msgid "in_storage"
+msgstr "占用空间"
+
+#: system/templates/admin/main.tpl.php:50
+msgid "total_storage_count"
+msgstr "所有文件"
+
+#: system/templates/admin/main.tpl.php:54
+msgid "other_stats"
+msgstr "其他统计"
+
+#: system/templates/admin/main.tpl.php:55
+msgid "extract_code_count"
+msgstr "提取码"
+
+#: system/templates/admin/main.tpl.php:55
+msgid "user_folders_count"
+msgstr "文件夹数"
+
+#: system/templates/admin/main.tpl.php:61
+msgid "phpdisk_site_news"
+msgstr "PHPDisk官方动态"
+
+#: system/templates/admin/main.tpl.php:70
+msgid "system_env"
+msgstr "服务器环境"
+
+#: system/templates/admin/main.tpl.php:74
+msgid "system_host"
+msgstr "服务器域名/IP"
+
+#: system/templates/admin/main.tpl.php:75
+msgid "phpdisk_email_subscribe"
+msgstr "邮件订阅最新PHPDisk最新消息："
+
+#: system/templates/admin/main.tpl.php:75
+msgid "phpdisk_email_subscribe2"
+msgstr "输入您的邮箱地址，订阅PHPDisk最新动态，程序发布信息等："
+
+#: system/templates/admin/main.tpl.php:78
+msgid "system_server"
+msgstr "服务器解译引擎"
+
+#: system/templates/admin/main.tpl.php:82
+msgid "system_base"
+msgstr "当前配置信息"
+
+#: system/templates/admin/main.tpl.php:82
+msgid "system_post_file"
+msgstr "单个表单大小(post_max_size)"
+
+#: system/templates/admin/main.tpl.php:82
+msgid "system_upload_file"
+msgstr "上传文件大小(upload_max_filesize)"
+
+#: system/templates/admin/main.tpl.php:82
+msgid "max_upload_file_tips"
+msgstr "上传的文件大小建议在 50MB 以内。"
+
+#: system/templates/admin/main.tpl.php:84
+msgid "system_gd_info"
+msgstr "图像函数GD库支持"
+
+#: system/templates/admin/main.tpl.php:87
+msgid "iconv_txt"
+msgstr "字符编码转换支持"
+
+#: system/templates/admin/main.tpl.php:87
+msgid "iconv_support"
+msgstr "iconv支持"
+
+#: system/templates/admin/main.tpl.php:87
+msgid "or"
+msgstr "或"
+
+#: system/templates/admin/main.tpl.php:87
+msgid "mbstring_support"
+msgstr "mbstring支持"
+
+#: system/templates/admin/main.tpl.php:87
+msgid "iconv_tips"
+msgstr "针对中文字符编码进行转换，没有安装文字将会出现乱码。"
+
+#: system/templates/admin/main.tpl.php:90
+msgid "phpdisk_prober"
+msgstr "PHPDISK网盘专用探针下载"
+
+#: system/templates/admin/main.tpl.php:96
+msgid "about_system"
+msgstr "关于PHPDisk"
+
+#: system/templates/admin/main.tpl.php:99
+msgid "program_develop"
+msgstr "系统开发"
+
+#: system/templates/admin/main.tpl.php:102
+msgid "official_site"
+msgstr "官方网站"
+
+#: system/templates/admin/main.tpl.php:105
+msgid "phpdisk_bbs"
+msgstr "交流论坛"
+
+#: system/templates/admin/main.tpl.php:108
+msgid "phpdisk_demo"
+msgstr "系统在线演示"
+
+#: system/templates/admin/main.tpl.php:114
+msgid "phpdisk_commend_tips"
+msgstr "Note: 为使系统运行出最佳的性能，推荐使用LAMP、LNMP等服务器环境，PHP 5.0 以上， MySQL 5.0 以上。"
+
+#: system/templates/admin/main.tpl.php:129
+msgid "last_version_is"
+msgstr "官方最新版本是"
+
+#: system/templates/admin/main.tpl.php:129
+msgid "your_version_is"
+msgstr "您系统的版本是"
+
+#: system/templates/admin/advertisement.tpl.php:28
+#: system/templates/admin/advertisement.tpl.php:232
+msgid "add_advs_title"
+msgstr "添加广告"
+
+#: system/templates/admin/advertisement.tpl.php:30
+msgid "modify_advs_title"
+msgstr "编辑广告"
+
+#: system/templates/admin/advertisement.tpl.php:34
+#: system/templates/admin/advertisement.tpl.php:230
+msgid "adv_manage_tips"
+msgstr "广告管理可以添加、管理网盘系统中的所有广告位，可添加文字、代码、图片及Flash等类型的广告。"
+
+#: system/templates/admin/advertisement.tpl.php:43
+#: system/templates/admin/advertisement.tpl.php:262
+msgid "adv_position"
+msgstr "广告位置"
+
+#: system/templates/admin/advertisement.tpl.php:43
+msgid "adv_position_tips"
+msgstr "设定广告在页面中的展示位置"
+
+#: system/templates/admin/advertisement.tpl.php:45
+#: system/templates/admin/advertisement.tpl.php:241
+msgid "adv_top"
+msgstr "页头通栏广告[通栏广告]"
+
+#: system/templates/admin/advertisement.tpl.php:46
+#: system/templates/admin/advertisement.tpl.php:242
+msgid "adv_right"
+msgstr "页面右边"
+
+#: system/templates/admin/advertisement.tpl.php:47
+#: system/templates/admin/advertisement.tpl.php:243
+msgid "adv_viewfile_right"
+msgstr "文件浏览右边"
+
+#: system/templates/admin/advertisement.tpl.php:48
+#: system/templates/admin/advertisement.tpl.php:244
+msgid "adv_viewfile_hits_bottom"
+msgstr "文件下载数下方"
+
+#: system/templates/admin/advertisement.tpl.php:49
+#: system/templates/admin/advertisement.tpl.php:245
+msgid "adv_viewfile_download_top"
+msgstr "下载地址上方"
+
+#: system/templates/admin/advertisement.tpl.php:50
+#: system/templates/admin/advertisement.tpl.php:246
+msgid "adv_viewfile_download_bottom"
+msgstr "下载地址下方"
+
+#: system/templates/admin/advertisement.tpl.php:51
+#: system/templates/admin/advertisement.tpl.php:247
+msgid "adv_bottom"
+msgstr "页尾通栏广告[通栏广告]"
+
+#: system/templates/admin/advertisement.tpl.php:56
+msgid "position_view"
+msgstr "位置预览"
+
+#: system/templates/admin/advertisement.tpl.php:56
+msgid "position_view_tips"
+msgstr "预览广告位置处于PHPDISK页面的中的大概位置"
+
+#: system/templates/admin/advertisement.tpl.php:60
+msgid "adv_scope"
+msgstr "广告范围"
+
+#: system/templates/admin/advertisement.tpl.php:60
+msgid "adv_scope_tips"
+msgstr "针对每个页面投放专用的广告，如：网站首页、资料浏览页等，按住 Ctrl 键可多选。<br><span class=\"txtred\">注意：广告范围只对通栏广告有效。</span>"
+
+#: system/templates/admin/advertisement.tpl.php:62
+msgid "adv_scope_all"
+msgstr "全部页面"
+
+#: system/templates/admin/advertisement.tpl.php:63
+msgid "adv_scope_index"
+msgstr "网站首页"
+
+#: system/templates/admin/advertisement.tpl.php:64
+msgid "adv_scope_viewfile"
+msgstr "文件浏览页"
+
+#: system/templates/admin/advertisement.tpl.php:65
+msgid "adv_scope_space"
+msgstr "个人空间页"
+
+#: system/templates/admin/advertisement.tpl.php:66
+msgid "adv_scope_search"
+msgstr "文件搜索页"
+
+#: system/templates/admin/advertisement.tpl.php:67
+msgid "adv_scope_public"
+msgstr "公共文件页"
+
+#: system/templates/admin/advertisement.tpl.php:68
+msgid "adv_scope_extract"
+msgstr "提取码页"
+
+#: system/templates/admin/advertisement.tpl.php:69
+msgid "adv_scope_tag"
+msgstr "标签页"
+
+#: system/templates/admin/advertisement.tpl.php:73
+#: system/templates/admin/advertisement.tpl.php:261
+msgid "adv_title"
+msgstr "广告标题"
+
+#: system/templates/admin/advertisement.tpl.php:73
+msgid "adv_title_tips"
+msgstr "注意: 广告标题只为识别辨认不同广告条目之用，并不在广告中显示"
+
+#: system/templates/admin/advertisement.tpl.php:77
+#: system/templates/admin/advertisement.tpl.php:264
+msgid "adv_starttime"
+msgstr "广告起始时间"
+
+#: system/templates/admin/advertisement.tpl.php:77
+msgid "adv_starttime_tips"
+msgstr "设置广告起始生效的时间，留空为不限制起始时间"
+
+#: system/templates/admin/advertisement.tpl.php:78
+#: system/templates/admin/advertisement.tpl.php:82
+msgid "time_format"
+msgstr "格式：yyyy-mm-dd"
+
+#: system/templates/admin/advertisement.tpl.php:81
+#: system/templates/admin/advertisement.tpl.php:265
+msgid "adv_endtime"
+msgstr "广告结束时间"
+
+#: system/templates/admin/advertisement.tpl.php:81
+msgid "adv_endtime_tips"
+msgstr "设置广告广告结束的时间，留空为不限制结束时间"
+
+#: system/templates/admin/advertisement.tpl.php:85
+#: system/templates/admin/advertisement.tpl.php:263
+msgid "adv_type"
+msgstr "展现方式"
+
+#: system/templates/admin/advertisement.tpl.php:85
+msgid "adv_type_tips"
+msgstr "请选择所需的广告展现方式"
+
+#: system/templates/admin/advertisement.tpl.php:88
+#: system/templates/admin/advertisement.tpl.php:99
+#: system/templates/admin/advertisement.tpl.php:234
+msgid "adv_img"
+msgstr "图片"
+
+#: system/templates/admin/advertisement.tpl.php:89
+#: system/templates/admin/advertisement.tpl.php:124
+#: system/templates/admin/advertisement.tpl.php:235
+msgid "adv_code"
+msgstr "代码"
+
+#: system/templates/admin/advertisement.tpl.php:90
+#: system/templates/admin/advertisement.tpl.php:134
+#: system/templates/admin/advertisement.tpl.php:236
+msgid "adv_text"
+msgstr "文字"
+
+#: system/templates/admin/advertisement.tpl.php:91
+#: system/templates/admin/advertisement.tpl.php:237
+msgid "adv_flash"
+msgstr "Flash"
+
+#: system/templates/admin/advertisement.tpl.php:102
+msgid "adv_img_src"
+msgstr "图片地址"
+
+#: system/templates/admin/advertisement.tpl.php:102
+msgid "adv_img_src_tips"
+msgstr "请输入图片广告的图片调用地址"
+
+#: system/templates/admin/advertisement.tpl.php:106
+msgid "adv_img_url"
+msgstr "图片链接"
+
+#: system/templates/admin/advertisement.tpl.php:106
+msgid "adv_img_url_tips"
+msgstr "请输入图片广告指向的 URL 链接地址"
+
+#: system/templates/admin/advertisement.tpl.php:110
+msgid "adv_img_width"
+msgstr "图片宽度"
+
+#: system/templates/admin/advertisement.tpl.php:110
+msgid "adv_img_width_tips"
+msgstr "请输入图片广告的宽度，单位为像素"
+
+#: system/templates/admin/advertisement.tpl.php:114
+msgid "adv_img_height"
+msgstr "图片高度"
+
+#: system/templates/admin/advertisement.tpl.php:114
+msgid "adv_img_height_tips"
+msgstr "请输入图片广告的高度，单位为像素"
+
+#: system/templates/admin/advertisement.tpl.php:118
+msgid "adv_img_alt"
+msgstr "图片替换文字"
+
+#: system/templates/admin/advertisement.tpl.php:118
+msgid "adv_img_alt_tips"
+msgstr "请输入图片广告的鼠标悬停文字信息"
+
+#: system/templates/admin/advertisement.tpl.php:127
+msgid "adv_html_code"
+msgstr "代码"
+
+#: system/templates/admin/advertisement.tpl.php:127
+msgid "adv_html_code_tips"
+msgstr "请直接输入需要展现的广告的 HTML 代码"
+
+#: system/templates/admin/advertisement.tpl.php:137
+msgid "adv_txt_title"
+msgstr "文字内容"
+
+#: system/templates/admin/advertisement.tpl.php:137
+msgid "adv_txt_title_tips"
+msgstr "请输入文字广告的显示内容"
+
+#: system/templates/admin/advertisement.tpl.php:141
+msgid "adv_txt_url"
+msgstr "文字链接"
+
+#: system/templates/admin/advertisement.tpl.php:141
+msgid "adv_txt_url_tips"
+msgstr "请输入文字广告指向的 URL 链接地址"
+
+#: system/templates/admin/advertisement.tpl.php:145
+msgid "adv_txt_size"
+msgstr "文字大小"
+
+#: system/templates/admin/advertisement.tpl.php:145
+msgid "adv_txt_size_tips"
+msgstr "请输入文字广告的内容显示字体，可使用 pt、px、em 为单位"
+
+#: system/templates/admin/advertisement.tpl.php:149
+msgid "adv_txt_color"
+msgstr "文件颜色"
+
+#: system/templates/admin/advertisement.tpl.php:149
+msgid "adv_txt_color_tips"
+msgstr "只支持16进制颜色显示，如: #FF0000 , #562344 等。"
+
+#: system/templates/admin/advertisement.tpl.php:158
+msgid "adv_flash_src"
+msgstr "Flash 地址"
+
+#: system/templates/admin/advertisement.tpl.php:158
+msgid "adv_flash_src_tips"
+msgstr "请输入 Flash 广告的调用地址"
+
+#: system/templates/admin/advertisement.tpl.php:162
+msgid "adv_flash_width"
+msgstr "Flash 宽度"
+
+#: system/templates/admin/advertisement.tpl.php:162
+msgid "adv_flash_width_tips"
+msgstr "请输入 Flash 广告的宽度，单位为像素"
+
+#: system/templates/admin/advertisement.tpl.php:166
+msgid "adv_flash_height"
+msgstr "Flash 高度"
+
+#: system/templates/admin/advertisement.tpl.php:166
+msgid "adv_flash_height_tips"
+msgstr "请输入 Flash 广告的高度，单位为像素"
+
+#: system/templates/admin/advertisement.tpl.php:227
+msgid "adv_manage"
+msgstr "广告管理"
+
+#: system/templates/admin/advertisement.tpl.php:285
+msgid "advs_delete_confirm"
+msgstr "确认删除此广告吗？"
+
+#: system/templates/admin/advertisement.tpl.php:302
+msgid "advs_not_found"
+msgstr "目前暂无广告"
+
+#: system/templates/admin/datacall.tpl.php:25
+msgid "js_datacall"
+msgstr "JS数据调用"
+
+#: system/templates/admin/datacall.tpl.php:28
+msgid "js_datacall_tips"
+msgstr "此处管理员可以直接调用一些常用的数据于显示，用于外部网站、系统的调用及站内的调用等。"
+
+#: system/templates/admin/datacall.tpl.php:32
+msgid "js_module"
+msgstr "JS调用模块"
+
+#: system/templates/admin/datacall.tpl.php:35
+msgid "js_module_tips"
+msgstr "此模块只针对一些高级站长，如果不懂修改，站长请到论坛跟其他会员交流，JS调用一共有四个参数。<br>调用URL： <b>http://yoursite.com/api/datacall.php?type=(第一个参数)&order=(第二个参数)&by=(第三个参数)&limit=(第四个参数) </b> <br><span class=\"txtred\">修改以下URL后，为了安全，请站长测试数据调用后的结果，再将之投入到正式调用页面中。</span>"
+
+#: system/templates/admin/datacall.tpl.php:38
+msgid "param_1"
+msgstr "参数一【type】"
+
+#: system/templates/admin/datacall.tpl.php:39
+msgid "param_1_tips"
+msgstr "种类，可选参数: [<span class=\"txtblue\">user</span>](用户表),[<span class=\"txtblue\">file</span>](文件表)"
+
+#: system/templates/admin/datacall.tpl.php:42
+msgid "param_2"
+msgstr "参数二【order】"
+
+#: system/templates/admin/datacall.tpl.php:43
+msgid "param_2_tips"
+msgstr "字段排序，可选参数:"
+
+#: system/templates/admin/datacall.tpl.php:43
+msgid "user_table"
+msgstr "用户表"
+
+#: system/templates/admin/datacall.tpl.php:43
+msgid "user_field_list"
+msgstr "userid,username,password,email,gid,reset_code,is_activated,is_locked,last_login_time,last_login_ip,reg_time,reg_ip,credit,wealth,rank,exp,accept_pm,show_email,space_pos,user_file_types,user_store_space,user_rent_space,space_day_credits,down_flow_count,view_flow_count,flow_reset_time,max_flow_down,max_flow_view"
+
+#: system/templates/admin/datacall.tpl.php:43
+msgid "file_table"
+msgstr "文件表"
+
+#: system/templates/admin/datacall.tpl.php:43
+msgid "file_field_list"
+msgstr "file_id,file_name,file_key,file_short_url,file_extension,is_image,file_mime,file_description,file_store_path,file_real_name,file_md5,server_oid,store_old,file_size,thumb_size,file_time,file_views,file_downs,file_last_view,file_credit,report_status,in_share,space_pos,good_count,bad_count,is_locked,is_checked,is_public,userid,folder_id,cate_id,subcate_id,in_recycle,ip"
+
+#: system/templates/admin/datacall.tpl.php:46
+msgid "param_3"
+msgstr "参数三【by】"
+
+#: system/templates/admin/datacall.tpl.php:47
+msgid "param_3_tips"
+msgstr "排列，可选参数: [<span class=\"txtblue\">asc</span>],[<span class=\"txtblue\">desc</span>]"
+
+#: system/templates/admin/datacall.tpl.php:50
+msgid "param_4"
+msgstr "参数四【limit】"
+
+#: system/templates/admin/datacall.tpl.php:51
+msgid "param_4_tips"
+msgstr "显示记录条数，请填写数字，如 10 , 20等"
+
+#: system/templates/admin/datacall.tpl.php:54
+msgid "datacall_url"
+msgstr "调用URL:"
+
+#: system/templates/admin/datacall.tpl.php:68
+msgid "sql_datacall"
+msgstr "SQL数据调用"
+
+#: system/templates/admin/datacall.tpl.php:71
+msgid "sql_datacall_tips"
+msgstr "SQL调用可以让站长使用个性的SQL进行调用，可以直接修改模板即可以，此处只是说明教程。"
+
+#: system/templates/admin/datacall.tpl.php:75
+msgid "sql_module"
+msgstr "SQL调用模块"
+
+#: system/templates/admin/datacall.tpl.php:78
+msgid "sql_module_tips"
+msgstr "<span class=\"txtblue\">例子，列出最新10个公共文件按时间升序排列：</span><br><br>"
+
+#: system/templates/admin/datacall.tpl.php:78
+msgid "sql_module_tech"
+msgstr "详细内容请参考论坛教程： <a href=\"http://bbs.phpdisk.com/thread-2192-1-1.html\" target=\"_blank\">http://bbs.phpdisk.com/thread-2192-1-1.html</a><br><br>"
+
+#: system/templates/admin/datacall.tpl.php:86
+msgid "add_arr_datacall"
+msgstr "添加数组调用"
+
+#: system/templates/admin/datacall.tpl.php:88
+msgid "edit_arr_datacall"
+msgstr "修改数组调用"
+
+#: system/templates/admin/datacall.tpl.php:92
+#: system/templates/admin/datacall.tpl.php:134
+msgid "arr_datacall_tips"
+msgstr "管理员可以添加个性化的数组调用，直接修改模板相应的地方进行数据显示。"
+
+#: system/templates/admin/datacall.tpl.php:101
+#: system/templates/admin/datacall.tpl.php:141
+msgid "datacall_key"
+msgstr "数组调用Key"
+
+#: system/templates/admin/datacall.tpl.php:101
+msgid "datacall_key_tips"
+msgstr "数组调用唯一的KEY，模板中的调用方式：<span class=\"txtblue\">{#get_datacall('key')#}</span> ，只能由英文、数字或下划线组成。"
+
+#: system/templates/admin/datacall.tpl.php:105
+#: system/templates/admin/datacall.tpl.php:142
+msgid "datacall_value"
+msgstr "数组调用值Value"
+
+#: system/templates/admin/datacall.tpl.php:105
+msgid "datacall_value_tips"
+msgstr "数组调用值Value与Key对应，可以直接在模板中显示出来，可以为任意字符，包括Javascript代码等均可。"
+
+#: system/templates/admin/datacall.tpl.php:131
+msgid "arr_datacall"
+msgstr "数组调用"
+
+#: system/templates/admin/datacall.tpl.php:149
+msgid "edit_tips"
+msgstr "修改数据调用"
+
+#: system/templates/admin/datacall.tpl.php:149
+msgid "edit"
+msgstr "改"
+
+#: system/templates/admin/datacall.tpl.php:150
+msgid "del_dc_confirm"
+msgstr "删除确认?"
+
+#: system/templates/admin/datacall.tpl.php:150
+msgid "del_tips"
+msgstr "删除数据调用"
+
+#: system/templates/admin/datacall.tpl.php:164
+msgid "misc_array_not_found"
+msgstr "暂无自定义数组数据。"
+
+#: system/templates/admin/datacall.tpl.php:170
+msgid "add_datacall_arr"
+msgstr "新增数组调用..."
+
+#: system/templates/admin/plugins.tpl.php:25
+msgid "plugin_shortcut"
+msgstr "面板设置"
+
+#: system/templates/admin/plugins.tpl.php:28
+msgid "plugin_shortcut_tips"
+msgstr "插件快捷面板可以让管理员将一些自己常用的插件添加到面板中，让操作更加简便。"
+
+#: system/templates/admin/plugins.tpl.php:36
+msgid "open_plugins_cp"
+msgstr "开启插件快捷面板"
+
+#: system/templates/admin/plugins.tpl.php:36
+msgid "open_plugins_cp_tips"
+msgstr "快捷面板显示于后台管理左侧，可以由管理员自己配置自己的插件项目，方便面管理员操作。"
+
+#: system/templates/admin/plugins.tpl.php:40
+msgid "open_plugins_last"
+msgstr "开启最近访问插件面板"
+
+#: system/templates/admin/plugins.tpl.php:40
+msgid "open_plugins_last_tips"
+msgstr "最近访问面板显示于后台管理左侧，可以方便地导向到插件面板中，对于管理员快速管理插件提供直接入口。"
+
+#: system/templates/admin/plugins.tpl.php:46
+msgid "current_plugin"
+msgstr "当前系统插件"
+
+#: system/templates/admin/plugins.tpl.php:46
+msgid "current_plugin_tips"
+msgstr "显示当前所有的插件，管理员可添加到左侧的快捷操作面板中。"
+
+#: system/templates/admin/plugins.tpl.php:72
+#: system/templates/admin/plugins.tpl.php:175
+msgid "plugin_not_found"
+msgstr "找不到可用的插件，请将插件放到 plugins/ 目录。"
+
+#: system/templates/admin/plugins.tpl.php:98
+msgid "plugins_manage"
+msgstr "插件管理"
+
+#: system/templates/admin/plugins.tpl.php:101
+msgid "plugins_manage_tips"
+msgstr "显示当前系统所有PHPDISK插件，以目录形式存放于 plugins/ 下，系统将会自动检测并载入当前插件管理中。"
+
+#: system/templates/admin/plugins.tpl.php:104
+msgid "all_plugins"
+msgstr "所有插件"
+
+#: system/templates/admin/plugins.tpl.php:105
+msgid "active_plugins"
+msgstr "已激活插件"
+
+#: system/templates/admin/plugins.tpl.php:106
+msgid "inactive_plugins"
+msgstr "未激活插件"
+
+#: system/templates/admin/plugins.tpl.php:107
+msgid "last_plugins"
+msgstr "最近访问"
+
+#: system/templates/admin/plugins.tpl.php:113
+msgid "plugin_name"
+msgstr "插件名称"
+
+#: system/templates/admin/plugins.tpl.php:114
+msgid "plugin_dir"
+msgstr "插件目录"
+
+#: system/templates/admin/plugins.tpl.php:115
+msgid "plugin_desc"
+msgstr "插件描述"
+
+#: system/templates/admin/plugins.tpl.php:137
+#: system/templates/admin/plugins.tpl.php:163
+msgid "inactive"
+msgstr "禁用"
+
+#: system/templates/admin/plugins.tpl.php:139
+#: system/templates/admin/plugins.tpl.php:162
+msgid "active"
+msgstr "激活"
+
+#: system/templates/admin/plugins.tpl.php:141
+msgid "confirm_uninstall_plugin"
+msgstr "确认卸载此插件？此插件的数据将会全部清空！"
+
+#: system/templates/admin/plugins.tpl.php:141
+msgid "uninstall"
+msgstr "卸载"
+
+#: system/templates/admin/plugins.tpl.php:143
+msgid "confirm_install_plugin"
+msgstr "确认安装此插件？"
+
+#: system/templates/admin/plugins.tpl.php:143
+msgid "install"
+msgstr "安装"
+
+#: system/templates/admin/plugins.tpl.php:145
+msgid "plugin_author"
+msgstr "开发商"
+
+#: system/templates/admin/plugins.tpl.php:146
+msgid "plugin_version"
+msgstr "插件版本"
+
+#: system/templates/admin/plugins.tpl.php:147
+#: system/templates/admin/templates.tpl.php:56
+msgid "phpdisk_core"
+msgstr "适用版本"
+
+#: system/templates/admin/plugins.tpl.php:173
+msgid "last_not_found"
+msgstr "暂无最后访问插件记录"
+
+#: system/templates/admin/templates.tpl.php:24
+msgid "tpl_title"
+msgstr "模板名称"
+
+#: system/templates/admin/templates.tpl.php:26
+msgid "template_tips"
+msgstr "默认的模板目录 default 和 admin 名称不能修改、删除，否则会导致系统不能访问！(你可以独立添加其他的模板到系统中。)"
+
+#: system/templates/admin/templates.tpl.php:30
+msgid "tpl_snapshot"
+msgstr "模板截图"
+
+#: system/templates/admin/templates.tpl.php:31
+msgid "style_dir"
+msgstr "模板文件"
+
+#: system/templates/admin/templates.tpl.php:32
+msgid "tpl_des"
+msgstr "模板描述"
+
+#: system/templates/admin/templates.tpl.php:39
+msgid "admin_tpl"
+msgstr "后台模板"
+
+#: system/templates/admin/templates.tpl.php:39
+msgid "user_tpl"
+msgstr "用户模板"
+
+#: system/templates/admin/templates.tpl.php:54
+msgid "tpl_author"
+msgstr "开发商"
+
+#: system/templates/admin/templates.tpl.php:55
+msgid "tpl_version"
+msgstr "模板版本"
+
+#: system/templates/admin/templates.tpl.php:63
+msgid "actived_tpl"
+msgstr "当前使用"
+
+#: system/templates/admin/templates.tpl.php:65
+msgid "set_active_tpl"
+msgstr "激活模板"
+
+#: system/templates/admin/settings.tpl.php:27
+msgid "base_setting"
+msgstr "基本配置"
+
+#: system/templates/admin/settings.tpl.php:30
+#: system/templates/admin/settings.tpl.php:119
+msgid "setting_tips"
+msgstr "设为 0 则为不限制,以下说明与此相同。"
+
+#: system/templates/admin/settings.tpl.php:39
+msgid "site_title_tips"
+msgstr "显示于网站标题中，推荐 50字以内。"
+
+#: system/templates/admin/settings.tpl.php:43
+msgid "site_stat_tips"
+msgstr "此处可以放入第三方的统计代码，方便管理员对整个系统的统计。"
+
+#: system/templates/admin/settings.tpl.php:49
+msgid "miibeian"
+msgstr "网站备案"
+
+#: system/templates/admin/settings.tpl.php:49
+msgid "miibeian_tips"
+msgstr "您在 <a href=\"http://www.miibeian.gov.cn/\" target=\"_blank\">http://www.miibeian.gov.cn/</a> 信息产业部网站的备案号。"
+
+#: system/templates/admin/settings.tpl.php:53
+msgid "contact_us"
+msgstr "联系我们"
+
+#: system/templates/admin/settings.tpl.php:53
+msgid "contact_us_tips"
+msgstr "显示于页面底部，一般是站长的Email，用于访客与站长联系。"
+
+#: system/templates/admin/settings.tpl.php:61
+msgid "encrypt_key_tips"
+msgstr "网站上的安全信息均与此密匙有关，请设置为大小写字母与数字组合，尽可能的复杂，建议长度设置为12位。"
+
+#: system/templates/admin/settings.tpl.php:65
+msgid "allow_access"
+msgstr "允许访问系统"
+
+#: system/templates/admin/settings.tpl.php:65
+msgid "allow_access_tips"
+msgstr "默认为允许访问，原因请在200字符内（选填），此选项对管理员无效。"
+
+#: system/templates/admin/settings.tpl.php:72
+msgid "allow_register"
+msgstr "允许注册"
+
+#: system/templates/admin/settings.tpl.php:72
+msgid "allow_register_tips"
+msgstr "关闭时，新用户将无法注册，原因请在200字符内（选填）。"
+
+#: system/templates/admin/settings.tpl.php:116
+msgid "advanced_setting"
+msgstr "高级配置"
+
+#: system/templates/admin/settings.tpl.php:128
+msgid "max_file_size"
+msgstr "最大上传文件"
+
+#: system/templates/admin/settings.tpl.php:128
+msgid "max_file_size_tips"
+msgstr "设置为 0 则为按 php.ini的设置 <span class=\"txtred\">post_max_size(表单最大值)和upload_max_filesize(单个文件最大值)两者中的最小值</span> 设置，填写格式：如2048B,500K ,10M 等。注意：如果所填数值超过 php.ini 的设置，系统会按 php.ini 中所允许的最大值来设置<br><span class=\"txtblue\">网盘探针: </span><a href=\"http://bbs.phpdisk.com/viewthread.php?tid=1506\" target=\"_blank\">http://bbs.phpdisk.com/viewthread.php?tid=1506</a>"
+
+#: system/templates/admin/settings.tpl.php:132
+msgid "file_path"
+msgstr "存储目录"
+
+#: system/templates/admin/settings.tpl.php:132
+msgid "file_path_tips"
+msgstr "如果此处修改了此目录名，请在程序的根目录下修改 filestores 的文件夹与当前设定的目录名称相同，否则会出现无法上传文件的问题。<br><span class=\"txtred\">(用户修改时请谨慎。)</span>"
+
+#: system/templates/admin/settings.tpl.php:136
+msgid "login_down_file"
+msgstr "权限下载(用户登录后才可下载)"
+
+#: system/templates/admin/settings.tpl.php:136
+msgid "login_down_file_tips"
+msgstr "用户下载文件时，要先登录网站，才可看到下载链接，进行文件下载。<br><span class=\"txtred\">注意：如果使用外链，请选择否。</span>"
+
+#: system/templates/admin/settings.tpl.php:140
+msgid "open_demo_login"
+msgstr "开启测试用户"
+
+#: system/templates/admin/settings.tpl.php:140
+msgid "open_demo_login_tips"
+msgstr "开启后，系统会增加一个测试用户帐号: phpdisk_demo ,访问您网站的用户不用注册即可用户帐号登录，实现在线演示的效果。"
+
+#: system/templates/admin/settings.tpl.php:144
+msgid "secs_for_user"
+msgstr "会员读秒"
+
+#: system/templates/admin/settings.tpl.php:144
+msgid "secs_for_user_tips"
+msgstr "如果设定为“否”，登录的会员在下载时将不会出现读秒等待的时间，只有访客会出现[全局读秒]设定的时间；如果设定为“是”，系统会取全局读秒与用户组中的最小值作为读秒数。"
+
+#: system/templates/admin/settings.tpl.php:148
+msgid "global_secs_loading"
+msgstr "全局下载地址读秒"
+
+#: system/templates/admin/settings.tpl.php:148
+msgid "global_secs_loading_tips"
+msgstr "设置为0则不读秒，如果用户组设定读秒后，则相应用户组会直接使用组设定的读秒数，否则，取此读秒设定。<br><span class=\"txtred\">此处也可以作为访客读秒，管理员需开启访客可以下载文件的权限才生效。</span>"
+
+#: system/templates/admin/settings.tpl.php:152
+msgid "true_link"
+msgstr "开启真实外链地址"
+
+#: system/templates/admin/settings.tpl.php:152
+msgid "true_link_tips"
+msgstr "使用真实地址可以大大减小服务器的压力，但同时，系统的网盘文件将会直接显示真实地址,开启此处时，要将相应的用户组都开启才会生效。<br><span class=\"txtred\">(注意：开启后，系统上的外链流量统计、可使用外链等的域名设置只能在服务器中配置，程序中的配置将不起任何作用！)</span>"
+
+#: system/templates/admin/settings.tpl.php:156
+msgid "true_link_extension"
+msgstr "可外链的文件扩展名"
+
+#: system/templates/admin/settings.tpl.php:156
+msgid "true_link_extension_tips"
+msgstr "此类文件扩展名在设置外链时将会使用真实文件路径，每个扩展名请以英文逗号隔开。<br><span class=\"txtred\">注意：填写此处扩展名需谨慎，危险的扩展名将会涉及到系统的安全性。</span>"
+
+#: system/templates/admin/settings.tpl.php:163
+msgid "gzipcompress"
+msgstr "页面 Gzip 压缩"
+
+#: system/templates/admin/settings.tpl.php:163
+msgid "gzipcompress_tips"
+msgstr "将页面内容以 gzip 压缩后传输，可以加快传输速度，需 PHP 4.0.4 以上且支持 Zlib 模块才能使用"
+
+#: system/templates/admin/settings.tpl.php:167
+msgid "perpage"
+msgstr "每页显示"
+
+#: system/templates/admin/settings.tpl.php:167
+msgid "perpage_tips"
+msgstr "文件列表时每页显示的数量，访问量较大时，数量请设置低一些，推荐20至50之间。"
+
+#: system/templates/admin/settings.tpl.php:171
+msgid "open_file_preview"
+msgstr "开启文件预览"
+
+#: system/templates/admin/settings.tpl.php:171
+msgid "open_file_preview_tips"
+msgstr "可以对文件在线预览，如：音乐文件、flash文件、图片文件等。"
+
+#: system/templates/admin/settings.tpl.php:175
+msgid "open_file_extract_code"
+msgstr "开启文件提取码"
+
+#: system/templates/admin/settings.tpl.php:175
+msgid "open_file_extract_code_tips"
+msgstr "开启后，用户文件管理的后台可以显示文件单个[提]取码功能。"
+
+#: system/templates/admin/settings.tpl.php:179
+msgid "open_file_outlink"
+msgstr "开启外链"
+
+#: system/templates/admin/settings.tpl.php:179
+msgid "open_file_outlink_tips"
+msgstr "开启后，用户文件管理的后台可以显示文件外[链]功能。"
+
+#: system/templates/admin/settings.tpl.php:183
+msgid "downfile_directly"
+msgstr "直接下载文件"
+
+#: system/templates/admin/settings.tpl.php:183
+msgid "downfile_directly_tips"
+msgstr "在文件管理区，点击文件链接直接下载，不需要多开一个页面。<br>推荐公司内部使用或一些不需要安放广告网站使用。"
+
+#: system/templates/admin/settings.tpl.php:187
+msgid "show_relative_file"
+msgstr "显示同类文件"
+
+#: system/templates/admin/settings.tpl.php:187
+msgid "show_relative_file_tips"
+msgstr "在资料访问页右侧，显示同类扩展名的文件。"
+
+#: system/templates/admin/settings.tpl.php:191
+msgid "show_hot_file_right"
+msgstr "显示右侧热门文件"
+
+#: system/templates/admin/settings.tpl.php:191
+msgid "show_hot_file_right_tips"
+msgstr "显示右侧热门文件，可以关闭，只会显示于标签与个人空间中。"
+
+#: system/templates/admin/settings.tpl.php:195
+msgid "show_stat_index"
+msgstr "首页显示统计信息"
+
+#: system/templates/admin/settings.tpl.php:195
+msgid "show_stat_index_tips"
+msgstr "网盘统计信息可以让管理员更好发了解网盘的使用情况，人气等。"
+
+#: system/templates/admin/settings.tpl.php:199
+msgid "invite_register_encode"
+msgstr "加密邀请注册链接"
+
+#: system/templates/admin/settings.tpl.php:199
+msgid "invite_register_encode_tips"
+msgstr "加密链接显示：http://yoursite.com/account.php?action=register&VSVcPF9qWj1RZg== ，<br>非加密链接显示：http://yoursite.com/account.php?action=register&uid=1 "
+
+#: system/templates/admin/settings.tpl.php:203
+msgid "create_default_folder"
+msgstr "创建默认文件夹"
+
+#: system/templates/admin/settings.tpl.php:203
+msgid "create_default_folder_tips"
+msgstr "对于初次登录的用户，如果系统检测到用户还没有创建文件夹，系统会自动创建一个文件夹。请填入文件夹名称，留空则不创建。"
+
+#: system/templates/admin/settings.tpl.php:207
+msgid "all_file_share"
+msgstr "共享全部文件"
+
+#: system/templates/admin/settings.tpl.php:207
+msgid "all_file_share_tips"
+msgstr "共享全部文件"
+
+#: system/templates/admin/settings.tpl.php:208
+msgid "confirm_all_share"
+msgstr "确认操作?"
+
+#: system/templates/admin/settings.tpl.php:208
+msgid "set_all_file_share"
+msgstr "共享所有文件资源"
+
+#: system/templates/admin/settings.tpl.php:211
+msgid "share_tool"
+msgstr "分享工具代码"
+
+#: system/templates/admin/settings.tpl.php:211
+msgid "share_tool_tips"
+msgstr "在资料浏览页添加分享工具，用户可以将文件资源分享到各大微博以及其他的站中，可以为网站导入大量的流量。"
+
+#: system/templates/admin/settings.tpl.php:226
+msgid "js_max_file_size"
+msgstr "请为系统设定单个上传文件的大小"
+
+#: system/templates/admin/settings.tpl.php:236
+msgid "js_perpage"
+msgstr "分页大小不能为空"
+
+#: system/templates/admin/database.tpl.php:26
+msgid "backup_database"
+msgstr "备份数据库"
+
+#: system/templates/admin/database.tpl.php:30
+msgid "backup_database_tips"
+msgstr "此操作将会将数据库结构以及数据全部备份。"
+
+#: system/templates/admin/database.tpl.php:31
+msgid "backup_database_tips2"
+msgstr "您可以根据您的需求设定单个数据备份文件的大小。"
+
+#: system/templates/admin/database.tpl.php:35
+msgid "optimize_database"
+msgstr "优化数据库"
+
+#: system/templates/admin/database.tpl.php:37
+msgid "optimize_database_tips"
+msgstr "优化数据库可以让数据库性能达到极限，一般一周运行一次即可。"
+
+#: system/templates/admin/database.tpl.php:45
+msgid "name"
+msgstr "名称"
+
+#: system/templates/admin/database.tpl.php:46
+msgid "engine"
+msgstr "表类型"
+
+#: system/templates/admin/database.tpl.php:47
+msgid "rows"
+msgstr "记录"
+
+#: system/templates/admin/database.tpl.php:48
+msgid "index_length"
+msgstr "索引"
+
+#: system/templates/admin/database.tpl.php:49
+msgid "data_free"
+msgstr "碎片"
+
+#: system/templates/admin/database.tpl.php:50
+msgid "data_length"
+msgstr "大小"
+
+#: system/templates/admin/database.tpl.php:75
+msgid "sel_all"
+msgstr "全选/反选"
+
+#: system/templates/admin/database.tpl.php:76
+msgid "index_size"
+msgstr "索引"
+
+#: system/templates/admin/database.tpl.php:76
+msgid "data_size"
+msgstr "数据"
+
+#: system/templates/admin/database.tpl.php:76
+msgid "all"
+msgstr "全部"
+
+#: system/templates/admin/database.tpl.php:78
+msgid "one_sql_file"
+msgstr "单个备份SQL文件大小"
+
+#: system/templates/admin/database.tpl.php:78
+msgid "btn_run_backup"
+msgstr "执行备份"
+
+#: system/templates/admin/database.tpl.php:80
+msgid "run_optimize"
+msgstr "运行优化操作"
+
+#: system/templates/admin/database.tpl.php:89
+msgid "please_select_operation_tables"
+msgstr "请选择要备份的数据库表。"
+
+#: system/templates/admin/database.tpl.php:107
+msgid "restore_database"
+msgstr "恢复数据库"
+
+#: system/templates/admin/database.tpl.php:111
+msgid "restore_database_tips"
+msgstr "注意！恢复数据将会清空当前数据库，为安全起见，请先关闭系统，确保您在恢复数据时没有其他用户在访问数据库。"
+
+#: system/templates/admin/database.tpl.php:112
+msgid "restore_database_tips2"
+msgstr "同一背景色的数据备份文件是同一次的备份，恢复数据库时，您只要点击一个SQL文件，程序会自动完成同一种背景色的SQL文件恢复。"
+
+#: system/templates/admin/database.tpl.php:113
+msgid "restore_database_tips3"
+msgstr "为了增强系统的安全性，请定期将数据备份删除。"
+
+#: system/templates/admin/database.tpl.php:121
+msgid "sql_order"
+msgstr "序号"
+
+#: system/templates/admin/database.tpl.php:122
+msgid "sql_name"
+msgstr "备份文件名"
+
+#: system/templates/admin/database.tpl.php:123
+msgid "sql_size"
+msgstr "文件大小"
+
+#: system/templates/admin/database.tpl.php:124
+msgid "backup_time"
+msgstr "备份时间"
+
+#: system/templates/admin/database.tpl.php:125
+msgid "part_number"
+msgstr "分卷ID"
+
+#: system/templates/admin/database.tpl.php:139
+msgid "sql_delete_confirm"
+msgstr "分卷删除确认！此操作将会将同一时间备份的文件全部删除 ！"
+
+#: system/templates/admin/database.tpl.php:139
+msgid "sql_file_delete"
+msgstr "删除备份"
+
+#: system/templates/admin/database.tpl.php:140
+msgid "sql_restore_confirm"
+msgstr "恢复当前数据时，当前数据库中的记录将会被覆盖(删除)。如果不确定，请先备份当前数据库。"
+
+#: system/templates/admin/database.tpl.php:140
+msgid "sql_restore"
+msgstr "恢复"
+
+#: system/templates/admin/database.tpl.php:149
+msgid "no_backup_database"
+msgstr "找不到已备份的数据库文件。"
+
+#: system/templates/admin/version.tpl.php:24
+msgid "admincp_version"
+msgstr "检测最新版本"
+
+#: system/templates/admin/version.tpl.php:27
+msgid "version_tips"
+msgstr "检测当前系统与官方最新发布的系统。方便管理员实时了解官方动态与程序的应用。"
+
+#: system/templates/admin/version.tpl.php:37
+msgid "version_checking"
+msgstr "程序检测中...请稍等"
+
+#: system/templates/admin/version.tpl.php:43
+msgid "curr_version_info"
+msgstr "当前版本信息"
+
+#: system/templates/admin/version.tpl.php:56
+msgid "download_update"
+msgstr "手动下载安装包升级>>"
+
+#: system/templates/admin/version.tpl.php:61
+msgid "your_version_is_lastest"
+msgstr "您的系统已经是最新版本，不需要更新。"
+
+#: system/templates/admin/cache.tpl.php:25
+msgid "update_cache_title"
+msgstr "更新缓存"
+
+#: system/templates/admin/cache.tpl.php:28
+msgid "update_cache_tips"
+msgstr "为减轻系统的负担，系统会定时生成文件缓存。此处，您可以直接手动更新缓存数据。"
+
+#: system/templates/admin/cache.tpl.php:39
+msgid "cache_data"
+msgstr "数据缓存"
+
+#: system/templates/admin/cache.tpl.php:40
+msgid "tpl_data"
+msgstr "模板缓存"
+
+#: system/templates/admin/cache.tpl.php:53
+msgid "search_index"
+msgstr "搜索缓存管理"
+
+#: system/templates/admin/cache.tpl.php:56
+msgid "search_index_tips"
+msgstr "搜索缓存专门针对网站用户对系统的搜索结果缓存，可以大大减轻服务器搜索压力。"
+
+#: system/templates/admin/cache.tpl.php:68
+msgid "search_word"
+msgstr "关键词"
+
+#: system/templates/admin/cache.tpl.php:69
+msgid "search_time"
+msgstr "搜索时间"
+
+#: system/templates/admin/cache.tpl.php:70
+msgid "search_count"
+msgstr "搜索次数"
+
+#: system/templates/admin/cache.tpl.php:87
+msgid "confirm_truncate"
+msgstr "确认清空?"
+
+#: system/templates/admin/cache.tpl.php:87
+msgid "btn_truncate"
+msgstr "清空搜索缓存"
+
+#: system/templates/admin/cache.tpl.php:93
+msgid "search_index_not_found"
+msgstr "暂无搜索缓存。"
+
+#: system/templates/admin/users.tpl.php:25
+msgid "user_list"
+msgstr "用户列表"
+
+#: system/templates/admin/users.tpl.php:28
+msgid "user_list_tips"
+msgstr "您可以对某个会员进行组管理的设定。用户权限的设定以及锁定某个会员等。"
+
+#: system/templates/admin/users.tpl.php:34
+msgid "view_group_type"
+msgstr "用户组查看"
+
+#: system/templates/admin/users.tpl.php:36
+msgid "all_users"
+msgstr "全部用户"
+
+#: system/templates/admin/users.tpl.php:48
+#: system/templates/admin/files.tpl.php:38
+#: system/templates/admin/public.tpl.php:132
+msgid "view_mode"
+msgstr "查看方式"
+
+#: system/templates/admin/users.tpl.php:51
+msgid "time_asc"
+msgstr "时间升序↑"
+
+#: system/templates/admin/users.tpl.php:52
+msgid "time_desc"
+msgstr "时间降序↓"
+
+#: system/templates/admin/users.tpl.php:53
+msgid "is_locked"
+msgstr "锁定的用户"
+
+#: system/templates/admin/users.tpl.php:56
+msgid "search_users_tips"
+msgstr "多个关键字用空格隔开"
+
+#: system/templates/admin/users.tpl.php:56
+msgid "search_users"
+msgstr "搜索用户"
+
+#: system/templates/admin/users.tpl.php:83
+#: system/templates/admin/users.tpl.php:123
+#: system/templates/admin/users.tpl.php:191
+#: system/templates/admin/users.tpl.php:310
+msgid "user_name"
+msgstr "用户名"
+
+#: system/templates/admin/users.tpl.php:83
+#: system/templates/admin/users.tpl.php:123
+#: system/templates/admin/users.tpl.php:234
+#: system/templates/admin/users.tpl.php:349
+msgid "user_credit"
+msgstr "用户积分"
+
+#: system/templates/admin/users.tpl.php:84
+#: system/templates/admin/users.tpl.php:124
+#: system/templates/admin/users.tpl.php:203
+#: system/templates/admin/users.tpl.php:318
+msgid "user_email"
+msgstr "Email"
+
+#: system/templates/admin/users.tpl.php:112
+msgid "user_delete_confirm"
+msgstr "确认删除？该用户的文件(夹)、提取码等将会全部被删除，请慎用！"
+
+#: system/templates/admin/users.tpl.php:136
+msgid "move_to"
+msgstr "移动到"
+
+#: system/templates/admin/users.tpl.php:156
+msgid "user_not_found"
+msgstr "该条件没有找到用户"
+
+#: system/templates/admin/users.tpl.php:180
+msgid "add_user"
+msgstr "添加新用户"
+
+#: system/templates/admin/users.tpl.php:183
+msgid "add_user_tips"
+msgstr "添加新用户，用户可以免去在前台注册，加 * 号的为必填项目"
+
+#: system/templates/admin/users.tpl.php:195
+#: system/templates/admin/users.tpl.php:314
+msgid "user_passwd"
+msgstr "用户密码"
+
+#: system/templates/admin/users.tpl.php:199
+msgid "confirm_passwd"
+msgstr "确认密码"
+
+#: system/templates/admin/users.tpl.php:224
+#: system/templates/admin/users.tpl.php:339
+msgid "user_status"
+msgstr "用户状态"
+
+#: system/templates/admin/users.tpl.php:229
+#: system/templates/admin/users.tpl.php:344
+msgid "active_user"
+msgstr "激活用户"
+
+#: system/templates/admin/users.tpl.php:234
+#: system/templates/admin/users.tpl.php:349
+msgid "user_credit_tips"
+msgstr "用户积分"
+
+#: system/templates/admin/users.tpl.php:238
+#: system/templates/admin/users.tpl.php:353
+msgid "user_wealth"
+msgstr "用户金钱"
+
+#: system/templates/admin/users.tpl.php:238
+#: system/templates/admin/users.tpl.php:353
+msgid "user_wealth_tips"
+msgstr "用户金钱只能通过管理员设定，以及在线充值等实现。"
+
+#: system/templates/admin/users.tpl.php:242
+#: system/templates/admin/users.tpl.php:357
+msgid "user_rank"
+msgstr "用户等级"
+
+#: system/templates/admin/users.tpl.php:242
+#: system/templates/admin/users.tpl.php:357
+msgid "user_rank_tips"
+msgstr "用户等级是对用户日常操作的记录，可以实现在线等级升级。"
+
+#: system/templates/admin/users.tpl.php:246
+#: system/templates/admin/users.tpl.php:361
+msgid "user_exp"
+msgstr "用户经验"
+
+#: system/templates/admin/users.tpl.php:246
+#: system/templates/admin/users.tpl.php:361
+msgid "user_exp_tips"
+msgstr "当前级别的经验数，总经验计算公式为：用户等级*经验成长值+当前经验值。"
+
+#: system/templates/admin/users.tpl.php:250
+#: system/templates/admin/users.tpl.php:365
+msgid "user_store_space"
+msgstr "免费存储空间"
+
+#: system/templates/admin/users.tpl.php:250
+#: system/templates/admin/users.tpl.php:365
+msgid "user_store_space_tips"
+msgstr "可设定为 200M , 1G 等。如果此处值为 0 ,则按用户所在组的空间为存储空间。"
+
+#: system/templates/admin/users.tpl.php:254
+#: system/templates/admin/users.tpl.php:369
+msgid "user_file_types_tips"
+msgstr "可设定用户上传的文件类型，留空则为允许所有文件类型。格式：jpg,zip,rar"
+
+#: system/templates/admin/users.tpl.php:294
+msgid "user_edit"
+msgstr "编辑用户"
+
+#: system/templates/admin/users.tpl.php:297
+msgid "user_edit_tips"
+msgstr "此处可设定某一用户的分组及密码重置、email重置等。"
+
+#: system/templates/admin/users.tpl.php:306
+msgid "uid"
+msgstr "UID"
+
+#: system/templates/admin/users.tpl.php:315
+msgid "no_edit_passwd_tips"
+msgstr "不修改请留空"
+
+#: system/templates/admin/users.tpl.php:391
+msgid "user_active"
+msgstr "激活用户"
+
+#: system/templates/admin/users.tpl.php:394
+msgid "user_active_tips"
+msgstr "注册审核，可以让网站减少垃圾注册的信息。"
+
+#: system/templates/admin/users.tpl.php:402
+msgid "user_active_type"
+msgstr "新注册用户审核"
+
+#: system/templates/admin/users.tpl.php:402
+msgid "user_active_type_tips"
+msgstr "是否需要审核您的网站新用户，使用此配置可以有效减少网站的垃圾信息。注意：使用邮件激活，需要先在【邮件设置】配置且测试发送成功邮件。"
+
+#: system/templates/admin/users.tpl.php:405
+msgid "not_need"
+msgstr "不需要"
+
+#: system/templates/admin/users.tpl.php:406
+msgid "need_email"
+msgstr "邮件激活"
+
+#: system/templates/admin/users.tpl.php:411
+msgid "user_active_curr"
+msgstr "操作当前用户"
+
+#: system/templates/admin/users.tpl.php:411
+msgid "user_active_curr_tips"
+msgstr "此操作可以激活、未激活当前网盘系统所有的用户，默认全部是未激活状态。<span class=\"txtred\">(此操作不可恢复！！)</span>"
+
+#: system/templates/admin/users.tpl.php:414
+msgid "user_active_curr_1"
+msgstr "用户保持现状"
+
+#: system/templates/admin/users.tpl.php:415
+msgid "user_active_curr_2"
+msgstr "全部设为已激活"
+
+#: system/templates/admin/users.tpl.php:416
+msgid "user_active_curr_3"
+msgstr "全部设为未激活"
+
+#: system/templates/admin/email.tpl.php:27
+msgid "email_title"
+msgstr "邮件标题"
+
+#: system/templates/admin/email.tpl.php:30
+#: system/templates/admin/email.tpl.php:108
+msgid "email_tips"
+msgstr "设定你发给网站上会员发送邮件时配置环境，如：找回密码。"
+
+#: system/templates/admin/email.tpl.php:38
+msgid "open_email"
+msgstr "开启邮件系统"
+
+#: system/templates/admin/email.tpl.php:38
+msgid "open_email_tips"
+msgstr "只有此项开启后，网站才可以实现邮件发送功能。"
+
+#: system/templates/admin/email.tpl.php:42
+msgid "email_address"
+msgstr "发送人Email"
+
+#: system/templates/admin/email.tpl.php:42
+msgid "email_address_tips"
+msgstr "你发送email的邮箱，请确认该邮箱支持smtp服务， 如：admin@gmail.com。"
+
+#: system/templates/admin/email.tpl.php:46
+msgid "email_pwd"
+msgstr "邮箱密码"
+
+#: system/templates/admin/email.tpl.php:46
+msgid "email_pwd_tips"
+msgstr "你邮箱对应的密码"
+
+#: system/templates/admin/email.tpl.php:50
+msgid "email_user"
+msgstr "发送人名称"
+
+#: system/templates/admin/email.tpl.php:50
+msgid "email_user_tips"
+msgstr "将会显示于客户邮件头"
+
+#: system/templates/admin/email.tpl.php:54
+msgid "email_smtp"
+msgstr "SMTP服务器"
+
+#: system/templates/admin/email.tpl.php:54
+msgid "email_smtp_tips"
+msgstr "请填写你的SMTP服务器，如：smtp.gmail.com"
+
+#: system/templates/admin/email.tpl.php:58
+msgid "email_port"
+msgstr "SMTP端口"
+
+#: system/templates/admin/email.tpl.php:58
+msgid "email_port_tips"
+msgstr "发送邮件时使用的端口，一般是 25 。"
+
+#: system/templates/admin/email.tpl.php:62
+msgid "email_ssl"
+msgstr "使用SSL"
+
+#: system/templates/admin/email.tpl.php:62
+msgid "email_ssl_tips"
+msgstr "发邮件时是否使用SSL加密，gmail 使用此加密。"
+
+#: system/templates/admin/email.tpl.php:105
+msgid "email_test"
+msgstr "邮箱测试"
+
+#: system/templates/admin/email.tpl.php:116
+msgid "receive_address"
+msgstr "收件人邮箱"
+
+#: system/templates/admin/email.tpl.php:120
+msgid "mail_subject"
+msgstr "邮件标题"
+
+#: system/templates/admin/email.tpl.php:121
+msgid "test_mail_subject"
+msgstr "PHPDISK Test Email"
+
+#: system/templates/admin/email.tpl.php:124
+msgid "mail_content"
+msgstr "邮件内容"
+
+#: system/templates/admin/email.tpl.php:125
+msgid "test_mail_content"
+msgstr "测试邮件发送"
+
+#: system/templates/admin/verycode.tpl.php:24
+msgid "verycode_title"
+msgstr "网站验证码"
+
+#: system/templates/admin/verycode.tpl.php:27
+#: system/templates/admin/verycode.tpl.php:39
+msgid "verycode_tips"
+msgstr "启用验证码可以大大降低机器人的恶意注册，更好的保护系统的资源。"
+
+#: system/templates/admin/verycode.tpl.php:35
+msgid "open_verycode"
+msgstr "开启验证码"
+
+#: system/templates/admin/verycode.tpl.php:35
+msgid "open_verycode_tips"
+msgstr "只有开启后，相应位置的验证码才会生效。"
+
+#: system/templates/admin/verycode.tpl.php:39
+msgid "op_verycode"
+msgstr "验证码位置"
+
+#: system/templates/admin/verycode.tpl.php:40
+msgid "register_verycode"
+msgstr "用户注册"
+
+#: system/templates/admin/verycode.tpl.php:41
+msgid "login_verycode"
+msgstr "用户登录"
+
+#: system/templates/admin/verycode.tpl.php:42
+msgid "forget_verycode"
+msgstr "找回密码"
+
+#: system/templates/admin/verycode.tpl.php:43
+msgid "active_verycode"
+msgstr "发送激活邮件"
+
+#: system/templates/admin/verycode.tpl.php:47
+msgid "verycode_type"
+msgstr "验证码类型"
+
+#: system/templates/admin/verycode.tpl.php:47
+msgid "verycode_type_tips"
+msgstr "请选择验证验类型"
+
+#: system/templates/admin/files.tpl.php:30
+msgid "public_title_tips"
+msgstr "点击用户名，可以按用户名显示用户最近上传的文件。"
+
+#: system/templates/admin/files.tpl.php:40
+msgid "mydisk_file"
+msgstr "个人文件"
+
+#: system/templates/admin/files.tpl.php:41
+msgid "mydisk_recycle"
+msgstr "文件回收站"
+
+#: system/templates/admin/files.tpl.php:44
+msgid "search_files_tips"
+msgstr "多个关键词以空格隔开"
+
+#: system/templates/admin/files.tpl.php:44
+msgid "search_files"
+msgstr "搜索文件"
+
+#: system/templates/admin/files.tpl.php:73
+msgid "status"
+msgstr "状态"
+
+#: system/templates/admin/files.tpl.php:95
+msgid "recycle_delete_confirm"
+msgstr "彻底删除？删除文件后不能恢复！"
+
+#: system/templates/admin/files.tpl.php:109
+msgid "check_public"
+msgstr "审核通过"
+
+#: system/templates/admin/files.tpl.php:110
+msgid "file_to_locked"
+msgstr "锁定文件"
+
+#: system/templates/admin/files.tpl.php:111
+msgid "file_to_unlocked"
+msgstr "解锁文件"
+
+#: system/templates/admin/public.tpl.php:25
+msgid "category_title"
+msgstr "公共上传分类"
+
+#: system/templates/admin/public.tpl.php:28
+msgid "category_title_tips"
+msgstr "用户公共上传依赖于公共分类，若想要启用公共上传，请管理员首先添加公共分类。"
+
+#: system/templates/admin/public.tpl.php:39
+#: system/templates/admin/public.tpl.php:99
+msgid "cate_name"
+msgstr "分类名称"
+
+#: system/templates/admin/public.tpl.php:40
+msgid "file_num"
+msgstr "文件数"
+
+#: system/templates/admin/public.tpl.php:48
+msgid "category_not_found"
+msgstr "目前暂无分类。"
+
+#: system/templates/admin/public.tpl.php:55
+msgid "add_cate"
+msgstr "添加新分类..."
+
+#: system/templates/admin/public.tpl.php:66
+msgid "add_cate_title"
+msgstr "添加公共分类"
+
+#: system/templates/admin/public.tpl.php:68
+msgid "modify_cate_title"
+msgstr "修改公共分类"
+
+#: system/templates/admin/public.tpl.php:72
+msgid "add_cate_title_tips"
+msgstr "公共分类是网站所有用户的一个公共存放文件的地方，它的权限是最宽松的，建议管理员添加公共分类对文件进行管理。"
+
+#: system/templates/admin/public.tpl.php:81
+msgid "pid"
+msgstr "上级分类"
+
+#: system/templates/admin/public.tpl.php:81
+msgid "pid_tips"
+msgstr "添加多个分类，可以让用户上传文件到相应的分类下，只支持二级分类。"
+
+#: system/templates/admin/public.tpl.php:84
+msgid "top_cate"
+msgstr "顶级分类"
+
+#: system/templates/admin/public.tpl.php:99
+msgid "cate_name_tips"
+msgstr "醒目的分类名称可以让用户操作更舒心。"
+
+#: system/templates/admin/public.tpl.php:103
+msgid "is_hidden_tips"
+msgstr "如果你的分类暂时不希望用户上传文件或不确定，可以先设置为隐藏的属性。"
+
+#: system/templates/admin/public.tpl.php:128
+#: system/templates/admin/public.tpl.php:216
+msgid "public_setting_tips"
+msgstr "您可以开启、关闭公共上传，同时您可以设定公共文件审核显示等。"
+
+#: system/templates/admin/public.tpl.php:135
+msgid "temp_file"
+msgstr "临时文件"
+
+#: system/templates/admin/public.tpl.php:147
+msgid "file_status"
+msgstr "文件状态"
+
+#: system/templates/admin/public.tpl.php:177
+msgid "check_file"
+msgstr "审核"
+
+#: system/templates/admin/public.tpl.php:213
+msgid "public_setting"
+msgstr "公共设定"
+
+#: system/templates/admin/public.tpl.php:224
+msgid "check_public_file"
+msgstr "审核公共文件"
+
+#: system/templates/admin/public.tpl.php:224
+msgid "check_public_file_tips"
+msgstr "开启此项后，只有管理员审核通过公共上传的文件才会显示于网站，用户才能搜索、下载到相关文件。"
+
+#: system/templates/admin/public.tpl.php:228
+msgid "file_to_public_checked"
+msgstr "文件转移审核"
+
+#: system/templates/admin/public.tpl.php:228
+msgid "file_to_public_checked_tips"
+msgstr "私人文件转移到公共文件时需要审核，可防止用户将非法文件转移到公共文件中。"
+
+#: system/templates/admin/public.tpl.php:232
+msgid "show_index"
+msgstr "显示调用于首页"
+
+#: system/templates/admin/public.tpl.php:232
+msgid "show_index_tips"
+msgstr "文件最新上传，最热门关注文件显示。"
+
+#: system/templates/admin/public.tpl.php:236
+msgid "show_public"
+msgstr "显示公共文件"
+
+#: system/templates/admin/public.tpl.php:236
+msgid "show_public_tips"
+msgstr "显示公共文件调用链接"
+
+#: system/templates/admin/seo.tpl.php:24
+msgid "seo_manage"
+msgstr "伪静态规则"
+
+#: system/templates/admin/seo.tpl.php:27
+msgid "seo_manage_tips"
+msgstr "搜索引擎优化，也叫做SEO，是一种可以让搜索引擎更友好收录你网站网页的优化工具。"
+
+#: system/templates/admin/seo.tpl.php:35
+msgid "open_seo"
+msgstr "开启SEO"
+
+#: system/templates/admin/seo.tpl.php:35
+msgid "open_seo_tips"
+msgstr "开启SEO后，页面上的相应位置将会添加上您相应的关键字，可以让收录排名更加靠前。"
+
+#: system/templates/admin/seo.tpl.php:39
+msgid "meta_keywords"
+msgstr "网站关键字"
+
+#: system/templates/admin/seo.tpl.php:39
+msgid "meta_keywords_tips"
+msgstr "网站关键字可以用于说明您的网站，多个关键词以英文半角逗号(,)隔开，建议 50字以内，有利于搜索引擎收录。"
+
+#: system/templates/admin/seo.tpl.php:45
+msgid "meta_description"
+msgstr "网站描述"
+
+#: system/templates/admin/seo.tpl.php:45
+msgid "meta_description_tips"
+msgstr "网站描述可以详细说明您的网站，建议 100字以内，有利于搜索引擎收录。"
+
+#: system/templates/admin/seo.tpl.php:54
+msgid "open_rewrite"
+msgstr "开启URL重写(Rewrite URL)"
+
+#: system/templates/admin/seo.tpl.php:54
+msgid "open_rewrite_tips"
+msgstr "请确认您的服务器支持URL重写，否则，开启后将无法浏览你的网站。(只针对前台，对于管理员面板URL不重写，开启此功能，会稍微加重您的服务器负载。)"
+
+#: system/templates/admin/seo.tpl.php:55
+msgid "get_rewrite_rule"
+msgstr "获取伪静态规则"
+
+#: system/templates/admin/seo.tpl.php:72
+msgid "alert_ie_copytext"
+msgstr "此功能只针对IE浏览器。如果非IE浏览器，请您直接右键复制文本内容，粘贴到你的代码中。"
+
+#: system/templates/admin/gallery.tpl.php:28
+msgid "add_gallery_title"
+msgstr "添加幻灯图片"
+
+#: system/templates/admin/gallery.tpl.php:30
+msgid "edit_gallery_title"
+msgstr "编辑幻灯图片"
+
+#: system/templates/admin/gallery.tpl.php:34
+#: system/templates/admin/gallery.tpl.php:99
+msgid "gallery_tips"
+msgstr "此插件可以在首页配置、播放幻灯片，可作为首页的一种广告的展示形式，让您的网盘首页显示更加友好。"
+
+#: system/templates/admin/gallery.tpl.php:43
+msgid "gal_title"
+msgstr "展示文字"
+
+#: system/templates/admin/gallery.tpl.php:43
+msgid "gal_title_tips"
+msgstr "幻灯图片对应的文字显示。"
+
+#: system/templates/admin/gallery.tpl.php:47
+msgid "gal_path"
+msgstr "图片地址"
+
+#: system/templates/admin/gallery.tpl.php:47
+msgid "gal_path_tips"
+msgstr "图片源的地址，只能使用绝对、相对地址，不支持网络地址。"
+
+#: system/templates/admin/gallery.tpl.php:51
+msgid "go_url"
+msgstr "链接地址"
+
+#: system/templates/admin/gallery.tpl.php:51
+msgid "go_url_tips"
+msgstr "点击此幻灯图片时导向的链接地址"
+
+#: system/templates/admin/gallery.tpl.php:55
+msgid "gal_target"
+msgstr "目标属性"
+
+#: system/templates/admin/gallery.tpl.php:55
+msgid "gal_target_tips"
+msgstr "默认是 _blank 属性，点击时，直接打开新窗口属性。"
+
+#: system/templates/admin/gallery.tpl.php:96
+msgid "gallery_title"
+msgstr "首页幻灯图插件"
+
+#: system/templates/admin/gallery.tpl.php:107
+msgid "open_gallery_index"
+msgstr "开启幻灯插件"
+
+#: system/templates/admin/gallery.tpl.php:107
+msgid "open_gallery_index_tips"
+msgstr "开启插件后，首页才会生效显示。"
+
+#: system/templates/admin/gallery.tpl.php:111
+msgid "gallery_type"
+msgstr "调用样式"
+
+#: system/templates/admin/gallery.tpl.php:111
+msgid "gallery_type_tips"
+msgstr "可以选择不同的调用样式。"
+
+#: system/templates/admin/gallery.tpl.php:114
+msgid "style"
+msgstr "风格"
+
+#: system/templates/admin/gallery.tpl.php:119
+msgid "gallery_size"
+msgstr "幻灯片大小"
+
+#: system/templates/admin/gallery.tpl.php:119
+msgid "gallery_size_tips"
+msgstr "超过大小的图片，系统将会自动截取到幻灯片大小的尺寸，单位：px(像素)。"
+
+#: system/templates/admin/gallery.tpl.php:139
+msgid "text"
+msgstr "文字"
+
+#: system/templates/admin/gallery.tpl.php:140
+msgid "path"
+msgstr "图片路径"
+
+#: system/templates/admin/gallery.tpl.php:141
+msgid "href"
+msgstr "链接"
+
+#: system/templates/admin/gallery.tpl.php:142
+msgid "target"
+msgstr "目标"
+
+#: system/templates/admin/gallery.tpl.php:160
+msgid "gallery_delete_confirm"
+msgstr "确认删除此幻灯图片信息"
+
+#: system/templates/admin/gallery.tpl.php:171
+msgid "gallery_not_found"
+msgstr "暂无数据"
+
+#: system/templates/admin/gallery.tpl.php:177
+msgid "add_new_gallery"
+msgstr "添加幻灯图片..."
+
+#: system/templates/admin/union.tpl.php:24
+msgid "union_manage"
+msgstr "联盟管理"
+
+#: system/templates/admin/union.tpl.php:27
+msgid "union_manage_tips"
+msgstr "您可以添加联盟帐号，通过您网盘的资源可以与联盟提供商实现收入分成，支持迅雷联盟和快车联盟。"
+
+#: system/templates/admin/union.tpl.php:34
+msgid "open_thunder"
+msgstr "启用迅雷联盟"
+
+#: system/templates/admin/union.tpl.php:34
+msgid "open_thunder_tips"
+msgstr "启用联盟后，文件的下载页面，将会出现使用迅雷下载文件的链接"
+
+#: system/templates/admin/union.tpl.php:38
+msgid "thunder_pid"
+msgstr "迅雷联盟号"
+
+#: system/templates/admin/union.tpl.php:38
+msgid "thunder_pid_tips"
+msgstr "使用此功能之前，请确认您在 <a href=\"http://union.xunlei.com/\" target=\"_blank\">迅雷联盟</a> 的网站上已申请了帐号。"
+
+#: system/templates/admin/union.tpl.php:45
+msgid "open_flashget"
+msgstr "启用快车联盟"
+
+#: system/templates/admin/union.tpl.php:45
+msgid "open_flashget_tips"
+msgstr "启用联盟后，文件的下载页面，将会出现使用快车下载文件的链接"
+
+#: system/templates/admin/union.tpl.php:49
+msgid "flashget_uid"
+msgstr "快车联盟号"
+
+#: system/templates/admin/union.tpl.php:49
+msgid "flashget_uid_tips"
+msgstr "使用此功能之前，请确认您在 <a href=\"http://union.flashget.com/\" target=\"_blank\">快车联盟</a> 的网站上已申请了帐号。"
+
+#: system/templates/admin/union.tpl.php:63
+msgid "thunder_pid_error"
+msgstr "启用迅雷联盟前，请填入您的联盟号，系统才会通过。"
+
+#: system/templates/admin/union.tpl.php:68
+msgid "flashget_uid_error"
+msgstr "启用快车联盟前，请填入您的联盟号，系统才会通过。"
+
+#: system/templates/admin/comment.tpl.php:24
+msgid "comment_manage"
+msgstr "文件互动插件"
+
+#: system/templates/admin/comment.tpl.php:27
+msgid "comment_manage_tips"
+msgstr "您可以删除、审核评论，只有能过审核的评论才会显示于网站中。此操作需开启[审核评论]开关。"
+
+#: system/templates/admin/comment.tpl.php:35
+msgid "open_comment"
+msgstr "开启文件评论"
+
+#: system/templates/admin/comment.tpl.php:35
+msgid "open_comment_tips"
+msgstr "开启之后，登录用户可以使用此操作对文件进行评论。"
+
+#: system/templates/admin/comment.tpl.php:39
+msgid "check_comment"
+msgstr "开启评论审核"
+
+#: system/templates/admin/comment.tpl.php:39
+msgid "check_comment_tips"
+msgstr "启用此开关后，管理员审核评论后才会显示于网站上。"
+
+#: system/templates/admin/comment.tpl.php:43
+msgid "open_vote"
+msgstr "开启文件投票"
+
+#: system/templates/admin/comment.tpl.php:43
+msgid "open_vote_tips"
+msgstr "文件底部\"顶\"、\"踩\"操作"
+
+#: system/templates/admin/comment.tpl.php:47
+msgid "open_file_url"
+msgstr "开启文件链接"
+
+#: system/templates/admin/comment.tpl.php:47
+msgid "open_file_url_tips"
+msgstr "开启文件链接，可以让用户直接复制链接，发到其他的好友，论坛等。"
+
+#: system/templates/admin/comment.tpl.php:92
+msgid "is_checked"
+msgstr "已审核"
+
+#: system/templates/admin/comment.tpl.php:93
+msgid "is_unchecked"
+msgstr "未审核"
+
+#: system/templates/admin/comment.tpl.php:102
+msgid "cmts_not_found"
+msgstr "暂无用户评论。"
+
+#: system/templates/admin/comment.tpl.php:116
+msgid "please_select_cmt_op"
+msgstr "请选择您的操作"
+
+#: system/templates/admin/groups.tpl.php:25
+msgid "user_group_list"
+msgstr "用户组管理"
+
+#: system/templates/admin/groups.tpl.php:28
+msgid "user_group_list_tips"
+msgstr "以下列出系统的所有用户组，您可以设定组的权限，也可以创建新的用户组"
+
+#: system/templates/admin/groups.tpl.php:35
+#: system/templates/admin/groups.tpl.php:84
+msgid "group_name"
+msgstr "组名称"
+
+#: system/templates/admin/groups.tpl.php:36
+msgid "user_count"
+msgstr "人数"
+
+#: system/templates/admin/groups.tpl.php:37
+msgid "group_type"
+msgstr "组类型"
+
+#: system/templates/admin/groups.tpl.php:38
+msgid "group_server"
+msgstr "文件服务器"
+
+#: system/templates/admin/groups.tpl.php:52
+msgid "group_setting"
+msgstr "设定"
+
+#: system/templates/admin/groups.tpl.php:53
+msgid "group_modify"
+msgstr "修改"
+
+#: system/templates/admin/groups.tpl.php:55
+msgid "group_delete_confirm"
+msgstr "确认删除该用户组？该组下的成员将会全部合并到[普通会员]系统组中。"
+
+#: system/templates/admin/groups.tpl.php:65
+msgid "create_group"
+msgstr "创建新用户组..."
+
+#: system/templates/admin/groups.tpl.php:72
+msgid "user_group_create"
+msgstr "创建新用户组"
+
+#: system/templates/admin/groups.tpl.php:75
+msgid "user_group_create_tips"
+msgstr "您可以任意创建系统的新分组，名称不能与已有分组相同！"
+
+#: system/templates/admin/groups.tpl.php:84
+msgid "group_name_tips"
+msgstr "此处可以创建用户自定义的组，方便管理员对组成员进行管理及权限的分配。"
+
+#: system/templates/admin/groups.tpl.php:96
+msgid "js_group_name_error"
+msgstr "自定义组名称过短，或为空。"
+
+#: system/templates/admin/groups.tpl.php:106
+msgid "user_group_setting"
+msgstr "用户组设定"
+
+#: system/templates/admin/groups.tpl.php:109
+msgid "user_group_setting_tips"
+msgstr "管理员可以设定用户组的权限，设定后，在相应分组中的用户权限将会全部改变。"
+
+#: system/templates/admin/groups.tpl.php:112
+msgid "all_group_name"
+msgstr "所属用户组"
+
+#: system/templates/admin/groups.tpl.php:122
+msgid "max_flow_down_tips"
+msgstr "此选项是用户下载文件的流量(一般用于共享的文件下载及个人用户后台文件下载)，一个流量周期为30天。例如 30G"
+
+#: system/templates/admin/groups.tpl.php:126
+msgid "max_flow_view_tips"
+msgstr "此选项包括用户文件浏览(外链)的流量、外部引用的流量以及用户共享的文件查看等，一个流量周期为30天。例如 20G"
+
+#: system/templates/admin/groups.tpl.php:130
+msgid "max_storage_tips"
+msgstr "该组用户所占用的文件的最大存放空间。例如 3G, 500M"
+
+#: system/templates/admin/groups.tpl.php:134
+msgid "max_filesize_tips"
+msgstr "组用户上传大小"
+
+#: system/templates/admin/groups.tpl.php:138
+msgid "group_file_types"
+msgstr "允许上传文件类型"
+
+#: system/templates/admin/groups.tpl.php:138
+msgid "group_file_types_tips"
+msgstr "管理员可设定组用户上传的文件类型，用户上传的文件类型先参考此设定，然后参考帐号的个人设定。留空则允许所有文件类型"
+
+#: system/templates/admin/groups.tpl.php:142
+msgid "max_folders_tips"
+msgstr "可设定组用户的最多可创建的文件夹数。例如 80，单位(个)"
+
+#: system/templates/admin/groups.tpl.php:146
+msgid "max_files_tips"
+msgstr "可设定用户上传的文件数。例如 500，单位(个)"
+
+#: system/templates/admin/groups.tpl.php:150
+msgid "can_share"
+msgstr "允许共享"
+
+#: system/templates/admin/groups.tpl.php:150
+msgid "can_share_tips"
+msgstr "组成员拥有共享文件夹/文件的权限。"
+
+#: system/templates/admin/groups.tpl.php:154
+msgid "secs_loading"
+msgstr "下载地址读秒"
+
+#: system/templates/admin/groups.tpl.php:154
+msgid "secs_loading_tips"
+msgstr "会员下载网站资料，在下载前会有等待的读秒信息，您可以设定每个用户组的不同的读秒长度。填写数字即可，单位：秒。 <br><span class=\"txtred\">(注意：请设定只能会员才能下载资料，此设置才有效。)</span>"
+
+#: system/templates/admin/groups.tpl.php:158
+msgid "server_ids"
+msgstr "文件服务器"
+
+#: system/templates/admin/groups.tpl.php:158
+msgid "server_ids_tips"
+msgstr "设定用户组所属的服务器，可以分流服务器。减轻服务器的负担，请先配置好 [分布式服务器]"
+
+#: system/templates/cool_black/phpdisk.tpl.php:55
+#: system/templates/cool_black/pd_account.tpl.php:73
+#: system/templates/cool_black/pd_account.tpl.php:153
+msgid "btn_login"
+msgstr "登录"
+
+#: system/templates/cool_black/phpdisk.tpl.php:55
+#: system/templates/cool_black/pd_account.tpl.php:73
+#: system/templates/cool_black/pd_account.tpl.php:367
+msgid "btn_register"
+msgstr "注册"
+
+#: system/templates/cool_black/pd_search.tpl.php:34
+msgid "search_tips"
+msgstr "搜索网盘中的文件(夹)，仅限于用户共享文件及公共文件"
+
+#: system/templates/cool_black/pd_search.tpl.php:38
+msgid "keyword"
+msgstr "关键字"
+
+#: system/templates/cool_black/pd_search.tpl.php:41
+msgid "scope_mydisk"
+msgstr "我的网盘"
+
+#: system/templates/cool_black/pd_search.tpl.php:43
+msgid "scope_all"
+msgstr "- 不限 -"
+
+#: system/templates/cool_black/pd_search.tpl.php:44
+msgid "scope_public"
+msgstr "公共文件"
+
+#: templates/default/folders.tpl.php:31
+#: templates/default/folders.tpl.php:77
+#: templates/default/folders.tpl.php:116
+msgid "folder_name"
+msgstr "文件夹名称"
+
+#: templates/default/folders.tpl.php:45
+msgid "to_folder"
+msgstr "移到文件夹"
+
+#: templates/default/folders.tpl.php:46
+msgid "folder_to_recycle"
+msgstr "移动到回收站"
+
+#: templates/default/folders.tpl.php:80
+#: templates/default/folders.tpl.php:118
+msgid "folder_description"
+msgstr "描述"
+
+#: templates/default/folders.tpl.php:89
+#: templates/default/folders.tpl.php:132
+msgid "folder_min_length"
+msgstr "文件夹名称应大于两个字符！"
+
+#: templates/default/folders.tpl.php:101
+msgid "exceed_max_folders_msg"
+msgstr "您所属的用户组无法创建更多的文件夹。"
+
+#: templates/default/folders.tpl.php:110
+msgid "parent_folder"
+msgstr "上级文件夹"
+
+#: templates/default/folders.tpl.php:112
+msgid "please_select_folder"
+msgstr "- 请选择 -"
+
+#: templates/default/folders.tpl.php:127
+msgid "please_select_folder_tips"
+msgstr "请选择上级文件夹"
+
+#: templates/default/folders.tpl.php:157
+msgid "delete_folder_confirm"
+msgstr "确认删除此文件夹？其中的文件将会同时删除。"
+
+#: templates/default/buddy.tpl.php:21
+msgid "tips_buddy"
+msgstr "你可以添加好友，查看好友的文件共享，发短信息等。"
+
+#: templates/default/buddy.tpl.php:33
+#: templates/default/buddy.tpl.php:81
+#: templates/default/buddy.tpl.php:147
+msgid "add_buddy"
+msgstr "添加好友"
+
+#: templates/default/buddy.tpl.php:42
+msgid "search_buddy"
+msgstr "搜索好友"
+
+#: templates/default/buddy.tpl.php:44
+#: templates/default/buddy.tpl.php:61
+#: templates/default/buddy.tpl.php:129
+msgid "my_buddy"
+msgstr "我的好友"
+
+#: templates/default/buddy.tpl.php:45
+msgid "added_buddy"
+msgstr "加我的好友"
+
+#: templates/default/buddy.tpl.php:46
+msgid "all_buddy"
+msgstr "网盘用户"
+
+#: templates/default/buddy.tpl.php:48
+msgid "btn_search"
+msgstr "搜索"
+
+#: templates/default/buddy.tpl.php:58
+msgid "invited_buddy"
+msgstr "邀请用户"
+
+#: templates/default/buddy.tpl.php:59
+msgid "invite_time"
+msgstr "注册时间"
+
+#: templates/default/buddy.tpl.php:62
+msgid "buddy_time"
+msgstr "添加时间"
+
+#: templates/default/buddy.tpl.php:72
+msgid "view_buddy"
+msgstr "查看好友空间"
+
+#: templates/default/buddy.tpl.php:76
+#: templates/default/buddy.tpl.php:79
+msgid "send_msg"
+msgstr "发消息"
+
+#: templates/default/buddy.tpl.php:77
+msgid "del_buddy"
+msgstr "删除"
+
+#: templates/default/buddy.tpl.php:91
+msgid "buddy_not_found"
+msgstr "暂时没有好友。"
+
+#: templates/default/buddy.tpl.php:130
+msgid "delete_buddy_confirm"
+msgstr "确定删除此好友？"
+
+#: templates/default/buddy.tpl.php:148
+msgid "add_buddy_confirm"
+msgstr "确定添加此好友？"
+
+#: templates/default/buddy.tpl.php:157
+msgid "buddy_invite"
+msgstr "邀请好友注册"
+
+#: templates/default/buddy.tpl.php:159
+msgid "tips_buddy_invite"
+msgstr "你可以复制链接，邀请你的好友一起注册、使用网盘服务。"
+
+#: templates/default/buddy.tpl.php:165
+msgid "invite_link"
+msgstr "邀请链接"
+
+#: templates/default/front_msg.tpl.php:30
+msgid "go_back"
+msgstr "点击此处返回上一页"
+
+#: templates/default/front_msg.tpl.php:31
+msgid "go_index"
+msgstr "返回首页"
+
+#: templates/default/message.tpl.php:21
+msgid "tips_inbox"
+msgstr "您可以向你的好友发送短信息，管理收到的信息等。"
+
+#: templates/default/message.tpl.php:25
+msgid "sendmsg"
+msgstr "发短消息"
+
+#: templates/default/message.tpl.php:36
+#: templates/default/message.tpl.php:140
+msgid "msg_user"
+msgstr "发送人"
+
+#: templates/default/message.tpl.php:38
+#: templates/default/message.tpl.php:90
+#: templates/default/message.tpl.php:164
+msgid "msg_touser"
+msgstr "接收人"
+
+#: templates/default/message.tpl.php:41
+#: templates/default/message.tpl.php:112
+#: templates/default/message.tpl.php:142
+#: templates/default/message.tpl.php:166
+msgid "msg_content"
+msgstr "消息内容"
+
+#: templates/default/message.tpl.php:42
+msgid "msg_time"
+msgstr "发送时间"
+
+#: templates/default/message.tpl.php:52
+#: templates/default/message.tpl.php:56
+msgid "manage_msg"
+msgstr "消息管理"
+
+#: templates/default/message.tpl.php:52
+msgid "byte"
+msgstr "字节"
+
+#: templates/default/message.tpl.php:56
+msgid "reply"
+msgstr "回复"
+
+#: templates/default/message.tpl.php:56
+#: templates/default/message.tpl.php:58
+msgid "msg_confirm_delete"
+msgstr "确认删除此消息?"
+
+#: templates/default/message.tpl.php:68
+msgid "msg_not_found"
+msgstr "暂时没有消息"
+
+#: templates/default/message.tpl.php:106
+msgid "none_buddy"
+msgstr "- 暂无好友 -"
+
+#: templates/default/message.tpl.php:114
+#: templates/default/message.tpl.php:168
+msgid "save_msg_to_box"
+msgstr "保存到发件箱"
+
+#: templates/default/message.tpl.php:146
+msgid "reply_msg"
+msgstr "回复消息"
+
+#: templates/default/pd_comment.tpl.php:45
+msgid "add_cmt"
+msgstr "添加评伦"
+
+#: templates/default/pd_extract.tpl.php:26
+msgid "extract_tips"
+msgstr "输入文件的提取码，系统将会提取此码对应的一个或多个文件。"
+
+#: templates/default/pd_extract.tpl.php:31
+msgid "pick"
+msgstr "提取"
+
+#: templates/default/pd_extract.tpl.php:39
+msgid "js_extract_code"
+msgstr "文件提取码格式不正确。"
+
+#: templates/default/share.tpl.php:42
+msgid "btn_unshare"
+msgstr "撤消共享"
+
+#: templates/default/share.tpl.php:45
+msgid "btn_share"
+msgstr "共 享"
+
+#: templates/default/stats.tpl.php:16
+msgid "user_down_stats"
+msgstr "用户下载日志"
+
+#: templates/admin/announce.tpl.php:19
+msgid "announces_title"
+msgstr "公告管理"
+
+#: templates/admin/announce.tpl.php:22
+msgid "announces_list_tips"
+msgstr "此处可修改、管理您网站的公告。"
+
+#: templates/admin/announce.tpl.php:30
+msgid "show_announce_detail"
+msgstr "显示公告内容"
+
+#: templates/admin/announce.tpl.php:30
+msgid "show_announce_detail_tips"
+msgstr "默认为[否]，公告将会以滚动消息的形式展示，用户点击才会显示详细内容。如果设置为[是]，则公告显示详细内容于页面中。"
+
+#: templates/admin/announce.tpl.php:50
+#: templates/admin/announce.tpl.php:112
+msgid "ann_subject"
+msgstr "公告标题"
+
+#: templates/admin/announce.tpl.php:51
+#: templates/admin/announce.tpl.php:120
+msgid "ann_content"
+msgstr "公告内容"
+
+#: templates/admin/announce.tpl.php:52
+#: templates/admin/announce.tpl.php:116
+msgid "expand"
+msgstr "展开"
+
+#: templates/admin/announce.tpl.php:69
+msgid "announces_delete_confirm"
+msgstr "确认删除？此操作不能恢复。"
+
+#: templates/admin/announce.tpl.php:80
+msgid "announces_not_found"
+msgstr "暂无公告。"
+
+#: templates/admin/announce.tpl.php:86
+msgid "add_announces"
+msgstr "添加新公告..."
+
+#: templates/admin/announce.tpl.php:97
+msgid "add_announces_title"
+msgstr "添加网站公告"
+
+#: templates/admin/announce.tpl.php:99
+msgid "edit_announces_title"
+msgstr "编辑公告"
+
+#: templates/admin/announce.tpl.php:103
+msgid "add_announces_list_tips"
+msgstr "公告标题与内容为必填项目。"
+
+#: templates/admin/announce.tpl.php:112
+msgid "ann_subject_tips"
+msgstr "公告标题长度为2-100字符以内，支持html标签。"
+
+#: templates/admin/announce.tpl.php:116
+msgid "expand_tips"
+msgstr "选择“是”，公告内容将会直接展开，选择“否”，公告内容将会隐藏，需点击标题才展开。"
+
+#: templates/admin/announce.tpl.php:120
+msgid "ann_content_tips"
+msgstr "公告内容长度为2-1000字符以内，支持html标签。"
+
+#: templates/admin/credit.tpl.php:27
+msgid "credit_open"
+msgstr "是否启用积分"
+
+#: templates/admin/credit.tpl.php:27
+msgid "credit_open_tips"
+msgstr "当启用积分后，下列的积分设置才会生效；取消积分设置时，对当前用户帐号中得到的积分没有影响。"
+
+#: templates/admin/credit.tpl.php:31
+msgid "credit_union"
+msgstr "自定义积分名称"
+
+#: templates/admin/credit.tpl.php:31
+msgid "credit_union_tips"
+msgstr "您可以自定义积分的名称"
+
+#: templates/admin/credit.tpl.php:33
+msgid "credit_name"
+msgstr "积分名称"
+
+#: templates/admin/credit.tpl.php:34
+msgid "wealth_name"
+msgstr "金钱名称"
+
+#: templates/admin/credit.tpl.php:35
+msgid "exp_name"
+msgstr "经验名称"
+
+#: templates/admin/credit.tpl.php:39
+msgid "open_credit_convert"
+msgstr "开启金钱兑换率"
+
+#: templates/admin/credit.tpl.php:39
+msgid "open_credit_convert_tips"
+msgstr "只有开启后，金钱兑换才能生效。"
+
+#: templates/admin/credit.tpl.php:43
+msgid "credit_convert"
+msgstr "金钱兑换率"
+
+#: templates/admin/credit.tpl.php:43
+msgid "credit_convert_tips"
+msgstr "1金钱 = x积分，默认充值，1金钱 = 1 RMB。"
+
+#: templates/admin/credit.tpl.php:47
+msgid "exp_const"
+msgstr "经验成长值"
+
+#: templates/admin/credit.tpl.php:47
+msgid "exp_const_tips"
+msgstr "PHPDISK引入经验成长模式，计算公式为： n*x ， n是用户的等级，x是经验成长值。如第一级 x,第二级2x，如此类推。 默认是50"
+
+#: templates/admin/credit.tpl.php:56
+msgid "credit_setting"
+msgstr "积分规则设定"
+
+#: templates/admin/credit.tpl.php:56
+msgid "credit_tips"
+msgstr "提示：填入数字即可，数值大小为 0-99"
+
+#: templates/admin/credit.tpl.php:59
+msgid "project"
+msgstr "项目"
+
+#: templates/admin/credit.tpl.php:60
+msgid "credit_reg"
+msgstr "注册"
+
+#: templates/admin/credit.tpl.php:61
+msgid "credit_login"
+msgstr "登录"
+
+#: templates/admin/credit.tpl.php:62
+msgid "credit_invite"
+msgstr "邀请注册"
+
+#: templates/admin/credit.tpl.php:63
+msgid "credit_msg"
+msgstr "发消息"
+
+#: templates/admin/credit.tpl.php:64
+msgid "credit_upload"
+msgstr "上传文件"
+
+#: templates/admin/credit.tpl.php:65
+msgid "credit_down"
+msgstr "下载文件[下载者]"
+
+#: templates/admin/credit.tpl.php:66
+msgid "credit_down_my"
+msgstr "下载文件[上传者]"
+
+#: templates/admin/credit.tpl.php:89
+msgid "exp"
+msgstr "经验"
+
+#: templates/admin/lang.tpl.php:16
+msgid "lang_list_title"
+msgstr "语言包管理"
+
+#: templates/admin/lang.tpl.php:18
+msgid "lang_tips"
+msgstr "请将语言包放于 ./languages/ 目录下，系统会自动检测出当前语言包。"
+
+#: templates/admin/lang.tpl.php:26
+msgid "open_switch_langs"
+msgstr "开启语言包切换"
+
+#: templates/admin/lang.tpl.php:26
+msgid "open_switch_langs_tips"
+msgstr "开启后，用户可以在访问网站时选择网站提供的语言包进行访问，可以满足不同国家、地区的访客。"
+
+#: templates/admin/lang.tpl.php:38
+msgid "lang_title"
+msgstr "语言包标题"
+
+#: templates/admin/lang.tpl.php:39
+msgid "lang_name"
+msgstr "语言包名称"
+
+#: templates/admin/lang.tpl.php:40
+msgid "lang_des"
+msgstr "语言包描述"
+
+#: templates/admin/lang.tpl.php:58
+msgid "lang_author"
+msgstr "开发商"
+
+#: templates/admin/lang.tpl.php:59
+msgid "lang_version"
+msgstr "语言包版本"
+
+#: templates/admin/lang.tpl.php:67
+msgid "is_using"
+msgstr "默认语言包"
+
+#: templates/admin/lang.tpl.php:69
+msgid "default_lang"
+msgstr "激活"
+
+#: templates/admin/lang.tpl.php:79
+msgid "lang_not_found"
+msgstr "系统暂无语言包"
+
+#: templates/admin/link.tpl.php:19
+msgid "links_manage"
+msgstr "友情链接"
+
+#: templates/admin/link.tpl.php:22
+msgid "links_manage_tips"
+msgstr "此处可修改、管理您网站的友情链接。注意：批量更新时，标题为空时，系统则不会更新该记录。"
+
+#: templates/admin/link.tpl.php:34
+#: templates/admin/link.tpl.php:96
+msgid "link_title"
+msgstr "链接标题"
+
+#: templates/admin/link.tpl.php:35
+#: templates/admin/link.tpl.php:100
+msgid "link_url"
+msgstr "链接地址"
+
+#: templates/admin/link.tpl.php:36
+#: templates/admin/link.tpl.php:104
+msgid "link_logo"
+msgstr "链接LOGO"
+
+#: templates/admin/link.tpl.php:53
+msgid "links_delete_confirm"
+msgstr "确认删除友情链接？此操作不能恢复。"
+
+#: templates/admin/link.tpl.php:64
+msgid "links_not_found"
+msgstr "暂无链接。"
+
+#: templates/admin/link.tpl.php:70
+msgid "add_links"
+msgstr "添加新链接..."
+
+#: templates/admin/link.tpl.php:81
+msgid "add_links_title"
+msgstr "添加友情链接"
+
+#: templates/admin/link.tpl.php:83
+msgid "modify_links_title"
+msgstr "修改友情链接"
+
+#: templates/admin/link.tpl.php:87
+msgid "add_links_list_tips"
+msgstr "网站标题与链接地址为必填项目。"
+
+#: templates/admin/navigation.tpl.php:19
+msgid "navigation_title"
+msgstr "扩展导航栏"
+
+#: templates/admin/navigation.tpl.php:22
+msgid "navigation_list_tips"
+msgstr "管理员可以为系统定制导航菜单，显示于网站的顶部或底部。"
+
+#: templates/admin/navigation.tpl.php:37
+msgid "position"
+msgstr "位置"
+
+#: templates/admin/navigation.tpl.php:55
+msgid "navigation_delete_confirm"
+msgstr "确认删除此导航？此操作无法恢复！"
+
+#: templates/admin/navigation.tpl.php:66
+msgid "navigation_not_found"
+msgstr "暂无扩展导航"
+
+#: templates/admin/navigation.tpl.php:72
+msgid "add_new_navigation"
+msgstr "新增导航"
+
+#: templates/admin/navigation.tpl.php:83
+msgid "add_navigation_title"
+msgstr "新增导航栏"
+
+#: templates/admin/navigation.tpl.php:85
+msgid "edit_navigation_title"
+msgstr "编辑导航栏"
+
+#: templates/admin/navigation.tpl.php:89
+msgid "add_navigation_tips"
+msgstr "网站导航是PHPDisk新增的一个功能，它能让管理员在网站的顶部或底部添加自定义的链接扩展。"
+
+#: templates/admin/navigation.tpl.php:98
+msgid "nav_text"
+msgstr "链接文字"
+
+#: templates/admin/navigation.tpl.php:102
+msgid "nav_title"
+msgstr "链接提示文字(选填)"
+
+#: templates/admin/navigation.tpl.php:106
+msgid "nav_href"
+msgstr "链接地址(如果是绝对地址，请以 http:// 或 https:// 开头)"
+
+#: templates/admin/navigation.tpl.php:110
+msgid "nav_target"
+msgstr "链接打开目标(默认为当前浏览窗口)"
+
+#: templates/admin/navigation.tpl.php:121
+msgid "nav_position"
+msgstr "导航位置(系统的顶部或底部)"
+
+#: templates/admin/navigation.tpl.php:122
+msgid "position_top"
+msgstr "顶部"
+
+#: templates/admin/navigation.tpl.php:122
+msgid "position_bottom"
+msgstr "底部"
+
+#: templates/admin/report.tpl.php:31
+msgid "owner"
+msgstr "所有者"
+
+#: templates/admin/report.tpl.php:32
+msgid "reporter"
+msgstr "举报者"
+
+#: templates/admin/report.tpl.php:95
+msgid "report_list_tips"
+msgstr "当上传的文件含有预设的字符时，系统将会自动将文件举报给管理员。管理员可以对文件进行审核、锁定等。"
+
+#: templates/admin/report.tpl.php:103
+msgid "open_report"
+msgstr "开启举报系统"
+
+#: templates/admin/report.tpl.php:103
+msgid "open_report_tips"
+msgstr "开启插件后，系统会在文件上传以及用户举报处实行文件举报。"
+
+#: templates/admin/report.tpl.php:107
+msgid "report_word"
+msgstr "举报关键字"
+
+#: templates/admin/report.tpl.php:107
+msgid "report_word_tips"
+msgstr "请将文字填入以下文本框中，多个举报字符以英文逗号 \",\" 隔开。"
+
+#: templates/admin/sitemap.tpl.php:17
+msgid "sitemap_setting"
+msgstr "快捷面板设置"
+
+#: templates/admin/sitemap.tpl.php:20
+msgid "sitemap_setting_tips"
+msgstr "删除您不常用的管理菜单。"
+
+#: templates/admin/sitemap.tpl.php:39
+msgid "del_menu_confirm"
+msgstr "确认删除选定菜单！"
+
+#: templates/admin/sitemap.tpl.php:39
+msgid "btn_del_submit"
+msgstr "删除选中菜单"
+
+#: templates/admin/sitemap.tpl.php:45
+msgid "none_cp_shortcut"
+msgstr "暂时没有快捷菜单，请先添加。"
+
+#: templates/admin/sitemap.tpl.php:56
+msgid "sitemap_manage"
+msgstr "管理后台地图"
+
+#: templates/admin/sitemap.tpl.php:59
+msgid "sitemap_manage_tips"
+msgstr "显示网盘后台全部的管理功能，管理员可以很直观地浏览。"
+
+#: templates/admin/tag.tpl.php:16
+msgid "tag_manage"
+msgstr "标签管理"
+
+#: templates/admin/tag.tpl.php:19
+msgid "tag_manage_tips"
+msgstr "显示整系统的标签，只有非隐藏的标签才会显示于网站中。"
+
+#: templates/admin/tag.tpl.php:27
+msgid "open_tag"
+msgstr "开启文件标签"
+
+#: templates/admin/tag.tpl.php:27
+msgid "open_tag_tips"
+msgstr "开启插件即可对文件添加、修改标签，此插件会对文件的收录大有帮助。"
+
+#: templates/admin/tag.tpl.php:40
+msgid "tags_list"
+msgstr "标签列表"
+
+#: templates/admin/tag.tpl.php:46
+msgid "tag_name"
+msgstr "标签名称"
+
+#: templates/admin/tag.tpl.php:47
+msgid "tag_count"
+msgstr "文件数"
+
+#: templates/admin/tag.tpl.php:85
+msgid "tags_not_found"
+msgstr "暂无标签"
+
+#: templates/admin/tag.tpl.php:99
+msgid "please_select_tag_op"
+msgstr "请选择您的操作"
+
+#~ msgid "connect_remote_server_fail"
+#~ msgstr ""
+#~ "无法使用FTP连接远程主机或无法返回正确信息，请确认远程FTP目录与配置的主机访"
+#~ "问目录。"
+
+#~ msgid "file_is_delete"
+#~ msgstr "文件已经被删除详情请点击"
+
+#~ msgid "upload_user"
+#~ msgstr "上传用户"
+
+#~ msgid "file_check"
+#~ msgstr "上传文件"
+
+#~ msgid "file_share"
+#~ msgstr "文件共享"
+
+#~ msgid "down_page_1"
+#~ msgstr "下载页面一"
+
+#~ msgid "down_page_2"
+#~ msgstr "下载页面二"
+
+#~ msgid "save_to_mydisk"
+#~ msgstr "另存到我的网盘"
+
+#~ msgid "login_and_use_it"
+#~ msgstr "此功能需要登录后才能使用。"
+
+#~ msgid "save_to_mydisk_success"
+#~ msgstr "另存文件操作成功。"
+
+#~ msgid "mydisk_save_exists"
+#~ msgstr "此文件已在您的网盘中，不需另存。"
+
+#~ msgid "save_to_mydisk_fail"
+#~ msgstr "另存文件操作失败，请重试。"
+
+#~ msgid "btn_report"
+#~ msgstr "举 报"
+
+#~ msgid "view_file_online"
+#~ msgstr "浏览文件"
+
+#~ msgid "apache_host"
+#~ msgstr "<b>I. Apache主机操作步骤</b>"
+
+#~ msgid "apache_step"
+#~ msgstr ""
+#~ "<p>1、配置您的apache主机，确认主机支持URL重写(mod_rewrite模块已开启)。</"
+#~ "p><p>2、在PHPDISK系统根目录下新建一个文件名称为 .htaccess 的文本文件(使用"
+#~ "文本编辑器操作，推荐EditPlus)。</p><p>3、打开此文件，在上面添加以下URL重写"
+#~ "规则。<br>"
+
+#~ msgid "apache_host_rewrite"
+#~ msgstr "<em>Apache主机重写规则</em>"
+
+#~ msgid "last_step"
+#~ msgstr "<p>4、在系统中开启URL重写即可。</p>"
+
+#~ msgid "iis_host"
+#~ msgstr "<b>II. IIS主机操作步骤</b>"
+
+#~ msgid "iis_step"
+#~ msgstr ""
+#~ "p>1、配置您的IIS主机，确认主机支持URL重写</p><p>2、在IIS服务器中找到当前使"
+#~ "用的 Rewrite规则包。</p><p>3、打开 httpd.ini 文件，在上面添加以下URL重写规"
+#~ "则。<br>"
+
+#~ msgid "iis_host_rewrite"
+#~ msgstr "<em>IIS主机重写规则</em>"
+
+#~ msgid "nginx_host"
+#~ msgstr "<b>III. Nginx主机操作步骤</b>"
+
+#~ msgid "nginx_step"
+#~ msgstr ""
+#~ "<p>1、配置您的nginx主机，确认主机支持URL重写</p><p>2、在Nginx服务器中找到"
+#~ "服务器的配置文件，一般是 conf/nginx.conf 文件。</p><p>3、打开 nginx.conf "
+#~ "文件，在 location / { ... } 上面添加以下URL重写规则。<br>"
+
+#~ msgid "nginx_host_rewrite"
+#~ msgstr "<em>Nginx主机重写规则</em>"
+
+#~ msgid "cannot_link_remote_server"
+#~ msgstr "您所在服务器无响应，无法进行文件上传，请联系管理员"
+
+#~ msgid "upload_server_type"
+#~ msgstr "上传文件方式"
+
+#~ msgid "upload_server_type_tips"
+#~ msgstr ""
+#~ "1、远程服务器：需要子程序支持，文件直接上传到目标服务器，需要支持子服可以"
+#~ "远程MYSQL访问主服。<br>2、FTP服务器：使用主服务器中转到目标服务器中，较耗"
+#~ "资源。"
+
+#~ msgid "sub_server_support"
+#~ msgstr "子程序上传"
+
+#~ msgid "ftp_server_support"
+#~ msgstr "FTP中转"
+
+#~ msgid "sub_server_download"
+#~ msgstr "子程序下载"
+
+#~ msgid "f_host"
+#~ msgstr "FTP主机"
+
+#~ msgid "f_user"
+#~ msgstr "FTP用户"
+
+#~ msgid "ftp_status"
+#~ msgstr "状态"
+
+#~ msgid "open_autoupdate"
+#~ msgstr "自动检测新版本"
+
+#~ msgid "open_autoupdate_tips"
+#~ msgstr "系统自动检测PHPDISK最新版本，当有新版本时及时提示用户。"
+
+#~ msgid "open_file_shorturl"
+#~ msgstr "开启短地址"
+
+#~ msgid "open_file_shorturl_tips"
+#~ msgstr "开启后，用户文件管理的后台可以显示文件[短]地址功能。"
+
+#~ msgid "all_tpl_make_success"
+#~ msgstr "所有模板更新成功！"
+
+#~ msgid "tpl_each_success"
+#~ msgstr "模板更新成功！"
+
+#~ msgid "tpl_not_exists"
+#~ msgstr "模板不存在，请检查。"
+
+#~ msgid "tpl_update_fail"
+#~ msgstr ""
+#~ "更新失败，请检查 ./templates 模板目录及模板文件的属性，设置为 777 (可写入)"
+
+#~ msgid "tpl_update_success"
+#~ msgstr "更新成功"
+
+#~ msgid "tpl_update"
+#~ msgstr "模板更新"
+
+#~ msgid "tpl_make_all"
+#~ msgstr "更新所有模板"
+
+#~ msgid "tpl_edit_title"
+#~ msgstr "模板编辑"
+
+#~ msgid "tpl_edit_tips"
+#~ msgstr ""
+#~ "在线模板编辑是为了方便管理员可以直接修改程序模板，请设置./templates 目录的"
+#~ "属性为 777 (可写入权限)。"
+
+#~ msgid "current_tpl"
+#~ msgstr "当前模板"
+
+#~ msgid "tpl_confirm"
+#~ msgstr "确认更新此模板?"
+
+#~ msgid "delete_fail"
+#~ msgstr "删除文件失败"
+
+#~ msgid "delete_option_success"
+#~ msgstr "删除文件操作成功"
+
+#~ msgid "check_store_path_null"
+#~ msgstr "待检测的文件存储路径不能为空"
+
+#~ msgid "check_store_path_error"
+#~ msgstr "待检测的文件存储路径格式错误"
+
+#~ msgid "file_ok"
+#~ msgstr "记录存在"
+
+#~ msgid "file_fail"
+#~ msgstr "记录失败"
+
+#~ msgid "check_file_title"
+#~ msgstr "服务器文件存在检测"
+
+#~ msgid "check_file_title_tips"
+#~ msgstr ""
+#~ "此插件可以检测您的服务器网盘上的目录上的数据与数据库中记录是否存在。"
+
+#~ msgid "check_file_result"
+#~ msgstr "检测文件结果"
+
+#~ msgid "sql_module_tips2"
+#~ msgstr ""
+#~ "{sql[select * from @@files where is_public=1 order by file_id desc limit "
+#~ "10][$val]}<li><a href=\"{#urr(\"viewfile\",\"file_id=$val[file_id]\")#}\" "
+#~ "target=\"_blank\">{$val[file_name]}</a></li>{/sql}"
+
+#~ msgid "key_error"
+#~ msgstr "数组Key不能为空，长度不能超过200字符。"
+
+#~ msgid "key_format_error"
+#~ msgstr "数组key只能由数字、英文和下划线组成。"
+
+#~ msgid "key_exists"
+#~ msgstr "数组Key已存在，请重新修改。"
+
+#~ msgid "value_error"
+#~ msgstr "数组value不能为空。"
+
+#~ msgid "add_arr_success"
+#~ msgstr "添加数组调用成功。"
+
+#~ msgid "edit_arr_success"
+#~ msgstr "修改数组调用成功"
+
+#~ msgid "del_dc_success"
+#~ msgstr "删除数据调用成功"
+
+#~ msgid "Tips"
+#~ msgstr "Tips"
+
+#~ msgid "hotfile"
+#~ msgstr "热门文件"
+
+#~ msgid "topfile"
+#~ msgstr "热门文件"
+
+#~ msgid "btn_admin_login"
+#~ msgstr "登录管理"
+
+#~ msgid "exit"
+#~ msgstr "退出"
+
+#~ msgid "mydisk_cp"
+#~ msgstr "我的网盘"
+
+#~ msgid "license_content"
+#~ msgstr ""
+#~ "&copy; 2008-2012 PHPDisk Team ( http://www.phpdisk.com ) All Rights "
+#~ "Reserved.\t&nbsp;&nbsp;&nbsp;感谢您选择 PHPDisk 网络硬盘文件存储管理系统。"
+#~ "PHPDisk网盘系统(中国国家版权局著作权登记号 2009SR056747 )，是一款基于PHP"
+#~ "+MySQL的强大的网络硬盘管理系统，您可以将一些资料通过网络上传到您的系统中，"
+#~ "以一种图形界面的方式，方便的管理您每一个文件。方便的异地办公，资料的保存将"
+#~ "会是您的首选。PHPDisk Team 为 PHPDisk 产品的开发商，依法独立拥有 PHPDisk "
+#~ "产品著作权。PHPDisk 官方网站为 http://www.PHPDisk.com。 &nbsp;&nbsp;&nbsp;"
+#~ "&nbsp;PHPDisk 著作权已在中华人民共和国国家版权局注册，著作权受到法律和国际"
+#~ "公约保护。使用者：无论个人或组织、盈利与否、用途如何（包括以学习和研究为目"
+#~ "的），均需仔细阅读本协议，在理解、同意、并遵守本协议的全部条款后，方可开始"
+#~ "使用 PHPDisk 软件。&nbsp;&nbsp;&nbsp;本授权协议适用于 PHPDisk所有版本，"
+#~ "PHPDisk.com 拥有对本授权协议的最终解释权。I. 协议许可的权利 1. 您可以在完"
+#~ "全遵守本最终用户授权协议的基础上，将本软件应用于非商业用途(包括个人用户："
+#~ "不具备法人资格的自然人；非盈利性用途：从事非盈利活动的商业机构及非盈利性组"
+#~ "织，将 PHPDisk 产品用且仅用于产品演示、展示及发布，而并不是用来买卖及盈利"
+#~ "的运营活动的) 2. 您可以在协议规定的约束和限制范围内修改 PHPDisk 源代码(如"
+#~ "果被提供的话)或界面风格以适应您的网站要求。 3. 您拥有使用本软件构建的系统"
+#~ "中全部会员资料及相关信息的所有权，并独立承担与其内容的相关法律义务。 4. 获"
+#~ "得商业授权之后，您可以将本软件应用于商业用途，同时依据所购买的授权类型中确"
+#~ "定的技术支持期限、技术支持方式和技术支持内容，自授权时刻起，在技术支持期限"
+#~ "内拥有通过指定的方式获得指定范围内的技术支持服务。商业授权用户享有反映和提"
+#~ "出意见的权力，相关意见将被作为首要考虑，但没有一定被采纳的承诺或保证。 "
+#~ "II. 协议规定的约束和限制 1. 未获商业授权之前，不得将本软件用于商业用途(包"
+#~ "括但不限于企业法人经营的企业网站、经营性网站、以盈利为目或实现盈利的网"
+#~ "站)。 2. 不得对本软件或与之关联的商业授权进行出租、出售、抵押、转让或发放"
+#~ "子许可证。 3. 禁止在 PHPDisk 的整体或任何部分基础上以发展任何派生版本、修"
+#~ "改版本或第三方版本用于重新分发。 4. 无论如何，即无论用途如何、是否经过修改"
+#~ "或美化、修改程度如何，只要使用 PHPDisk 的整体或任何部分，未经书面许可，网"
+#~ "站页面标题处 Powered by PHPDisk Team ，页面页脚处的 PHPDisk 名称以及官方网"
+#~ "站(http://www.PHPDisk.com) 的链接都必须保留，而不能清除或修改。5. 如果您未"
+#~ "能遵守本协议的条款，您的授权将被终止，所被许可的权利将被收回，并承担相应法"
+#~ "律责任。 III. 有限担保和免责声明 1. 本软件及所附带的文件是作为不提供任何明"
+#~ "确的或隐含的赔偿或担保的形式提供的。 2. 用户出于自愿而使用本软件，您必须了"
+#~ "解使用本软件的风险，在尚未购买产品技术服务之前，我们不承诺提供任何形式的技"
+#~ "术支持、使用担保，也不承担任何因使用本软件而产生问题的相关责任。 3. "
+#~ "PHPDisk.com 不对使用本软件构建的网站中的信息承担责任，但在不侵犯用户隐私信"
+#~ "息的前提下，保留以任何方式获取用户信息的权利。 有关 PHPDisk 最终用户授权协"
+#~ "议、商业授权与技术服务的详细内容，均由 PHPDisk 官方网站独家提供。 PHPDisk "
+#~ "Team 拥有在不事先通知的情况下，修改授权协议和服务价目表的权力，修改后的协"
+#~ "议或价目表对自改变之日起的新授权用户生效。 电子文本形式的授权协议如同双方"
+#~ "书面签署的协议一样，具有完全的和等同的法律效力。您一旦开始安装 PHPDisk ，"
+#~ "即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时， "
+#~ "受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵"
+#~ "权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。"
+#~ "[ PHPDisk Team ]"
+
+#~ msgid "unlimit"
+#~ msgstr "不限"
+
+#~ msgid "piece"
+#~ msgstr "个"
+
+#~ msgid "time_link"
+#~ msgstr "时间链接"
+
+#~ msgid "time_link_tips"
+#~ msgstr "时间链接根据服务器时间显示相应的下载链接给用户。"
+
+#~ msgid "open_time_link"
+#~ msgstr "开启时间链接"
+
+#~ msgid "open_time_link_tips"
+#~ msgstr "开启后，以下设置才会生效。"
+
+#~ msgid "local_download"
+#~ msgstr "本地下载链接"
+
+#~ msgid "local_download_tips"
+#~ msgstr "本地下载链接显示的时间段"
+
+#~ msgid "hour_time"
+#~ msgstr "单位：时"
+
+#~ msgid "thunder_download_tips"
+#~ msgstr "迅雷下载链接显示的时间段"
+
+#~ msgid "flashget_download_tips"
+#~ msgstr "快车下载链接显示的时间段"
+
+#~ msgid "public_search"
+#~ msgstr "公共搜索"
+
+#~ msgid "my_recent_search"
+#~ msgstr "我的搜索"
+
+#~ msgid "none_cate_file"
+#~ msgstr "未分类文件"
+
+#~ msgid "down_flow_count"
+#~ msgstr "下载流量"
+
+#~ msgid "down_flow_count_tips"
+#~ msgstr ""
+#~ "此选项是用户下载文件的流量(一般用于共享的文件下载及个人用户后台文件下载)，"
+#~ "一个流量周期为30天。例如 30G"
+
+#~ msgid "view_flow_count"
+#~ msgstr "浏览(外链)流量"
+
+#~ msgid "view_flow_count_tips"
+#~ msgstr ""
+#~ "此选项包括用户文件浏览(外链)的流量、外部引用的流量以及用户共享的文件查看"
+#~ "等，一个流量周期为30天。例如 20G"
+
+#~ msgid "cache_time"
+#~ msgstr "系统缓存时间"
+
+#~ msgid "cache_time_tips"
+#~ msgstr ""
+#~ "PHPDisk v6.0新增功能，系统默认支持数据缓存，此功能可以大大减少对数据库的压"
+#~ "力。据不完全测试，网盘的运行速度提升达到3倍以上。单位：秒<br><span class="
+#~ "\"txtred\">此项设置的值，请根据你系统的访问量来设定，如：网站文件更新比较"
+#~ "慢，可以调整为3600(一小时)；经常更新数据，可以调整为300(五分钟)。如果访问"
+#~ "量很大，请将缓存时间调大，减少服务器数据库压力。</span>"
+
+#~ msgid "zlib_txt"
+#~ msgstr "压缩函数zlib库支持"
+
+#~ msgid "zlib_tips"
+#~ msgstr "没有安装此库，运行某些功能时可能会出现异常。"
+
+#~ msgid "none_cate_file_tips"
+#~ msgstr "未分类的公共文件。"
+
+#~ msgid "temp_store_space_tips"
+#~ msgstr "临时文件允许存放7天，到期后自动删除。"
+
+#~ msgid "relate_file"
+#~ msgstr "同类文件"
+
+#~ msgid "time_link_update_success"
+#~ msgstr "时间链接设置更新成功。"
+
+#~ msgid "downloads"
+#~ msgstr "下载"
+
+#~ msgid "views"
+#~ msgstr "点击"
+
+#~ msgid "file_md5"
+#~ msgstr "文件MD5"
+
+#~ msgid "account_not_actived"
+#~ msgstr "帐号未激活，不能使用网盘功能。"
+
+#~ msgid "down_credit"
+#~ msgstr "下载所需积分"
